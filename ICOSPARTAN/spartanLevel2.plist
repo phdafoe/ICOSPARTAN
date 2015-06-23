@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>ELEVATED PUSHUPS</string>
+		<key>description</key>
+		<string>Fondos elevados pies sobre banco o sobre pelota, el movimiento se inicia como unos fondos normales que implicarán un esfuerzo primario en el musculo pectoral, y el movimiento final, se fundamenta entre la correcta coordianción de flexio de brazo con la implicacion de movimiento en la pierna, para exigir más el musculo abdomial (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>fondos_elevados_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>fondos_elevados_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ONE ARM SQUAD</string>
+		<key>description</key>
+		<string>Pendulo Kettle bell con peso, hay que tener ciudado con el peso, el movimiento incial es basico, con el peso en medio y el punto de gravedad siempre central con las piernas flexionadas, desplazamos el cuerpo hacia un lado, para implicar las cuadriceps, y estiramientos, además de realizar una pequeña modificación si se desea, es lanzar el peso Kettle Bell hacia adelante y hacia rriba con control y estirar las piernas al mismo tiempo (30 rep.)</string>
+		<key>imageName1</key>
+		<string>pendulo Kettle bell_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>pendulo Kettle bell_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>45º LAT PULL DOWN</string>
+		<key>description</key>
+		<string>Press de Hombro a 45º con balón en una pierna para mayor exigencia hacia las piernas y sobre todo el tobillo, es un movimiento muy completo, pues requiere mucha concentración, iniciamos con la pierna estirada y los brazozs estirados exigiendo a los hombros y la parte alta del dorsal, y terminamos con el recogimiento de la pierna sobre el balón y con los brazos abiertos tipo movimiento pájaro (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>press_hombro_45_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>press_hombro_45_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>JUMP SQUAD WITH DB</string>
+		<key>description</key>
+		<string>Saltos en vertical desde el Suelo con mancuernas, movimiento que hemos realizado con anterioridad, este movimiento implica un esfuerzo muy superior pues el peso de las mancuernas se puede aumentar, lo que haría un ejercicio completo de sentadillas hasta el estiramiento de los brazos (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>saltos_vertical_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>saltos_vertical_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUSHUPS TRICEPS</string>
+		<key>description</key>
+		<string>Fondos de Triceps (Diamante) apoyados en un banco en la posición inicial, que se puede aumentar su dificultad colocando las piernas elevadas sobre un balón para implicar musculos abdominales y algo del cuadriceps, ademas de mejorrar la resistencia de la zona lumbar (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>pushup_triceps_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>pushup_triceps_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BAND ROW SEATED</string>
+		<key>description</key>
+		<string>Biceps con goma, la colocamos en el movimiento inicial debajo de los pies un en la posición de sentadilla estiramos hacia adelante y elevamos el cuerpo hacia arriba controlando siempre el movimiento, la fuerza es equivalente a la tensión realizada con la goma y la extensión de los brazos (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>biceps_goma_sentado_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>biceps_goma_sentado_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SHOULDER PRESS</string>
+		<key>description</key>
+		<string>Pisamos la goma tubo con pies juntos, goma por detras de hombros y espalda, flexion de brazos a 90º, este movimiento inicia con la posición de los brazos a la altura de los hombros, y posteriormente los elevamos siempre controlando la tensión generada con la goma tubo, implicamos, triceps y dorsales altos (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>goma_tubo_detras_espalda_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>goma_tubo_detras_espalda_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BURPEES</string>
+		<key>description</key>
+		<string>Ejercicio militar de Calentamiento, este ejercicio implica multiples movimientos de mucha coordinación, se inicia en la posicion de fondo normal, y se termina con un salto, hacia rriba, entre estos dos movimientos, encontramos la posición de sentadilla y resorte hacia arriba con estiramiento de los brazos para mayor exigencia (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>burpees_militar_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>burpees_militar_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>STATIONARY LUNGES</string>
+		<key>description</key>
+		<string>Sentadilla a la cuarta con mancuernas, cambiando piernas, este ejercicio es bueno hacerlos despacio, ya que las rodillas se resienten mucho, pero implicarán los cruadiceps de manera sustancial (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>saltos_cuarta_mov_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>saltos_cuarta_mov_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>RUSSIAN TWIST</string>
+		<key>description</key>
+		<string>Abdominales acostados en la colchoneta y en un modo relajado planteamos el primer movimiento del abdomen, con las piernas elevadas, estiramos y soltamos el aire con las piernas estiradas, es fundamental controlar dicho movimiento para su maxima implicación (30 Rep.) </string>
+		<key>imageName1</key>
+		<string>abdominales_cuarta_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>abdominales_cuarta_2@2x.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>FONDOS BAND PUSHUPS</string>
+		<key>description</key>
+		<string>Fondos con resistencia de goma tubo por detras de los hombros (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>fondo_band_pushup_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>fondo_band_pushup_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>JUMP SQUAD WITH WEIGTHS</string>
+		<key>description</key>
+		<string>Saltos en Vertical, la realización de este movimiento se fundamenta en la correcta coordianción de brazos y piernas, se aumenta el peso con una pequeña carga de 2 kg, se Inicia el movimiento en posición sentadillas tocando el suelo con las cargas y se finaliza con un movimiento fluido hacia arriba y con los brazos arriba y dando un pequeño salto al final, el salto no debe pasar mas de los 5 cm (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>salto_vertical_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>salto_vertical_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>KNEELING BAND ROW</string>
+		<key>description</key>
+		<string>Press de hombro de rodilla, goma elevada cambio de pierna (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>press_hombro_rodilla_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>press_hombro_rodilla_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DUMBBELL SWING</string>
+		<key>description</key>
+		<string>Péndulo Kettle bell con movimiento desde la posición inicial con media sentadilla, agarrando con fuerza el peso y lanzarlo hacia arriba con control para evitar algún tipo de tirón muscular en la zona lumbar (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>pendulo Kettle bell_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>pendulo Kettle bell_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BAND PRESS PECHO</string>
+		<key>description</key>
+		<string>Goma tubo en horizontal, press de pecho, de espaldas, movimiento fluido y lento, para controlar la fuerza que ejerce la goma, y mantener el equilibrio y fortalecer nuestros tobillos ademas de implicar los hombors y la parte de pecho alto (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>brand_press_pecho_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>brand_press_pecho_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BAND PRESS PECHO ALTERNATE</string>
+		<key>description</key>
+		<string>Lucha puños con rodillas, acostados aplicamos un movimiento de abdomen con la contrafuerzade la goma mientras elevamos una pierna y hacemos abdominales , actuamos con una pequeña flexión en el pecho (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>band_press_alterne_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>band_press_alterne_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DB ONE ARM SNATCH</string>
+		<key>description</key>
+		<string>Sentadilla con giro de muñeca, estira brazo arriba igual que con kettle bell (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>pendulo_kettle_bell_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>pendulo_kettle_bell_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>REVERSE DB FLY</string>
+		<key>description</key>
+		<string>El pájaro, press de espalda con mancuerna, con una pierna elevada implica un refuerzo en el tobillo de cada pierna y fortalece nuestro dorsal alto, con el movimiento pájaro despacio y controlado (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>press_pajaro_mancuernas_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>press_pajaro_mancuernas_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ALTERNATING SPLIT JUMP</string>
+		<key>description</key>
+		<string>Saltos en Split alternando piernas con mancuernas elevando el peso despacio hacia arriba y con las dos manos para realizar un cambio rapido de mano y volver a la posición inicial (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>alternating_split_jump_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>alternating_split_jump_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ARNOLD PRESS DB</string>
+		<key>description</key>
+		<string>Press de Hombros con mancuernas girando muñecas en pecho, la implicación de las piernes ya sea sentado en una banca sencilla, o la posición sentadilla ampliará nuestro esfuerzo (30 Rep.) </string>
+		<key>imageName1</key>
+		<string>arnold_press_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>arnold_press_2@2x.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>JUMP SQUAD</string>
+		<key>description</key>
+		<string>Saltos en Vertical, la realización de este movimiento se fundamenta en la correcta coordianción de brazos y piernas, se aumenta el peso con una pequeña carga de 2 kg, se Inicia el movimiento en posición sentadillas tocando el suelo con las cargas y se finaliza con un movimiento fluido hacia arriba y con los brazos arriba y dando un pequeño salto al final, el salto no debe pasar mas de los 5 cm (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>salto_vertical_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>salto_vertical_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>STAGGERED PUSHUPS</string>
+		<key>description</key>
+		<string>Flexiones alternando brazos, este ejercicio debe realizarse muy despacio, para poder tener bajo control la pelota y asi fortalecer las muñecas, siempre se inicia este ejercicio desde la posición de envolvente de la pelota y posteriormente alternamos los brazos y bajamos hasta determinada altura, esta altura la determina la pelota (30 rep.)</string>
+		<key>imageName1</key>
+		<string>flexiones_alterne_brazos_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>flexiones_alterne_brazos_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ALTERNATING SPLIT JUMP</string>
+		<key>description</key>
+		<string>Saltos a la cuarta, este movimiento se realiza con rapidez pero con cuidado, ya que implicamos los músculos mas grandes de la pierna los cuadriceps y el tobillo, lo que implicará un cansancio que se acumulará con el paso de las repetiociones, una pierna atrás y otra hacia adelante y alternamos con el mismo movimiento la otra pierna (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>saltos_cuarta_mov_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>saltos_cuarta_mov_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>EXPLOSIVE PUSHUPS</string>
+		<key>description</key>
+		<string>Fondos Normales apoyando las piernas en una pelota para lograr mayor estabilidad y resistencia, el movimiento inicia con la extensión de los brazos  tipo tabla y con las piernas estiradas sobre la bola y despues se realizan los fondos y se recogen las piernas, para implicar el abdomen (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>fondos_pelota_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>fondos_pelota_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PRISION SQUAD</string>
+		<key>description</key>
+		<string>Sentadillas con peso 20Kg, el ejercicio se puede realizar sin las elmentos que generen una subida de peldaño, si que implica una mayor difultad y es la mejor manera de realizar el ejercicio, con un Step y varios niveles realizar el movimiento fluido y sin prisa, para sentir la implicación de los cuadriceps (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>sentadilla_peso_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>sentadilla_peso_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HINDU PUSHUPS</string>
+		<key>description</key>
+		<string>Fondos Cobra despacio, es un movimiento que implica el músculo pectoral, desde la parte de arriba como movimiento inicial nos desplazamos hacia abajo y adelante imaginandonos que tenemos que sortear una barrera baja de unos 40 cm, como objetivo principal, es implicar el pectoral, los biceps y los triceps (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>fondos_cobra_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>fondos_cobra_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>KNEELING BAND ROW</string>
+		<key>description</key>
+		<string>Press de Hombro elevando los brazos con la tensión que se genera con la banda elástica, la fuerza aplicada tiene que ser proporcional a nuestro cuerpo, la modalidad de apoyar una pierna en una elástica es mas dificil, pues implica los cuadriceps tambien (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>press_hombro_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>press_hombro_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BURPEES</string>
+		<key>description</key>
+		<string>Ejercicio militar de Calentamiento, este ejercicio implica multiples movimientos de mucha coordinación, se inicia en la posicion de fondo normal, y se termina con un salto, hacia rriba, entre estos dos movimientos, encontramos la posición de sentadilla y resorte hacia arriba con estiramiento de los brazos para mayor exigencia (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>burpees_militar_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>burpees_militar_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PULLUPS</string>
+		<key>description</key>
+		<string>Dominadas con o sin ayuda, hay dos posiciones con los brazos mas alejados de la altura de los hombros lo que dificulta de manera sustancial su ejecución pero implica mejor la fuerza en los musculos dorsales altos, mientras que si los brazos estan mas cerca de la perpendicular de los hombors son mas faciles de ejecutar y puedes realizar mas repeticiones pues implica los biceps y parte del pecho alto (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>dominadas_opcion_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>dominadas_opcion_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DOBLE CRUNCH</string>
+		<key>description</key>
+		<string>Abdominales cortos con o sin peso, en una colchoneta debemos realizar el movimiento tipico de flexion de abdomen, con una pelota de 1/2 Kg se exige un poco más dicha zona, el movimiento debe realizarse muy despacio para sentir el calor en la zona, se pueden realizar modificaciones del movimiento, de izquierda a derecha por ejemplo (30 Rep.) </string>
+		<key>imageName1</key>
+		<string>abdominales_tipo_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>abdominales_tipo_2@2x.jpg</string>
+	</dict>
+</array>
+</plist>

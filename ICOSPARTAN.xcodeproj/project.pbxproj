@@ -7,34 +7,220 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6307DAA41B239761008B141A /* salto_vertical_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307DAA21B239761008B141A /* salto_vertical_1@2x.jpg */; };
+		6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307DAA31B239761008B141A /* salto_vertical_2@2x.jpg */; };
+		6307DAA91B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307DAA71B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg */; };
+		6307DAAA1B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6307DAA81B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg */; };
+		6310E0ED1B27936E00093BE5 /* fondos_pelota_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6310E0EB1B27936E00093BE5 /* fondos_pelota_1@2x.jpg */; };
+		6310E0EE1B27936E00093BE5 /* fondos_pelota_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6310E0EC1B27936E00093BE5 /* fondos_pelota_2@2x.jpg */; };
+		6310E0F11B27951E00093BE5 /* sentadilla_peso_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6310E0EF1B27951E00093BE5 /* sentadilla_peso_2@2x.jpg */; };
+		6310E0F21B27951E00093BE5 /* sentadilla_peso_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6310E0F01B27951E00093BE5 /* sentadilla_peso_1@2x.jpg */; };
+		631AC3F41B282A460020D0E4 /* fondos_cobra_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC3F31B282A460020D0E4 /* fondos_cobra_1@2x.jpg */; };
+		631AC3F81B282AE50020D0E4 /* fondos_cobra_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC3F71B282AE50020D0E4 /* fondos_cobra_2@2x.jpg */; };
+		631AC3FA1B282CA10020D0E4 /* press_hombro_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC3F91B282CA10020D0E4 /* press_hombro_1@2x.jpg */; };
+		631AC3FC1B282CAD0020D0E4 /* press_hombro_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC3FB1B282CAD0020D0E4 /* press_hombro_2@2x.jpg */; };
+		631AC3FE1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC3FD1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg */; };
+		631AC4001B282E370020D0E4 /* burpees_militar_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC3FF1B282E370020D0E4 /* burpees_militar_2@2x.jpg */; };
+		631AC4021B282F230020D0E4 /* dominadas_opcion_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4011B282F230020D0E4 /* dominadas_opcion_1@2x.jpg */; };
+		631AC4041B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4031B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg */; };
+		631AC4071B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4051B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg */; };
+		631AC4081B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4061B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg */; };
+		631AC40B1B2836250020D0E4 /* fondos_elevados_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC40A1B2836240020D0E4 /* fondos_elevados_1@2x.jpg */; };
+		631AC40D1B2836350020D0E4 /* fondos_elevados_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC40C1B2836350020D0E4 /* fondos_elevados_2@2x.jpg */; };
+		631AC40F1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC40E1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg */; };
+		631AC4111B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4101B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg */; };
+		631AC4131B28387F0020D0E4 /* press_hombro_45_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4121B28387F0020D0E4 /* press_hombro_45_1@2x.jpg */; };
+		631AC4151B2838860020D0E4 /* press_hombro_45_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4141B2838860020D0E4 /* press_hombro_45_2@2x.jpg */; };
+		631AC4171B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4161B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg */; };
+		631AC4191B2839B90020D0E4 /* saltos_vertical_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4181B2839B90020D0E4 /* saltos_vertical_2@2x.jpg */; };
+		631AC41B1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC41A1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg */; };
+		631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC41C1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg */; };
+		6331F9781B249FC800E43940 /* top_menu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9771B249FC800E43940 /* top_menu_bg@2x.png */; };
+		6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */; };
+		6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */; };
+		6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */; };
+		637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */; };
+		637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */; };
+		637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */; };
+		637F63561B2638E500A70B6A /* TRIFECA_3M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */; };
+		637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63571B2639A400A70B6A /* SPARTAN1@2x.png */; };
+		63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */; };
+		63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */; };
+		63ABD3051B302BF20099F520 /* fondo_band_pushup_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3031B302BF20099F520 /* fondo_band_pushup_1@2x.jpg */; };
+		63ABD3061B302BF20099F520 /* fondo_band_pushup_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3041B302BF20099F520 /* fondo_band_pushup_2@2x.jpg */; };
+		63ABD3091B30340C0099F520 /* band_press_alterne_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3071B30340C0099F520 /* band_press_alterne_1@2x.jpg */; };
+		63ABD30A1B30340C0099F520 /* band_press_alterne_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3081B30340C0099F520 /* band_press_alterne_2@2x.jpg */; };
+		63ABD30D1B3034930099F520 /* alternating_split_jump_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD30B1B3034930099F520 /* alternating_split_jump_2@2x.jpg */; };
+		63ABD30E1B3034930099F520 /* alternating_split_jump_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */; };
+		63ABD3121B3039680099F520 /* arnold_press_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */; };
+		63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */; };
+		63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */; };
+		63CAB1FB1B24D964000249F8 /* imagenLanzamientoApp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB1FA1B24D964000249F8 /* imagenLanzamientoApp@2x.png */; };
+		63CAB2021B24DAA8000249F8 /* iconApp58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2001B24DAA8000249F8 /* iconApp58x58.png */; };
+		63CAB2031B24DAA8000249F8 /* iconApp87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2011B24DAA8000249F8 /* iconApp87x87.png */; };
+		63CAB2061B24DB01000249F8 /* iconApp80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2041B24DB01000249F8 /* iconApp80x80.png */; };
+		63CAB2071B24DB01000249F8 /* iconApp120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2051B24DB01000249F8 /* iconApp120x120.png */; };
+		63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2081B24DB58000249F8 /* iconApp180x180.png */; };
+		63D6230A1B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */; };
+		63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */; };
+		63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDAFE1B301612000BEDDC /* barbell_row_1@2x.jpg */; };
+		63DDDB011B301612000BEDDC /* barbell_row_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDAFF1B301612000BEDDC /* barbell_row_2@2x.jpg */; };
+		63DDDB041B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB021B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg */; };
+		63DDDB051B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB031B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg */; };
+		63DDDB091B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB081B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg */; };
+		63DDDB0B1B3019B9000BEDDC /* one_arm_snatch_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB0A1B3019B9000BEDDC /* one_arm_snatch_1@2x.jpg */; };
+		63DDDB0D1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB0C1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg */; };
+		63DDDB0F1B301BCB000BEDDC /* press_hombro_rodilla_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB0E1B301BCB000BEDDC /* press_hombro_rodilla_2@2x.jpg */; };
+		63E36F7E1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E36F7D1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg */; };
+		63E36F801B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E36F7F1B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg */; };
+		63E36F831B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E36F811B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg */; };
+		63E36F841B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E36F821B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg */; };
+		63E620B21B28D109005BAC37 /* press_militar_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620B01B28D109005BAC37 /* press_militar_1@2x.jpg */; };
+		63E620B31B28D109005BAC37 /* press_militar_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620B11B28D109005BAC37 /* press_militar_2@2x.jpg */; };
+		63E620B61B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620B41B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg */; };
+		63E620B71B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620B51B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg */; };
+		63E620BA1B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620B81B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg */; };
+		63E620BB1B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620B91B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg */; };
+		63E620BE1B28DB37005BAC37 /* abdominal_corta_doble_rebote_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620BC1B28DB37005BAC37 /* abdominal_corta_doble_rebote_2@2x.jpg */; };
+		63E620BF1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620BD1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg */; };
+		63E620C21B28DC1D005BAC37 /* abdominales_elevando_piernas_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C01B28DC1D005BAC37 /* abdominales_elevando_piernas_1@2x.jpg */; };
+		63E620C31B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C11B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg */; };
+		63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C51B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg */; };
+		63E620C81B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */; };
 		63EDAF711B207427007355D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF701B207427007355D6 /* main.m */; };
 		63EDAF741B207427007355D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF731B207427007355D6 /* AppDelegate.m */; };
 		63EDAF761B207427007355D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF751B207427007355D6 /* Images.xcassets */; };
 		63EDAF791B207427007355D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF771B207427007355D6 /* LaunchScreen.xib */; };
-		63EDAF851B207427007355D6 /* ICOSPARTANTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF841B207427007355D6 /* ICOSPARTANTests.m */; };
+		63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF931B2090D2007355D6 /* Storyboard.storyboard */; };
+		63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */; };
+		63EDAF9E1B20940D007355D6 /* spartanLevel1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF9D1B20940D007355D6 /* spartanLevel1.plist */; };
+		63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFB61B2094A1007355D6 /* CustomCell.m */; };
+		63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFB91B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m */; };
+		63EDAFBC1B209925007355D6 /* spartanLevel2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAFBB1B209925007355D6 /* spartanLevel2.plist */; };
+		63EDAFBE1B20AC79007355D6 /* spartanLevel3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAFBD1B20AC79007355D6 /* spartanLevel3.plist */; };
+		63EDAFC01B20B1CA007355D6 /* spartanLevel4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAFBF1B20B1CA007355D6 /* spartanLevel4.plist */; };
+		63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFC21B20B223007355D6 /* ICOSpartanNivel3TableViewController.m */; };
+		63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFC51B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m */; };
+		63EDAFC91B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFC81B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m */; };
+		63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFCB1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m */; };
+		63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFCE1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m */; };
+		63EDAFD21B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFD11B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		63EDAF7F1B207427007355D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63EDAF631B207426007355D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63EDAF6A1B207427007355D6;
-			remoteInfo = ICOSPARTAN;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		63EDAF6B1B207427007355D6 /* ICOSPARTAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICOSPARTAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307DAA21B239761008B141A /* salto_vertical_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "salto_vertical_1@2x.jpg"; sourceTree = "<group>"; };
+		6307DAA31B239761008B141A /* salto_vertical_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "salto_vertical_2@2x.jpg"; sourceTree = "<group>"; };
+		6307DAA71B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flexiones_alterne_brazos_2@2x.jpg"; sourceTree = "<group>"; };
+		6307DAA81B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flexiones_alterne_brazos_1@2x.jpg"; sourceTree = "<group>"; };
+		6310E0EB1B27936E00093BE5 /* fondos_pelota_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pelota_1@2x.jpg"; sourceTree = "<group>"; };
+		6310E0EC1B27936E00093BE5 /* fondos_pelota_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pelota_2@2x.jpg"; sourceTree = "<group>"; };
+		6310E0EF1B27951E00093BE5 /* sentadilla_peso_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sentadilla_peso_2@2x.jpg"; sourceTree = "<group>"; };
+		6310E0F01B27951E00093BE5 /* sentadilla_peso_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sentadilla_peso_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC3F31B282A460020D0E4 /* fondos_cobra_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_cobra_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC3F71B282AE50020D0E4 /* fondos_cobra_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_cobra_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC3F91B282CA10020D0E4 /* press_hombro_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC3FB1B282CAD0020D0E4 /* press_hombro_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC3FD1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burpees_militar_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC3FF1B282E370020D0E4 /* burpees_militar_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burpees_militar_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC4011B282F230020D0E4 /* dominadas_opcion_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dominadas_opcion_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC4031B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dominadas_opcion_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC4051B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_tipo_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC4061B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_tipo_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC40A1B2836240020D0E4 /* fondos_elevados_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_elevados_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC40C1B2836350020D0E4 /* fondos_elevados_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_elevados_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC40E1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo Kettle bell_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC4101B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo Kettle bell_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC4121B28387F0020D0E4 /* press_hombro_45_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_45_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC4141B2838860020D0E4 /* press_hombro_45_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_45_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC4161B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_vertical_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC4181B2839B90020D0E4 /* saltos_vertical_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_vertical_2@2x.jpg"; sourceTree = "<group>"; };
+		631AC41A1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pushup_triceps_1@2x.jpg"; sourceTree = "<group>"; };
+		631AC41C1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pushup_triceps_2@2x.jpg"; sourceTree = "<group>"; };
+		6331F9771B249FC800E43940 /* top_menu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_menu_bg@2x.png"; sourceTree = "<group>"; };
+		6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_1@2x.jpg"; sourceTree = "<group>"; };
+		6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_2@2x.jpg"; sourceTree = "<group>"; };
+		6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICOSPARTAN@2x.png"; sourceTree = "<group>"; };
+		637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_0M@2x.png"; sourceTree = "<group>"; };
+		637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_1M@2x.png"; sourceTree = "<group>"; };
+		637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_2M@2x.png"; sourceTree = "<group>"; };
+		637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_3M@2x.png"; sourceTree = "<group>"; };
+		637F63571B2639A400A70B6A /* SPARTAN1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPARTAN1@2x.png"; sourceTree = "<group>"; };
+		63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_1@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_2@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3031B302BF20099F520 /* fondo_band_pushup_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondo_band_pushup_1@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3041B302BF20099F520 /* fondo_band_pushup_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondo_band_pushup_2@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3071B30340C0099F520 /* band_press_alterne_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "band_press_alterne_1@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3081B30340C0099F520 /* band_press_alterne_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "band_press_alterne_2@2x.jpg"; sourceTree = "<group>"; };
+		63ABD30B1B3034930099F520 /* alternating_split_jump_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alternating_split_jump_2@2x.jpg"; sourceTree = "<group>"; };
+		63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alternating_split_jump_1@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_2@2x.jpg"; sourceTree = "<group>"; };
+		63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_1@2x.jpg"; sourceTree = "<group>"; };
+		63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOGaleriaViewController.h; sourceTree = "<group>"; };
+		63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOGaleriaViewController.m; sourceTree = "<group>"; };
+		63CAB1FA1B24D964000249F8 /* imagenLanzamientoApp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagenLanzamientoApp@2x.png"; sourceTree = "<group>"; };
+		63CAB2001B24DAA8000249F8 /* iconApp58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp58x58.png; sourceTree = "<group>"; };
+		63CAB2011B24DAA8000249F8 /* iconApp87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp87x87.png; sourceTree = "<group>"; };
+		63CAB2041B24DB01000249F8 /* iconApp80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp80x80.png; sourceTree = "<group>"; };
+		63CAB2051B24DB01000249F8 /* iconApp120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp120x120.png; sourceTree = "<group>"; };
+		63CAB2081B24DB58000249F8 /* iconApp180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp180x180.png; sourceTree = "<group>"; };
+		63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_1@2x.jpg"; sourceTree = "<group>"; };
+		63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_2@2x.jpg"; sourceTree = "<group>"; };
+		63DDDAFE1B301612000BEDDC /* barbell_row_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbell_row_1@2x.jpg"; sourceTree = "<group>"; };
+		63DDDAFF1B301612000BEDDC /* barbell_row_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbell_row_2@2x.jpg"; sourceTree = "<group>"; };
+		63DDDB021B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45_lat_pullDown_1@2x.jpg"; sourceTree = "<group>"; };
+		63DDDB031B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45_lat_pullDown_2@2x.jpg"; sourceTree = "<group>"; };
+		63DDDB081B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "one_arm_snatch_2@2x.jpg"; sourceTree = "<group>"; };
+		63DDDB0A1B3019B9000BEDDC /* one_arm_snatch_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "one_arm_snatch_1@2x.jpg"; sourceTree = "<group>"; };
+		63DDDB0C1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_rodilla_1@2x.jpg"; sourceTree = "<group>"; };
+		63DDDB0E1B301BCB000BEDDC /* press_hombro_rodilla_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_hombro_rodilla_2@2x.jpg"; sourceTree = "<group>"; };
+		63E36F7D1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goma_tubo_detras_espalda_1@2x.jpg"; sourceTree = "<group>"; };
+		63E36F7F1B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goma_tubo_detras_espalda_2@2x.jpg"; sourceTree = "<group>"; };
+		63E36F811B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_cuarta_1@2x.jpg"; sourceTree = "<group>"; };
+		63E36F821B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_cuarta_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620B01B28D109005BAC37 /* press_militar_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_militar_1@2x.jpg"; sourceTree = "<group>"; };
+		63E620B11B28D109005BAC37 /* press_militar_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_militar_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620B41B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo_kettle_bell_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620B51B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendulo_kettle_bell_1@2x.jpg"; sourceTree = "<group>"; };
+		63E620B81B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pie_elevado_1@2x.jpg"; sourceTree = "<group>"; };
+		63E620B91B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos_pie_elevado_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620BC1B28DB37005BAC37 /* abdominal_corta_doble_rebote_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominal_corta_doble_rebote_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620BD1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominal_corta_doble_rebote_1@2x.jpg"; sourceTree = "<group>"; };
+		63E620C01B28DC1D005BAC37 /* abdominales_elevando_piernas_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_elevando_piernas_1@2x.jpg"; sourceTree = "<group>"; };
+		63E620C11B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_elevando_piernas_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620C51B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_2@2x.jpg"; sourceTree = "<group>"; };
+		63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_1@2x.jpg"; sourceTree = "<group>"; };
+		63EDAF6B1B207427007355D6 /* iCoSpartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoSpartan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EDAF6F1B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF701B207427007355D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63EDAF721B207427007355D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63EDAF731B207427007355D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63EDAF751B207427007355D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63EDAF781B207427007355D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		63EDAF7E1B207427007355D6 /* ICOSPARTANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICOSPARTANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EDAF831B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF841B207427007355D6 /* ICOSPARTANTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICOSPARTANTests.m; sourceTree = "<group>"; };
+		63EDAF931B2090D2007355D6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		63EDAF951B20913D007355D6 /* ICOSpartanNivel1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSpartanNivel1TableViewController.h; sourceTree = "<group>"; };
+		63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSpartanNivel1TableViewController.m; sourceTree = "<group>"; };
+		63EDAF9D1B20940D007355D6 /* spartanLevel1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel1.plist; sourceTree = "<group>"; };
+		63EDAFB51B2094A1007355D6 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		63EDAFB61B2094A1007355D6 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		63EDAFB81B2098F5007355D6 /* ICOSpartanNivel2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSpartanNivel2TableViewController.h; sourceTree = "<group>"; };
+		63EDAFB91B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSpartanNivel2TableViewController.m; sourceTree = "<group>"; };
+		63EDAFBB1B209925007355D6 /* spartanLevel2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel2.plist; sourceTree = "<group>"; };
+		63EDAFBD1B20AC79007355D6 /* spartanLevel3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel3.plist; sourceTree = "<group>"; };
+		63EDAFBF1B20B1CA007355D6 /* spartanLevel4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel4.plist; sourceTree = "<group>"; };
+		63EDAFC11B20B223007355D6 /* ICOSpartanNivel3TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSpartanNivel3TableViewController.h; sourceTree = "<group>"; };
+		63EDAFC21B20B223007355D6 /* ICOSpartanNivel3TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSpartanNivel3TableViewController.m; sourceTree = "<group>"; };
+		63EDAFC41B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSpartanNivel4TableViewController.h; sourceTree = "<group>"; };
+		63EDAFC51B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSpartanNivel4TableViewController.m; sourceTree = "<group>"; };
+		63EDAFC71B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODetailSpartanNivel1ViewController.h; sourceTree = "<group>"; };
+		63EDAFC81B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODetailSpartanNivel1ViewController.m; sourceTree = "<group>"; };
+		63EDAFCA1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODetailSpartanNivel2ViewController.h; sourceTree = "<group>"; };
+		63EDAFCB1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODetailSpartanNivel2ViewController.m; sourceTree = "<group>"; };
+		63EDAFCD1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODetailSpartanNivel3ViewController.h; sourceTree = "<group>"; };
+		63EDAFCE1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODetailSpartanNivel3ViewController.m; sourceTree = "<group>"; };
+		63EDAFD01B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODetailSpartanNivel4ViewController.h; sourceTree = "<group>"; };
+		63EDAFD11B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODetailSpartanNivel4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,16 +231,146 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63EDAF7B1B207427007355D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6307DAA61B239766008B141A /* EXERCISES_SPARTAN_NIVEL_1 */ = {
+			isa = PBXGroup;
+			children = (
+				6307DAA21B239761008B141A /* salto_vertical_1@2x.jpg */,
+				6307DAA31B239761008B141A /* salto_vertical_2@2x.jpg */,
+				6307DAA81B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg */,
+				6307DAA71B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg */,
+				6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */,
+				6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */,
+				6310E0EB1B27936E00093BE5 /* fondos_pelota_1@2x.jpg */,
+				6310E0EC1B27936E00093BE5 /* fondos_pelota_2@2x.jpg */,
+				6310E0EF1B27951E00093BE5 /* sentadilla_peso_2@2x.jpg */,
+				6310E0F01B27951E00093BE5 /* sentadilla_peso_1@2x.jpg */,
+				631AC3F31B282A460020D0E4 /* fondos_cobra_1@2x.jpg */,
+				631AC3F71B282AE50020D0E4 /* fondos_cobra_2@2x.jpg */,
+				631AC3F91B282CA10020D0E4 /* press_hombro_1@2x.jpg */,
+				631AC3FB1B282CAD0020D0E4 /* press_hombro_2@2x.jpg */,
+				631AC3FD1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg */,
+				631AC3FF1B282E370020D0E4 /* burpees_militar_2@2x.jpg */,
+				631AC4011B282F230020D0E4 /* dominadas_opcion_1@2x.jpg */,
+				631AC4031B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg */,
+				631AC4051B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg */,
+				631AC4061B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg */,
+			);
+			name = EXERCISES_SPARTAN_NIVEL_1;
+			sourceTree = "<group>";
+		};
+		631AC4091B2835730020D0E4 /* EXERCISES_SPARTAN_NIVEL_2 */ = {
+			isa = PBXGroup;
+			children = (
+				631AC40A1B2836240020D0E4 /* fondos_elevados_1@2x.jpg */,
+				631AC40C1B2836350020D0E4 /* fondos_elevados_2@2x.jpg */,
+				631AC40E1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg */,
+				631AC4101B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg */,
+				631AC4121B28387F0020D0E4 /* press_hombro_45_1@2x.jpg */,
+				631AC4141B2838860020D0E4 /* press_hombro_45_2@2x.jpg */,
+				631AC4161B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg */,
+				631AC4181B2839B90020D0E4 /* saltos_vertical_2@2x.jpg */,
+				631AC41A1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg */,
+				631AC41C1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg */,
+				63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */,
+				63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */,
+				63E36F7D1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg */,
+				63E36F7F1B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg */,
+				63E36F811B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg */,
+				63E36F821B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg */,
+			);
+			name = EXERCISES_SPARTAN_NIVEL_2;
+			sourceTree = "<group>";
+		};
+		63E620AF1B28D0F0005BAC37 /* EXERCISES_SPARTAN_NIVEL_3 */ = {
+			isa = PBXGroup;
+			children = (
+				63DDDAFE1B301612000BEDDC /* barbell_row_1@2x.jpg */,
+				63DDDAFF1B301612000BEDDC /* barbell_row_2@2x.jpg */,
+				63DDDB021B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg */,
+				63DDDB031B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg */,
+				63E620B01B28D109005BAC37 /* press_militar_1@2x.jpg */,
+				63E620B11B28D109005BAC37 /* press_militar_2@2x.jpg */,
+				63E620B41B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg */,
+				63E620B51B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg */,
+				63E620B81B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg */,
+				63E620B91B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg */,
+				63E620BC1B28DB37005BAC37 /* abdominal_corta_doble_rebote_2@2x.jpg */,
+				63E620BD1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg */,
+				63E620C01B28DC1D005BAC37 /* abdominales_elevando_piernas_1@2x.jpg */,
+				63E620C11B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg */,
+				63DDDB081B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg */,
+				63DDDB0A1B3019B9000BEDDC /* one_arm_snatch_1@2x.jpg */,
+			);
+			name = EXERCISES_SPARTAN_NIVEL_3;
+			sourceTree = "<group>";
+		};
+		63E620C41B28DCC2005BAC37 /* EXERCISES_SPARTAN_NIVEL_4 */ = {
+			isa = PBXGroup;
+			children = (
+				63E620C51B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg */,
+				63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */,
+				63DDDB0C1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg */,
+				63DDDB0E1B301BCB000BEDDC /* press_hombro_rodilla_2@2x.jpg */,
+				63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */,
+				63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */,
+				63ABD3031B302BF20099F520 /* fondo_band_pushup_1@2x.jpg */,
+				63ABD3041B302BF20099F520 /* fondo_band_pushup_2@2x.jpg */,
+				63ABD3071B30340C0099F520 /* band_press_alterne_1@2x.jpg */,
+				63ABD3081B30340C0099F520 /* band_press_alterne_2@2x.jpg */,
+				63ABD30B1B3034930099F520 /* alternating_split_jump_2@2x.jpg */,
+				63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */,
+				63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */,
+				63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */,
+			);
+			name = EXERCISES_SPARTAN_NIVEL_4;
+			sourceTree = "<group>";
+		};
+		63E620C91B28DFA0005BAC37 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				63EDAF9D1B20940D007355D6 /* spartanLevel1.plist */,
+				63EDAFBB1B209925007355D6 /* spartanLevel2.plist */,
+				63EDAFBD1B20AC79007355D6 /* spartanLevel3.plist */,
+				63EDAFBF1B20B1CA007355D6 /* spartanLevel4.plist */,
+			);
+			name = MODELS;
+			sourceTree = "<group>";
+		};
+		63E620CA1B28DFCB005BAC37 /* CLASS */ = {
+			isa = PBXGroup;
+			children = (
+				63EDAF721B207427007355D6 /* AppDelegate.h */,
+				63EDAF731B207427007355D6 /* AppDelegate.m */,
+				63EDAFB51B2094A1007355D6 /* CustomCell.h */,
+				63EDAFB61B2094A1007355D6 /* CustomCell.m */,
+				63EDAF951B20913D007355D6 /* ICOSpartanNivel1TableViewController.h */,
+				63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */,
+				63EDAFC71B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.h */,
+				63EDAFC81B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m */,
+				63EDAFB81B2098F5007355D6 /* ICOSpartanNivel2TableViewController.h */,
+				63EDAFB91B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m */,
+				63EDAFCA1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.h */,
+				63EDAFCB1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m */,
+				63EDAFC11B20B223007355D6 /* ICOSpartanNivel3TableViewController.h */,
+				63EDAFC21B20B223007355D6 /* ICOSpartanNivel3TableViewController.m */,
+				63EDAFCD1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.h */,
+				63EDAFCE1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m */,
+				63EDAFC41B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.h */,
+				63EDAFC51B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m */,
+				63EDAFD01B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.h */,
+				63EDAFD11B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m */,
+				63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */,
+				63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */,
+				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
+				63EDAF751B207427007355D6 /* Images.xcassets */,
+				63EDAF771B207427007355D6 /* LaunchScreen.xib */,
+			);
+			name = CLASS;
+			sourceTree = "<group>";
+		};
 		63EDAF621B207426007355D6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +383,7 @@
 		63EDAF6C1B207427007355D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63EDAF6B1B207427007355D6 /* ICOSPARTAN.app */,
-				63EDAF7E1B207427007355D6 /* ICOSPARTANTests.xctest */,
+				63EDAF6B1B207427007355D6 /* iCoSpartan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,10 +391,9 @@
 		63EDAF6D1B207427007355D6 /* ICOSPARTAN */ = {
 			isa = PBXGroup;
 			children = (
-				63EDAF721B207427007355D6 /* AppDelegate.h */,
-				63EDAF731B207427007355D6 /* AppDelegate.m */,
-				63EDAF751B207427007355D6 /* Images.xcassets */,
-				63EDAF771B207427007355D6 /* LaunchScreen.xib */,
+				63E620C91B28DFA0005BAC37 /* MODELS */,
+				63EDAF9C1B2093D2007355D6 /* IMAGES */,
+				63E620CA1B28DFCB005BAC37 /* CLASS */,
 				63EDAF6E1B207427007355D6 /* Supporting Files */,
 			);
 			path = ICOSPARTAN;
@@ -111,12 +425,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		63EDAF9C1B2093D2007355D6 /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				63E620C41B28DCC2005BAC37 /* EXERCISES_SPARTAN_NIVEL_4 */,
+				63E620AF1B28D0F0005BAC37 /* EXERCISES_SPARTAN_NIVEL_3 */,
+				631AC4091B2835730020D0E4 /* EXERCISES_SPARTAN_NIVEL_2 */,
+				6307DAA61B239766008B141A /* EXERCISES_SPARTAN_NIVEL_1 */,
+				637F63571B2639A400A70B6A /* SPARTAN1@2x.png */,
+				637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */,
+				637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */,
+				637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */,
+				637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */,
+				63CAB1FA1B24D964000249F8 /* imagenLanzamientoApp@2x.png */,
+				63CAB2001B24DAA8000249F8 /* iconApp58x58.png */,
+				63CAB2011B24DAA8000249F8 /* iconApp87x87.png */,
+				63CAB2041B24DB01000249F8 /* iconApp80x80.png */,
+				63CAB2051B24DB01000249F8 /* iconApp120x120.png */,
+				63CAB2081B24DB58000249F8 /* iconApp180x180.png */,
+				6331F9771B249FC800E43940 /* top_menu_bg@2x.png */,
+				6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */,
+			);
+			name = IMAGES;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63EDAF6A1B207427007355D6 /* ICOSPARTAN */ = {
+		63EDAF6A1B207427007355D6 /* iCoSpartan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63EDAF881B207427007355D6 /* Build configuration list for PBXNativeTarget "ICOSPARTAN" */;
+			buildConfigurationList = 63EDAF881B207427007355D6 /* Build configuration list for PBXNativeTarget "iCoSpartan" */;
 			buildPhases = (
 				63EDAF671B207427007355D6 /* Sources */,
 				63EDAF681B207427007355D6 /* Frameworks */,
@@ -126,28 +464,10 @@
 			);
 			dependencies = (
 			);
-			name = ICOSPARTAN;
+			name = iCoSpartan;
 			productName = ICOSPARTAN;
-			productReference = 63EDAF6B1B207427007355D6 /* ICOSPARTAN.app */;
+			productReference = 63EDAF6B1B207427007355D6 /* iCoSpartan.app */;
 			productType = "com.apple.product-type.application";
-		};
-		63EDAF7D1B207427007355D6 /* ICOSPARTANTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63EDAF8B1B207427007355D6 /* Build configuration list for PBXNativeTarget "ICOSPARTANTests" */;
-			buildPhases = (
-				63EDAF7A1B207427007355D6 /* Sources */,
-				63EDAF7B1B207427007355D6 /* Frameworks */,
-				63EDAF7C1B207427007355D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				63EDAF801B207427007355D6 /* PBXTargetDependency */,
-			);
-			name = ICOSPARTANTests;
-			productName = ICOSPARTANTests;
-			productReference = 63EDAF7E1B207427007355D6 /* ICOSPARTANTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -160,14 +480,11 @@
 				TargetAttributes = {
 					63EDAF6A1B207427007355D6 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					63EDAF7D1B207427007355D6 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 63EDAF6A1B207427007355D6;
+						DevelopmentTeam = 2C7W4RF846;
 					};
 				};
 			};
-			buildConfigurationList = 63EDAF661B207426007355D6 /* Build configuration list for PBXProject "ICOSPARTAN" */;
+			buildConfigurationList = 63EDAF661B207426007355D6 /* Build configuration list for PBXProject "iCoSpartan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,8 +497,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63EDAF6A1B207427007355D6 /* ICOSPARTAN */,
-				63EDAF7D1B207427007355D6 /* ICOSPARTANTests */,
+				63EDAF6A1B207427007355D6 /* iCoSpartan */,
 			);
 		};
 /* End PBXProject section */
@@ -191,15 +507,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E620B21B28D109005BAC37 /* press_militar_1@2x.jpg in Resources */,
+				631AC3FC1B282CAD0020D0E4 /* press_hombro_2@2x.jpg in Resources */,
+				6307DAAA1B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg in Resources */,
+				631AC4151B2838860020D0E4 /* press_hombro_45_2@2x.jpg in Resources */,
+				63ABD3051B302BF20099F520 /* fondo_band_pushup_1@2x.jpg in Resources */,
+				631AC40B1B2836250020D0E4 /* fondos_elevados_1@2x.jpg in Resources */,
+				63E620BF1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg in Resources */,
+				63ABD3091B30340C0099F520 /* band_press_alterne_1@2x.jpg in Resources */,
+				6310E0ED1B27936E00093BE5 /* fondos_pelota_1@2x.jpg in Resources */,
+				631AC4191B2839B90020D0E4 /* saltos_vertical_2@2x.jpg in Resources */,
+				63EDAFBC1B209925007355D6 /* spartanLevel2.plist in Resources */,
+				631AC40D1B2836350020D0E4 /* fondos_elevados_2@2x.jpg in Resources */,
+				631AC3FA1B282CA10020D0E4 /* press_hombro_1@2x.jpg in Resources */,
+				63E36F801B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg in Resources */,
+				63ABD30D1B3034930099F520 /* alternating_split_jump_2@2x.jpg in Resources */,
+				63DDDB041B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg in Resources */,
+				63DDDB091B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg in Resources */,
+				63E620B61B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg in Resources */,
+				6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */,
+				6307DAA91B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg in Resources */,
+				631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */,
+				63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */,
+				63E620BA1B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg in Resources */,
+				63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */,
+				63E620C31B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg in Resources */,
+				6310E0F11B27951E00093BE5 /* sentadilla_peso_2@2x.jpg in Resources */,
+				631AC4131B28387F0020D0E4 /* press_hombro_45_1@2x.jpg in Resources */,
 				63EDAF791B207427007355D6 /* LaunchScreen.xib in Resources */,
+				63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */,
+				6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */,
+				637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */,
+				63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */,
+				637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */,
+				63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */,
+				63ABD30A1B30340C0099F520 /* band_press_alterne_2@2x.jpg in Resources */,
+				631AC4021B282F230020D0E4 /* dominadas_opcion_1@2x.jpg in Resources */,
+				631AC4001B282E370020D0E4 /* burpees_militar_2@2x.jpg in Resources */,
+				6307DAA41B239761008B141A /* salto_vertical_1@2x.jpg in Resources */,
+				63DDDB0F1B301BCB000BEDDC /* press_hombro_rodilla_2@2x.jpg in Resources */,
+				63E36F841B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg in Resources */,
+				63E620C81B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg in Resources */,
+				63DDDB051B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg in Resources */,
+				63CAB2031B24DAA8000249F8 /* iconApp87x87.png in Resources */,
+				6310E0F21B27951E00093BE5 /* sentadilla_peso_1@2x.jpg in Resources */,
+				63DDDB0D1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg in Resources */,
+				63DDDB0B1B3019B9000BEDDC /* one_arm_snatch_1@2x.jpg in Resources */,
+				6331F9781B249FC800E43940 /* top_menu_bg@2x.png in Resources */,
+				63E620BE1B28DB37005BAC37 /* abdominal_corta_doble_rebote_2@2x.jpg in Resources */,
+				631AC40F1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg in Resources */,
+				63CAB2071B24DB01000249F8 /* iconApp120x120.png in Resources */,
+				63ABD3061B302BF20099F520 /* fondo_band_pushup_2@2x.jpg in Resources */,
+				63CAB2061B24DB01000249F8 /* iconApp80x80.png in Resources */,
+				631AC4041B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg in Resources */,
+				63E620B31B28D109005BAC37 /* press_militar_2@2x.jpg in Resources */,
+				63E620B71B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg in Resources */,
+				63E620BB1B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg in Resources */,
+				63CAB2021B24DAA8000249F8 /* iconApp58x58.png in Resources */,
+				63EDAFC01B20B1CA007355D6 /* spartanLevel4.plist in Resources */,
+				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
+				63DDDB011B301612000BEDDC /* barbell_row_2@2x.jpg in Resources */,
+				6310E0EE1B27936E00093BE5 /* fondos_pelota_2@2x.jpg in Resources */,
+				63E36F7E1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg in Resources */,
+				637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */,
+				631AC4071B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg in Resources */,
+				631AC4111B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg in Resources */,
 				63EDAF761B207427007355D6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63EDAF7C1B207427007355D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				63E36F831B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg in Resources */,
+				631AC4171B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg in Resources */,
+				637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */,
+				631AC3F41B282A460020D0E4 /* fondos_cobra_1@2x.jpg in Resources */,
+				63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */,
+				631AC3F81B282AE50020D0E4 /* fondos_cobra_2@2x.jpg in Resources */,
+				63CAB1FB1B24D964000249F8 /* imagenLanzamientoApp@2x.png in Resources */,
+				63ABD30E1B3034930099F520 /* alternating_split_jump_1@2x.jpg in Resources */,
+				63E620C21B28DC1D005BAC37 /* abdominales_elevando_piernas_1@2x.jpg in Resources */,
+				63D6230A1B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg in Resources */,
+				6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */,
+				631AC41B1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg in Resources */,
+				63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */,
+				63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */,
+				631AC4081B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg in Resources */,
+				63ABD3121B3039680099F520 /* arnold_press_2@2x.jpg in Resources */,
+				631AC3FE1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg in Resources */,
+				63EDAFBE1B20AC79007355D6 /* spartanLevel3.plist in Resources */,
+				637F63561B2638E500A70B6A /* TRIFECA_3M@2x.png in Resources */,
+				63EDAF9E1B20940D007355D6 /* spartanLevel1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,27 +604,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				63EDAF741B207427007355D6 /* AppDelegate.m in Sources */,
+				63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */,
+				63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */,
+				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
+				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
+				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
+				63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */,
+				63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */,
+				63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */,
+				63EDAFC91B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m in Sources */,
+				63EDAFD21B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m in Sources */,
 				63EDAF711B207427007355D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63EDAF7A1B207427007355D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63EDAF851B207427007355D6 /* ICOSPARTANTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		63EDAF801B207427007355D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 63EDAF6A1B207427007355D6 /* ICOSPARTAN */;
-			targetProxy = 63EDAF7F1B207427007355D6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		63EDAF771B207427007355D6 /* LaunchScreen.xib */ = {
@@ -245,6 +632,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		63ABD3151B303B410099F520 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iCoSpartan;
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		63ABD3161B303B410099F520 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = iCoSpartan;
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
+			};
+			name = Distribution;
+		};
 		63EDAF861B207427007355D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,7 +703,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -284,6 +726,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -305,7 +748,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -320,6 +764,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -329,9 +774,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iCoSpartan;
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 			};
 			name = Debug;
 		};
@@ -339,73 +788,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		63EDAF8C1B207427007355D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ICOSPARTANTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICOSPARTAN.app/ICOSPARTAN";
-			};
-			name = Debug;
-		};
-		63EDAF8D1B207427007355D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ICOSPARTANTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICOSPARTAN.app/ICOSPARTAN";
+				PRODUCT_NAME = iCoSpartan;
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63EDAF661B207426007355D6 /* Build configuration list for PBXProject "ICOSPARTAN" */ = {
+		63EDAF661B207426007355D6 /* Build configuration list for PBXProject "iCoSpartan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63EDAF861B207427007355D6 /* Debug */,
 				63EDAF871B207427007355D6 /* Release */,
+				63ABD3151B303B410099F520 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Distribution;
 		};
-		63EDAF881B207427007355D6 /* Build configuration list for PBXNativeTarget "ICOSPARTAN" */ = {
+		63EDAF881B207427007355D6 /* Build configuration list for PBXNativeTarget "iCoSpartan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63EDAF891B207427007355D6 /* Debug */,
 				63EDAF8A1B207427007355D6 /* Release */,
+				63ABD3161B303B410099F520 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		63EDAF8B1B207427007355D6 /* Build configuration list for PBXNativeTarget "ICOSPARTANTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63EDAF8C1B207427007355D6 /* Debug */,
-				63EDAF8D1B207427007355D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
 		};
 /* End XCConfigurationList section */
 	};

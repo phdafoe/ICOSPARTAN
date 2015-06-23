@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>BARBEL ROW</string>
+		<key>description</key>
+		<string>Brazos en posición de sentadilla, sube y baja barra fija, También mancuernas primero de biceps y luego hombros (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>barbell_row_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>barbell_row_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MILITAR PRESS</string>
+		<key>description</key>
+		<string>Barra fija sobre el pecho, estira brazos al pecho, muy despacio, la barra puede ser remplazada por mancuernas (30 rep.)</string>
+		<key>imageName1</key>
+		<string>press_militar_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>press_militar_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DUMBELL SWING</string>
+		<key>description</key>
+		<string>Péndulo Kettle bell con movimiento desde la posición inicial con media sentadilla, agarrando con fuerza el peso y lanzarlo hacia arriba con control para evitar algún tipo de tirón muscular en la zona lumbar (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>pendulo_kettle_bell_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>pendulo_kettle_bell_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>45º LAT PULLDOWN</string>
+		<key>description</key>
+		<string>Prees de hombro con goma tubo desde arriba. Posición de sentarse (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>45_lat_pullDown_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>45_lat_pullDown_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ONE ARM SNATCH WITH MANCUERNAS</string>
+		<key>description</key>
+		<string>Sentadilla con giro de muñeca, brazo arriba igual que con Kettle, derecha e izquierda (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>one_arm_snatch_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>one_arm_snatch_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ELEVATED PUSHUPS</string>
+		<key>description</key>
+		<string>Fondos con pies elevados (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>fondos_pie_elevado_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>fondos_pie_elevado_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DOUBLE CRUNCH</string>
+		<key>description</key>
+		<string>Abdominal corto boca arriba con doble rebote (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>abdominal_corta_doble_rebote_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>abdominal_corta_doble_rebote_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BURPEES</string>
+		<key>description</key>
+		<string>Ejercicio militar de Calentamiento, este ejercicio implica multiples movimientos de mucha coordinación, se inicia en la posicion de fondo normal, y se termina con un salto, hacia rriba, entre estos dos movimientos, encontramos la posición de sentadilla y resorte hacia arriba con estiramiento de los brazos para mayor exigencia (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>burpees_militar_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>burpees_militar_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HIP THRUST</string>
+		<key>description</key>
+		<string>Abdominales, piernas arriba semidobladas, elevadas de cadera al techo (30 Rep.)</string>
+		<key>imageName1</key>
+		<string>abdominales_elevando_piernas_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>abdominales_elevando_piernas_2@2x.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>RUSSIAN TWIST</string>
+		<key>description</key>
+		<string>Abdominales acostados en la colchoneta y en un modo relajado planteamos el primer movimiento del abdomen, con las piernas elevadas, estiramos y soltamos el aire con las piernas estiradas, es fundamental controlar dicho movimiento para su maxima implicación (30 Rep.) </string>
+		<key>imageName1</key>
+		<string>abdominales_cuarta_1@2x.jpg</string>
+		<key>imageName2</key>
+		<string>abdominales_cuarta_2@2x.jpg</string>
+	</dict>
+</array>
+</plist>
