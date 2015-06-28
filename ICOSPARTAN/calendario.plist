@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>FARINATO RACE</string>
+		<key>description</key>
+		<string>21 de Junio de 2015</string>
+		<key>city</key>
+		<string>Pamplona</string>
+		<key>cityImageName</key>
+		<string>pamplona@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PINATAURUS</string>
+		<key>description</key>
+		<string>21 de Junio de 2015</string>
+		<key>city</key>
+		<string>San Pedro del Pinatar</string>
+		<key>cityImageName</key>
+		<string>sanpedrodepinatar@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>GLADIATOR RACE</string>
+		<key>description</key>
+		<string>27 de Junio de 2015</string>
+		<key>city</key>
+		<string>Santiago</string>
+		<key>cityImageName</key>
+		<string>santiagodecompostela@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>THE HERO RACE SPRINT</string>
+		<key>description</key>
+		<string>27 de Junio de 2015</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>cityImageName</key>
+		<string>madrid@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>IBERORACE</string>
+		<key>description</key>
+		<string>28 de Junio de 2015</string>
+		<key>city</key>
+		<string>Almeria</string>
+		<key>cityImageName</key>
+		<string>almeria@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>28 de Junio de 2015</string>
+		<key>city</key>
+		<string>Pinseque, Zaragoza</string>
+		<key>cityImageName</key>
+		<string>pinsequezaragoza@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BELIK RACE</string>
+		<key>description</key>
+		<string>28 de Junio de 2015</string>
+		<key>city</key>
+		<string>Alameda de la Sagra</string>
+		<key>cityImageName</key>
+		<string>alamedadelasagra@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DRAGON BATTLE</string>
+		<key>description</key>
+		<string>28 de Junio de 2015</string>
+		<key>city</key>
+		<string>Tenerife</string>
+		<key>cityImageName</key>
+		<string>tenerife@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PRAETORIAN CHALLENGE</string>
+		<key>description</key>
+		<string>4 de Julio de 2015</string>
+		<key>city</key>
+		<string>Vila do Conde, Porto</string>
+		<key>cityImageName</key>
+		<string>viladocondeporto@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PRE EXTREM TITAN RACE</string>
+		<key>description</key>
+		<string>5 de Julio de 2015</string>
+		<key>city</key>
+		<string>Beniarbeig</string>
+		<key>cityImageName</key>
+		<string>beniarbeig@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HARD RUNNING</string>
+		<key>description</key>
+		<string>5 de Julio de 2015</string>
+		<key>city</key>
+		<string>Benejuzar Alicante</string>
+		<key>cityImageName</key>
+		<string>benejuzaralizante@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PALLARS DE FERRO</string>
+		<key>description</key>
+		<string>5 de Julio de 2015</string>
+		<key>city</key>
+		<string>Llavorsi, Lleida</string>
+		<key>cityImageName</key>
+		<string>llavorsilleida@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>XTREM RUNNING</string>
+		<key>description</key>
+		<string>11 de Julio de 2015</string>
+		<key>city</key>
+		<string>Benidorm</string>
+		<key>cityImageName</key>
+		<string>benidorm@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HARD RUNNING</string>
+		<key>description</key>
+		<string>11 de Julio de 2015</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>cityImageName</key>
+		<string>madrid@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>INFINITY EXTREM</string>
+		<key>description</key>
+		<string>18 de Julio de 2015</string>
+		<key>city</key>
+		<string>Canarias</string>
+		<key>cityImageName</key>
+		<string>canarias@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>EXTREM RUNNING</string>
+		<key>description</key>
+		<string>25 de Julio de 2015</string>
+		<key>city</key>
+		<string>El Campello</string>
+		<key>cityImageName</key>
+		<string>elcampello@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>EXTREM RUNNING</string>
+		<key>description</key>
+		<string>8 de Agosto de 2015</string>
+		<key>city</key>
+		<string>Alicante</string>
+		<key>cityImageName</key>
+		<string>alicante@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>TOMATINA RACE</string>
+		<key>description</key>
+		<string>22 de Agosto de 2015</string>
+		<key>city</key>
+		<string>Bunyol</string>
+		<key>cityImageName</key>
+		<string>bunyol@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>XTREM RUNNING</string>
+		<key>description</key>
+		<string>22 de Agosto de 2015</string>
+		<key>city</key>
+		<string>La Nucia</string>
+		<key>cityImageName</key>
+		<string>lanuncia@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BELIK RACE</string>
+		<key>description</key>
+		<string>22 de Agosto de 2015</string>
+		<key>city</key>
+		<string>Buitrago de Lozoya</string>
+		<key>cityImageName</key>
+		<string>buitragodelozoya@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MASTODONT RACE</string>
+		<key>description</key>
+		<string>23 de Agosto de 2015</string>
+		<key>city</key>
+		<string>Los Yebenes</string>
+		<key>cityImageName</key>
+		<string>losyebenes@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>CORRELLETS</string>
+		<key>description</key>
+		<string>29 de Agosto de 2015</string>
+		<key>city</key>
+		<string>Granollers</string>
+		<key>cityImageName</key>
+		<string>granollers@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HERCULES XTREM GAMES</string>
+		<key>description</key>
+		<string>29 Y 30 de Agosto de 2015</string>
+		<key>city</key>
+		<string>Cabeza de Manzaneda</string>
+		<key>cityImageName</key>
+		<string>canezademanzaneda@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>THE HERO RACE</string>
+		<key>description</key>
+		<string>5 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>cityImageName</key>
+		<string>madrid@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>K10 XTREME YAIZA</string>
+		<key>description</key>
+		<string>5 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Lanzarote</string>
+		<key>cityImageName</key>
+		<string>lanzarote@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FARINATO RACE</string>
+		<key>description</key>
+		<string>12 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Palma de Mallorca</string>
+		<key>cityImageName</key>
+		<string>palmademallorca@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>13 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>cityImageName</key>
+		<string>madrid@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>CARTHAGO ARENA RACE</string>
+		<key>description</key>
+		<string>19 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Cartagena</string>
+		<key>cityImageName</key>
+		<string>cartagenaespana@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FARINATO RACE</string>
+		<key>description</key>
+		<string>19 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Castelldefels, BCN</string>
+		<key>cityImageName</key>
+		<string>castelldefels@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>HISPANO XTREM</string>
+		<key>description</key>
+		<string>19 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Castuera</string>
+		<key>cityImageName</key>
+		<string>castuera@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>EXTREM TITAN VULCANO</string>
+		<key>description</key>
+		<string>20 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Beniarbeig, Alicante</string>
+		<key>cityImageName</key>
+		<string>beniarbeig@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>EXTREM TITAN RACE</string>
+		<key>description</key>
+		<string>20 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Beniarbeig, Alicante</string>
+		<key>cityImageName</key>
+		<string>beniarbeig@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MILITAR RACE</string>
+		<key>description</key>
+		<string>26 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Telde</string>
+		<key>cityImageName</key>
+		<string>telde@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>GLADIATUS RACE</string>
+		<key>description</key>
+		<string>27 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Bierzo</string>
+		<key>cityImageName</key>
+		<string>bierzo@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>WILD CHALLENGE INFERNO</string>
+		<key>description</key>
+		<string>27 de Septiembre de 2015</string>
+		<key>city</key>
+		<string>Algarve</string>
+		<key>cityImageName</key>
+		<string>algarve@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>DESAFIO BOOTCAMP</string>
+		<key>description</key>
+		<string>3 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Samil, Vigo</string>
+		<key>cityImageName</key>
+		<string>samilvigo@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SURVIVOR RACE</string>
+		<key>description</key>
+		<string>3 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Benissa</string>
+		<key>cityImageName</key>
+		<string>benissa@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>4 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Alicante</string>
+		<key>cityImageName</key>
+		<string>alicante@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>CAESAR EXTREME</string>
+		<key>description</key>
+		<string>4 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Zaragoza</string>
+		<key>cityImageName</key>
+		<string>pinsequezaragoza@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>XTREME RUNNIG</string>
+		<key>description</key>
+		<string>9 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Torrevieja</string>
+		<key>cityImageName</key>
+		<string>alicante@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SPARTAN RACE</string>
+		<key>description</key>
+		<string>10 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Barcelona</string>
+		<key>cityImageName</key>
+		<string>barcelona@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>4FACTORS</string>
+		<key>description</key>
+		<string>11 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Igualada</string>
+		<key>cityImageName</key>
+		<string>igualada@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>11 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Sevilla</string>
+		<key>cityImageName</key>
+		<string>sevilla@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>18 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Barcelona</string>
+		<key>cityImageName</key>
+		<string>barcelona@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>GLADIATOR RACE</string>
+		<key>description</key>
+		<string>24 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Pontevedra</string>
+		<key>cityImageName</key>
+		<string>pontevedra@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>25 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Ciudad Real</string>
+		<key>cityImageName</key>
+		<string>ciudadreal@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BESTIAL Vs ZOMBIES</string>
+		<key>description</key>
+		<string>31 de Octubre de 2015</string>
+		<key>city</key>
+		<string>Las Palmas</string>
+		<key>cityImageName</key>
+		<string>laspalmas@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FARINATO RACE</string>
+		<key>description</key>
+		<string>1 de Noviembre de 2015</string>
+		<key>city</key>
+		<string>Valencia</string>
+		<key>cityImageName</key>
+		<string>valencia@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MERCENARI IBER</string>
+		<key>description</key>
+		<string>8 de Noviembre de 2015</string>
+		<key>city</key>
+		<string>Antella, Valencia</string>
+		<key>cityImageName</key>
+		<string>antellavalencia@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ETERNAL RUNNING</string>
+		<key>description</key>
+		<string>15 de Noviembre de 2015</string>
+		<key>city</key>
+		<string>Iznajar, Córdoba</string>
+		<key>cityImageName</key>
+		<string>iznajarcordoba@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FARINATO RACE</string>
+		<key>description</key>
+		<string>15 de Noviembre de 2015</string>
+		<key>city</key>
+		<string>Zamora</string>
+		<key>cityImageName</key>
+		<string>zamora@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SPARTAN RACE</string>
+		<key>description</key>
+		<string>28 de Noviembre de 2015</string>
+		<key>city</key>
+		<string>Valencia</string>
+		<key>cityImageName</key>
+		<string>valencia@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>BESTIAL RACE</string>
+		<key>description</key>
+		<string>12 de Diciembre de 2015</string>
+		<key>city</key>
+		<string>Gran Canaria</string>
+		<key>cityImageName</key>
+		<string>canarias@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FARINATO RACE</string>
+		<key>description</key>
+		<string>13 de Diciembre de 2015</string>
+		<key>city</key>
+		<string>Sevilla</string>
+		<key>cityImageName</key>
+		<string>sevilla@2x.png</string>
+	</dict>
+</array>
+</plist>

@@ -35,6 +35,25 @@
 		631AC4191B2839B90020D0E4 /* saltos_vertical_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC4181B2839B90020D0E4 /* saltos_vertical_2@2x.jpg */; };
 		631AC41B1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC41A1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg */; };
 		631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 631AC41C1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg */; };
+		631BFEEC1B3DC73F00656159 /* benejuzaralizante@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEE91B3DC73F00656159 /* benejuzaralizante@2x.png */; };
+		631BFEED1B3DC73F00656159 /* beniarbeig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEEA1B3DC73F00656159 /* beniarbeig@2x.png */; };
+		631BFEEE1B3DC73F00656159 /* viladocondeporto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEEB1B3DC73F00656159 /* viladocondeporto@2x.png */; };
+		631BFEF21B3DC8E900656159 /* canarias@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEEF1B3DC8E900656159 /* canarias@2x.png */; };
+		631BFEF31B3DC8E900656159 /* benidorm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEF01B3DC8E900656159 /* benidorm@2x.png */; };
+		631BFEF41B3DC8E900656159 /* llavorsilleida@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEF11B3DC8E900656159 /* llavorsilleida@2x.png */; };
+		631BFEF81B3DCB9E00656159 /* bunyol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEF51B3DCB9E00656159 /* bunyol@2x.png */; };
+		631BFEF91B3DCB9E00656159 /* alicante@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEF61B3DCB9E00656159 /* alicante@2x.png */; };
+		631BFEFA1B3DCB9E00656159 /* elcampello@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEF71B3DCB9E00656159 /* elcampello@2x.png */; };
+		631BFEFF1B3DCE9000656159 /* granollers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEFB1B3DCE9000656159 /* granollers@2x.png */; };
+		631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEFC1B3DCE9000656159 /* losyebenes@2x.png */; };
+		631BFF011B3DCE9000656159 /* buitragodelozoya@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEFD1B3DCE9000656159 /* buitragodelozoya@2x.png */; };
+		631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFEFE1B3DCE9000656159 /* lanuncia@2x.png */; };
+		631BFF061B3DD07600656159 /* palmademallorca@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF031B3DD07600656159 /* palmademallorca@2x.png */; };
+		631BFF071B3DD07600656159 /* lanzarote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF041B3DD07600656159 /* lanzarote@2x.png */; };
+		631BFF081B3DD07600656159 /* canezademanzaneda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF051B3DD07600656159 /* canezademanzaneda@2x.png */; };
+		631BFF0A1B3DD30D00656159 /* cartagenaespana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF091B3DD30D00656159 /* cartagenaespana@2x.png */; };
+		631BFF0D1B3DD4C200656159 /* castuera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF0B1B3DD4C200656159 /* castuera@2x.png */; };
+		631BFF0E1B3DD4C200656159 /* castelldefels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF0C1B3DD4C200656159 /* castelldefels@2x.png */; };
 		6331F9781B249FC800E43940 /* top_menu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9771B249FC800E43940 /* top_menu_bg@2x.png */; };
 		6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */; };
 		6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */; };
@@ -63,6 +82,33 @@
 		63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2081B24DB58000249F8 /* iconApp180x180.png */; };
 		63D6230A1B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */; };
 		63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */; };
+		63D9043B1B3FFC3D007E9E0C /* samilvigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904371B3FFC3D007E9E0C /* samilvigo@2x.png */; };
+		63D9043C1B3FFC3D007E9E0C /* algarve@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904381B3FFC3D007E9E0C /* algarve@2x.png */; };
+		63D9043D1B3FFC3D007E9E0C /* bierzo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904391B3FFC3D007E9E0C /* bierzo@2x.png */; };
+		63D9043E1B3FFC3D007E9E0C /* telde@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9043A1B3FFC3D007E9E0C /* telde@2x.png */; };
+		63D904431B3FFE8B007E9E0C /* sevilla@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9043F1B3FFE8B007E9E0C /* sevilla@2x.png */; };
+		63D904441B3FFE8B007E9E0C /* igualada@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904401B3FFE8B007E9E0C /* igualada@2x.png */; };
+		63D904451B3FFE8B007E9E0C /* barcelona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904411B3FFE8B007E9E0C /* barcelona@2x.png */; };
+		63D904461B3FFE8B007E9E0C /* benissa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904421B3FFE8B007E9E0C /* benissa@2x.png */; };
+		63D904481B3FFF5D007E9E0C /* pontevedra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904471B3FFF5D007E9E0C /* pontevedra@2x.png */; };
+		63D9044A1B3FFFC6007E9E0C /* ciudadreal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904491B3FFFC6007E9E0C /* ciudadreal@2x.png */; };
+		63D9044C1B40003A007E9E0C /* laspalmas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9044B1B40003A007E9E0C /* laspalmas@2x.png */; };
+		63D9044E1B400365007E9E0C /* valencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9044D1B400365007E9E0C /* valencia@2x.png */; };
+		63D904501B4003FA007E9E0C /* antellavalencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9044F1B4003FA007E9E0C /* antellavalencia@2x.png */; };
+		63D904521B400485007E9E0C /* iznajarcordoba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904511B400485007E9E0C /* iznajarcordoba@2x.png */; };
+		63D904541B4004E3007E9E0C /* zamora@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904531B4004E3007E9E0C /* zamora@2x.png */; };
+		63DAD1811B3B227500E2A728 /* main_calendar_btn_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */; };
+		63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */; };
+		63DAD1861B3B238F00E2A728 /* calendario.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1851B3B238F00E2A728 /* calendario.plist */; };
+		63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAD1881B3B255800E2A728 /* CustomCell1.m */; };
+		63DAD18C1B3B2BDF00E2A728 /* pamplona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD18B1B3B2BDF00E2A728 /* pamplona@2x.png */; };
+		63DAD18F1B3B2F8300E2A728 /* sanpedrodepinatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD18D1B3B2F8300E2A728 /* sanpedrodepinatar@2x.png */; };
+		63DAD1901B3B2F8300E2A728 /* santiagodecompostela@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD18E1B3B2F8300E2A728 /* santiagodecompostela@2x.png */; };
+		63DAD1931B3B30D400E2A728 /* almeria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1911B3B30D400E2A728 /* almeria@2x.png */; };
+		63DAD1941B3B30D400E2A728 /* madrid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1921B3B30D400E2A728 /* madrid@2x.png */; };
+		63DAD1961B3B343600E2A728 /* alamedadelasagra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1951B3B343600E2A728 /* alamedadelasagra@2x.png */; };
+		63DAD1981B3B343E00E2A728 /* tenerife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1971B3B343E00E2A728 /* tenerife@2x.png */; };
+		63DAD19A1B3B344F00E2A728 /* pinsequezaragoza@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1991B3B344F00E2A728 /* pinsequezaragoza@2x.png */; };
 		63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDAFE1B301612000BEDDC /* barbell_row_1@2x.jpg */; };
 		63DDDB011B301612000BEDDC /* barbell_row_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDAFF1B301612000BEDDC /* barbell_row_2@2x.jpg */; };
 		63DDDB041B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DDDB021B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg */; };
@@ -136,6 +182,25 @@
 		631AC4181B2839B90020D0E4 /* saltos_vertical_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_vertical_2@2x.jpg"; sourceTree = "<group>"; };
 		631AC41A1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pushup_triceps_1@2x.jpg"; sourceTree = "<group>"; };
 		631AC41C1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pushup_triceps_2@2x.jpg"; sourceTree = "<group>"; };
+		631BFEE91B3DC73F00656159 /* benejuzaralizante@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benejuzaralizante@2x.png"; sourceTree = "<group>"; };
+		631BFEEA1B3DC73F00656159 /* beniarbeig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beniarbeig@2x.png"; sourceTree = "<group>"; };
+		631BFEEB1B3DC73F00656159 /* viladocondeporto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "viladocondeporto@2x.png"; sourceTree = "<group>"; };
+		631BFEEF1B3DC8E900656159 /* canarias@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canarias@2x.png"; sourceTree = "<group>"; };
+		631BFEF01B3DC8E900656159 /* benidorm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benidorm@2x.png"; sourceTree = "<group>"; };
+		631BFEF11B3DC8E900656159 /* llavorsilleida@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "llavorsilleida@2x.png"; sourceTree = "<group>"; };
+		631BFEF51B3DCB9E00656159 /* bunyol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bunyol@2x.png"; sourceTree = "<group>"; };
+		631BFEF61B3DCB9E00656159 /* alicante@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alicante@2x.png"; sourceTree = "<group>"; };
+		631BFEF71B3DCB9E00656159 /* elcampello@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elcampello@2x.png"; sourceTree = "<group>"; };
+		631BFEFB1B3DCE9000656159 /* granollers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "granollers@2x.png"; sourceTree = "<group>"; };
+		631BFEFC1B3DCE9000656159 /* losyebenes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "losyebenes@2x.png"; sourceTree = "<group>"; };
+		631BFEFD1B3DCE9000656159 /* buitragodelozoya@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buitragodelozoya@2x.png"; sourceTree = "<group>"; };
+		631BFEFE1B3DCE9000656159 /* lanuncia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanuncia@2x.png"; sourceTree = "<group>"; };
+		631BFF031B3DD07600656159 /* palmademallorca@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "palmademallorca@2x.png"; sourceTree = "<group>"; };
+		631BFF041B3DD07600656159 /* lanzarote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanzarote@2x.png"; sourceTree = "<group>"; };
+		631BFF051B3DD07600656159 /* canezademanzaneda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canezademanzaneda@2x.png"; sourceTree = "<group>"; };
+		631BFF091B3DD30D00656159 /* cartagenaespana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cartagenaespana@2x.png"; sourceTree = "<group>"; };
+		631BFF0B1B3DD4C200656159 /* castuera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castuera@2x.png"; sourceTree = "<group>"; };
+		631BFF0C1B3DD4C200656159 /* castelldefels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castelldefels@2x.png"; sourceTree = "<group>"; };
 		6331F9771B249FC800E43940 /* top_menu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_menu_bg@2x.png"; sourceTree = "<group>"; };
 		6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_1@2x.jpg"; sourceTree = "<group>"; };
 		6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_2@2x.jpg"; sourceTree = "<group>"; };
@@ -165,6 +230,35 @@
 		63CAB2081B24DB58000249F8 /* iconApp180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp180x180.png; sourceTree = "<group>"; };
 		63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_1@2x.jpg"; sourceTree = "<group>"; };
 		63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_2@2x.jpg"; sourceTree = "<group>"; };
+		63D904371B3FFC3D007E9E0C /* samilvigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "samilvigo@2x.png"; sourceTree = "<group>"; };
+		63D904381B3FFC3D007E9E0C /* algarve@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "algarve@2x.png"; sourceTree = "<group>"; };
+		63D904391B3FFC3D007E9E0C /* bierzo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bierzo@2x.png"; sourceTree = "<group>"; };
+		63D9043A1B3FFC3D007E9E0C /* telde@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telde@2x.png"; sourceTree = "<group>"; };
+		63D9043F1B3FFE8B007E9E0C /* sevilla@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sevilla@2x.png"; sourceTree = "<group>"; };
+		63D904401B3FFE8B007E9E0C /* igualada@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "igualada@2x.png"; sourceTree = "<group>"; };
+		63D904411B3FFE8B007E9E0C /* barcelona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barcelona@2x.png"; sourceTree = "<group>"; };
+		63D904421B3FFE8B007E9E0C /* benissa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "benissa@2x.png"; sourceTree = "<group>"; };
+		63D904471B3FFF5D007E9E0C /* pontevedra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pontevedra@2x.png"; sourceTree = "<group>"; };
+		63D904491B3FFFC6007E9E0C /* ciudadreal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ciudadreal@2x.png"; sourceTree = "<group>"; };
+		63D9044B1B40003A007E9E0C /* laspalmas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laspalmas@2x.png"; sourceTree = "<group>"; };
+		63D9044D1B400365007E9E0C /* valencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "valencia@2x.png"; sourceTree = "<group>"; };
+		63D9044F1B4003FA007E9E0C /* antellavalencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "antellavalencia@2x.png"; sourceTree = "<group>"; };
+		63D904511B400485007E9E0C /* iznajarcordoba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iznajarcordoba@2x.png"; sourceTree = "<group>"; };
+		63D904531B4004E3007E9E0C /* zamora@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zamora@2x.png"; sourceTree = "<group>"; };
+		63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_calendar_btn_ios7@2x.png"; sourceTree = "<group>"; };
+		63DAD1821B3B233300E2A728 /* ICOCalendarioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOCalendarioTableViewController.h; sourceTree = "<group>"; };
+		63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOCalendarioTableViewController.m; sourceTree = "<group>"; };
+		63DAD1851B3B238F00E2A728 /* calendario.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = calendario.plist; sourceTree = "<group>"; };
+		63DAD1871B3B255800E2A728 /* CustomCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell1.h; sourceTree = "<group>"; };
+		63DAD1881B3B255800E2A728 /* CustomCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell1.m; sourceTree = "<group>"; };
+		63DAD18B1B3B2BDF00E2A728 /* pamplona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pamplona@2x.png"; sourceTree = "<group>"; };
+		63DAD18D1B3B2F8300E2A728 /* sanpedrodepinatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanpedrodepinatar@2x.png"; sourceTree = "<group>"; };
+		63DAD18E1B3B2F8300E2A728 /* santiagodecompostela@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "santiagodecompostela@2x.png"; sourceTree = "<group>"; };
+		63DAD1911B3B30D400E2A728 /* almeria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "almeria@2x.png"; sourceTree = "<group>"; };
+		63DAD1921B3B30D400E2A728 /* madrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "madrid@2x.png"; sourceTree = "<group>"; };
+		63DAD1951B3B343600E2A728 /* alamedadelasagra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alamedadelasagra@2x.png"; sourceTree = "<group>"; };
+		63DAD1971B3B343E00E2A728 /* tenerife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tenerife@2x.png"; sourceTree = "<group>"; };
+		63DAD1991B3B344F00E2A728 /* pinsequezaragoza@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinsequezaragoza@2x.png"; sourceTree = "<group>"; };
 		63DDDAFE1B301612000BEDDC /* barbell_row_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbell_row_1@2x.jpg"; sourceTree = "<group>"; };
 		63DDDAFF1B301612000BEDDC /* barbell_row_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barbell_row_2@2x.jpg"; sourceTree = "<group>"; };
 		63DDDB021B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45_lat_pullDown_1@2x.jpg"; sourceTree = "<group>"; };
@@ -284,6 +378,55 @@
 			name = EXERCISES_SPARTAN_NIVEL_2;
 			sourceTree = "<group>";
 		};
+		63DAD18A1B3B2BCE00E2A728 /* CITY */ = {
+			isa = PBXGroup;
+			children = (
+				63D904531B4004E3007E9E0C /* zamora@2x.png */,
+				63D904511B400485007E9E0C /* iznajarcordoba@2x.png */,
+				63D9044F1B4003FA007E9E0C /* antellavalencia@2x.png */,
+				63D9044D1B400365007E9E0C /* valencia@2x.png */,
+				63DAD18B1B3B2BDF00E2A728 /* pamplona@2x.png */,
+				63DAD18D1B3B2F8300E2A728 /* sanpedrodepinatar@2x.png */,
+				63DAD18E1B3B2F8300E2A728 /* santiagodecompostela@2x.png */,
+				63DAD1911B3B30D400E2A728 /* almeria@2x.png */,
+				63DAD1921B3B30D400E2A728 /* madrid@2x.png */,
+				63DAD1951B3B343600E2A728 /* alamedadelasagra@2x.png */,
+				63DAD1971B3B343E00E2A728 /* tenerife@2x.png */,
+				63DAD1991B3B344F00E2A728 /* pinsequezaragoza@2x.png */,
+				631BFEE91B3DC73F00656159 /* benejuzaralizante@2x.png */,
+				631BFEEA1B3DC73F00656159 /* beniarbeig@2x.png */,
+				631BFEEB1B3DC73F00656159 /* viladocondeporto@2x.png */,
+				631BFEEF1B3DC8E900656159 /* canarias@2x.png */,
+				631BFEF01B3DC8E900656159 /* benidorm@2x.png */,
+				631BFEF11B3DC8E900656159 /* llavorsilleida@2x.png */,
+				631BFEF51B3DCB9E00656159 /* bunyol@2x.png */,
+				631BFEF61B3DCB9E00656159 /* alicante@2x.png */,
+				631BFEF71B3DCB9E00656159 /* elcampello@2x.png */,
+				631BFEFB1B3DCE9000656159 /* granollers@2x.png */,
+				631BFEFC1B3DCE9000656159 /* losyebenes@2x.png */,
+				631BFEFD1B3DCE9000656159 /* buitragodelozoya@2x.png */,
+				631BFEFE1B3DCE9000656159 /* lanuncia@2x.png */,
+				631BFF031B3DD07600656159 /* palmademallorca@2x.png */,
+				631BFF041B3DD07600656159 /* lanzarote@2x.png */,
+				631BFF051B3DD07600656159 /* canezademanzaneda@2x.png */,
+				63D9044B1B40003A007E9E0C /* laspalmas@2x.png */,
+				631BFF091B3DD30D00656159 /* cartagenaespana@2x.png */,
+				631BFF0B1B3DD4C200656159 /* castuera@2x.png */,
+				631BFF0C1B3DD4C200656159 /* castelldefels@2x.png */,
+				63D904371B3FFC3D007E9E0C /* samilvigo@2x.png */,
+				63D904381B3FFC3D007E9E0C /* algarve@2x.png */,
+				63D904391B3FFC3D007E9E0C /* bierzo@2x.png */,
+				63D9043A1B3FFC3D007E9E0C /* telde@2x.png */,
+				63D9043F1B3FFE8B007E9E0C /* sevilla@2x.png */,
+				63D904491B3FFFC6007E9E0C /* ciudadreal@2x.png */,
+				63D904401B3FFE8B007E9E0C /* igualada@2x.png */,
+				63D904411B3FFE8B007E9E0C /* barcelona@2x.png */,
+				63D904421B3FFE8B007E9E0C /* benissa@2x.png */,
+				63D904471B3FFF5D007E9E0C /* pontevedra@2x.png */,
+			);
+			name = CITY;
+			sourceTree = "<group>";
+		};
 		63E620AF1B28D0F0005BAC37 /* EXERCISES_SPARTAN_NIVEL_3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +478,7 @@
 				63EDAFBB1B209925007355D6 /* spartanLevel2.plist */,
 				63EDAFBD1B20AC79007355D6 /* spartanLevel3.plist */,
 				63EDAFBF1B20B1CA007355D6 /* spartanLevel4.plist */,
+				63DAD1851B3B238F00E2A728 /* calendario.plist */,
 			);
 			name = MODELS;
 			sourceTree = "<group>";
@@ -346,6 +490,8 @@
 				63EDAF731B207427007355D6 /* AppDelegate.m */,
 				63EDAFB51B2094A1007355D6 /* CustomCell.h */,
 				63EDAFB61B2094A1007355D6 /* CustomCell.m */,
+				63DAD1871B3B255800E2A728 /* CustomCell1.h */,
+				63DAD1881B3B255800E2A728 /* CustomCell1.m */,
 				63EDAF951B20913D007355D6 /* ICOSpartanNivel1TableViewController.h */,
 				63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */,
 				63EDAFC71B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.h */,
@@ -362,6 +508,8 @@
 				63EDAFC51B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m */,
 				63EDAFD01B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.h */,
 				63EDAFD11B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m */,
+				63DAD1821B3B233300E2A728 /* ICOCalendarioTableViewController.h */,
+				63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */,
 				63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */,
 				63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */,
 				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
@@ -428,6 +576,7 @@
 		63EDAF9C1B2093D2007355D6 /* IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				63DAD18A1B3B2BCE00E2A728 /* CITY */,
 				63E620C41B28DCC2005BAC37 /* EXERCISES_SPARTAN_NIVEL_4 */,
 				63E620AF1B28D0F0005BAC37 /* EXERCISES_SPARTAN_NIVEL_3 */,
 				631AC4091B2835730020D0E4 /* EXERCISES_SPARTAN_NIVEL_2 */,
@@ -445,6 +594,7 @@
 				63CAB2081B24DB58000249F8 /* iconApp180x180.png */,
 				6331F9771B249FC800E43940 /* top_menu_bg@2x.png */,
 				6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */,
+				63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -510,21 +660,28 @@
 				63E620B21B28D109005BAC37 /* press_militar_1@2x.jpg in Resources */,
 				631AC3FC1B282CAD0020D0E4 /* press_hombro_2@2x.jpg in Resources */,
 				6307DAAA1B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg in Resources */,
+				631BFEF41B3DC8E900656159 /* llavorsilleida@2x.png in Resources */,
 				631AC4151B2838860020D0E4 /* press_hombro_45_2@2x.jpg in Resources */,
 				63ABD3051B302BF20099F520 /* fondo_band_pushup_1@2x.jpg in Resources */,
 				631AC40B1B2836250020D0E4 /* fondos_elevados_1@2x.jpg in Resources */,
+				631BFEF31B3DC8E900656159 /* benidorm@2x.png in Resources */,
 				63E620BF1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg in Resources */,
 				63ABD3091B30340C0099F520 /* band_press_alterne_1@2x.jpg in Resources */,
+				63DAD1981B3B343E00E2A728 /* tenerife@2x.png in Resources */,
+				63D904521B400485007E9E0C /* iznajarcordoba@2x.png in Resources */,
 				6310E0ED1B27936E00093BE5 /* fondos_pelota_1@2x.jpg in Resources */,
 				631AC4191B2839B90020D0E4 /* saltos_vertical_2@2x.jpg in Resources */,
 				63EDAFBC1B209925007355D6 /* spartanLevel2.plist in Resources */,
 				631AC40D1B2836350020D0E4 /* fondos_elevados_2@2x.jpg in Resources */,
 				631AC3FA1B282CA10020D0E4 /* press_hombro_1@2x.jpg in Resources */,
+				631BFF011B3DCE9000656159 /* buitragodelozoya@2x.png in Resources */,
 				63E36F801B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg in Resources */,
 				63ABD30D1B3034930099F520 /* alternating_split_jump_2@2x.jpg in Resources */,
 				63DDDB041B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg in Resources */,
 				63DDDB091B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg in Resources */,
 				63E620B61B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg in Resources */,
+				63D9043E1B3FFC3D007E9E0C /* telde@2x.png in Resources */,
+				63D904501B4003FA007E9E0C /* antellavalencia@2x.png in Resources */,
 				6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */,
 				6307DAA91B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg in Resources */,
 				631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */,
@@ -532,23 +689,35 @@
 				63E620BA1B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg in Resources */,
 				63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */,
 				63E620C31B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg in Resources */,
+				63DAD1961B3B343600E2A728 /* alamedadelasagra@2x.png in Resources */,
 				6310E0F11B27951E00093BE5 /* sentadilla_peso_2@2x.jpg in Resources */,
+				63DAD1931B3B30D400E2A728 /* almeria@2x.png in Resources */,
+				63DAD1901B3B2F8300E2A728 /* santiagodecompostela@2x.png in Resources */,
 				631AC4131B28387F0020D0E4 /* press_hombro_45_1@2x.jpg in Resources */,
 				63EDAF791B207427007355D6 /* LaunchScreen.xib in Resources */,
 				63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */,
 				6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */,
+				63D904441B3FFE8B007E9E0C /* igualada@2x.png in Resources */,
 				637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */,
 				63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */,
 				637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */,
 				63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */,
 				63ABD30A1B30340C0099F520 /* band_press_alterne_2@2x.jpg in Resources */,
+				63D9044E1B400365007E9E0C /* valencia@2x.png in Resources */,
+				63D904431B3FFE8B007E9E0C /* sevilla@2x.png in Resources */,
 				631AC4021B282F230020D0E4 /* dominadas_opcion_1@2x.jpg in Resources */,
 				631AC4001B282E370020D0E4 /* burpees_militar_2@2x.jpg in Resources */,
+				631BFEFF1B3DCE9000656159 /* granollers@2x.png in Resources */,
+				631BFEEE1B3DC73F00656159 /* viladocondeporto@2x.png in Resources */,
+				63D904461B3FFE8B007E9E0C /* benissa@2x.png in Resources */,
 				6307DAA41B239761008B141A /* salto_vertical_1@2x.jpg in Resources */,
 				63DDDB0F1B301BCB000BEDDC /* press_hombro_rodilla_2@2x.jpg in Resources */,
 				63E36F841B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg in Resources */,
+				63D9044C1B40003A007E9E0C /* laspalmas@2x.png in Resources */,
 				63E620C81B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg in Resources */,
+				63DAD1941B3B30D400E2A728 /* madrid@2x.png in Resources */,
 				63DDDB051B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg in Resources */,
+				63D9043B1B3FFC3D007E9E0C /* samilvigo@2x.png in Resources */,
 				63CAB2031B24DAA8000249F8 /* iconApp87x87.png in Resources */,
 				6310E0F21B27951E00093BE5 /* sentadilla_peso_1@2x.jpg in Resources */,
 				63DDDB0D1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg in Resources */,
@@ -558,14 +727,27 @@
 				631AC40F1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg in Resources */,
 				63CAB2071B24DB01000249F8 /* iconApp120x120.png in Resources */,
 				63ABD3061B302BF20099F520 /* fondo_band_pushup_2@2x.jpg in Resources */,
+				631BFEF81B3DCB9E00656159 /* bunyol@2x.png in Resources */,
 				63CAB2061B24DB01000249F8 /* iconApp80x80.png in Resources */,
+				631BFF081B3DD07600656159 /* canezademanzaneda@2x.png in Resources */,
+				631BFEF91B3DCB9E00656159 /* alicante@2x.png in Resources */,
+				63DAD1861B3B238F00E2A728 /* calendario.plist in Resources */,
 				631AC4041B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg in Resources */,
+				631BFF0E1B3DD4C200656159 /* castelldefels@2x.png in Resources */,
 				63E620B31B28D109005BAC37 /* press_militar_2@2x.jpg in Resources */,
+				631BFEED1B3DC73F00656159 /* beniarbeig@2x.png in Resources */,
 				63E620B71B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg in Resources */,
+				63DAD19A1B3B344F00E2A728 /* pinsequezaragoza@2x.png in Resources */,
+				63D9043C1B3FFC3D007E9E0C /* algarve@2x.png in Resources */,
+				631BFEEC1B3DC73F00656159 /* benejuzaralizante@2x.png in Resources */,
 				63E620BB1B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg in Resources */,
 				63CAB2021B24DAA8000249F8 /* iconApp58x58.png in Resources */,
 				63EDAFC01B20B1CA007355D6 /* spartanLevel4.plist in Resources */,
+				63D904481B3FFF5D007E9E0C /* pontevedra@2x.png in Resources */,
 				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
+				631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */,
+				63DAD18C1B3B2BDF00E2A728 /* pamplona@2x.png in Resources */,
+				631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */,
 				63DDDB011B301612000BEDDC /* barbell_row_2@2x.jpg in Resources */,
 				6310E0EE1B27936E00093BE5 /* fondos_pelota_2@2x.jpg in Resources */,
 				63E36F7E1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg in Resources */,
@@ -573,21 +755,33 @@
 				631AC4071B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg in Resources */,
 				631AC4111B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg in Resources */,
 				63EDAF761B207427007355D6 /* Images.xcassets in Resources */,
+				63D904541B4004E3007E9E0C /* zamora@2x.png in Resources */,
+				63D9044A1B3FFFC6007E9E0C /* ciudadreal@2x.png in Resources */,
 				63E36F831B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg in Resources */,
 				631AC4171B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg in Resources */,
+				63DAD1811B3B227500E2A728 /* main_calendar_btn_ios7@2x.png in Resources */,
 				637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */,
 				631AC3F41B282A460020D0E4 /* fondos_cobra_1@2x.jpg in Resources */,
 				63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */,
 				631AC3F81B282AE50020D0E4 /* fondos_cobra_2@2x.jpg in Resources */,
 				63CAB1FB1B24D964000249F8 /* imagenLanzamientoApp@2x.png in Resources */,
+				631BFF0A1B3DD30D00656159 /* cartagenaespana@2x.png in Resources */,
 				63ABD30E1B3034930099F520 /* alternating_split_jump_1@2x.jpg in Resources */,
+				631BFF061B3DD07600656159 /* palmademallorca@2x.png in Resources */,
 				63E620C21B28DC1D005BAC37 /* abdominales_elevando_piernas_1@2x.jpg in Resources */,
+				63D9043D1B3FFC3D007E9E0C /* bierzo@2x.png in Resources */,
 				63D6230A1B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg in Resources */,
 				6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */,
+				631BFF071B3DD07600656159 /* lanzarote@2x.png in Resources */,
+				631BFEFA1B3DCB9E00656159 /* elcampello@2x.png in Resources */,
 				631AC41B1B283AD40020D0E4 /* pushup_triceps_1@2x.jpg in Resources */,
+				63D904451B3FFE8B007E9E0C /* barcelona@2x.png in Resources */,
+				63DAD18F1B3B2F8300E2A728 /* sanpedrodepinatar@2x.png in Resources */,
 				63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */,
 				63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */,
+				631BFF0D1B3DD4C200656159 /* castuera@2x.png in Resources */,
 				631AC4081B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg in Resources */,
+				631BFEF21B3DC8E900656159 /* canarias@2x.png in Resources */,
 				63ABD3121B3039680099F520 /* arnold_press_2@2x.jpg in Resources */,
 				631AC3FE1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg in Resources */,
 				63EDAFBE1B20AC79007355D6 /* spartanLevel3.plist in Resources */,
@@ -603,9 +797,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */,
 				63EDAF741B207427007355D6 /* AppDelegate.m in Sources */,
 				63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */,
 				63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */,
+				63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
 				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
@@ -663,7 +859,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
@@ -679,7 +875,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
@@ -723,7 +919,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
@@ -762,7 +958,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 				SDKROOT = iphoneos;
@@ -777,7 +973,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
@@ -791,7 +987,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
