@@ -493,6 +493,50 @@
             </objects>
             <point key="canvasLocation" x="975" y="3051"/>
         </scene>
+        <!--Ourl Web View Controller-->
+        <scene sceneID="5lR-N1-fac">
+            <objects>
+                <viewController storyboardIdentifier="detailUrlWeb" id="6rq-kr-iY7" customClass="ICOurlWebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8hs-wd-goD"/>
+                        <viewControllerLayoutGuide type="bottom" id="st3-Sg-q7C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dQu-J1-b48">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F4I-ja-lDz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="6rq-kr-iY7" id="Ofo-Ik-R66"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="PYO-Vh-N7H">
+                                <rect key="frame" x="150" y="274" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="PYO-Vh-N7H" secondAttribute="centerX" id="2yN-wg-9Ew"/>
+                            <constraint firstAttribute="centerY" secondItem="PYO-Vh-N7H" secondAttribute="centerY" id="BOL-va-WGH"/>
+                            <constraint firstItem="F4I-ja-lDz" firstAttribute="top" secondItem="dQu-J1-b48" secondAttribute="topMargin" id="OV9-M1-ElX"/>
+                            <constraint firstAttribute="centerY" secondItem="F4I-ja-lDz" secondAttribute="centerY" id="WoR-ck-iIO"/>
+                            <constraint firstItem="F4I-ja-lDz" firstAttribute="leading" secondItem="dQu-J1-b48" secondAttribute="leadingMargin" constant="-16" id="bFn-Ew-ZMs"/>
+                            <constraint firstItem="st3-Sg-q7C" firstAttribute="top" secondItem="F4I-ja-lDz" secondAttribute="bottom" id="bjb-e3-dxw"/>
+                            <constraint firstAttribute="centerX" secondItem="F4I-ja-lDz" secondAttribute="centerX" id="cgk-o1-Gao"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F4I-ja-lDz" secondAttribute="trailing" constant="-16" id="q3a-ei-d6D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showConnectionWithUrlWebActivityIndicator" destination="PYO-Vh-N7H" id="iYl-IN-bkK"/>
+                        <outlet property="showUrlWebView" destination="F4I-ja-lDz" id="izu-6O-ZHY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OGB-gG-phZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1415" y="3051"/>
+        </scene>
         <!--Consejos-->
         <scene sceneID="pbQ-o8-lQj">
             <objects>
@@ -505,25 +549,120 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQX-ti-dwl">
-                                <rect key="frame" x="54" y="133" width="77" height="30"/>
-                                <state key="normal" title="Consejos 1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Establecer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibd-MX-4ch">
+                                <rect key="frame" x="93" y="85" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Objetivo Diario" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ON-bW-ARj">
+                                <rect key="frame" x="169" y="85" width="105" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="main_goal_animation_flag_image_ios7.png" translatesAutoresizingMaskIntoConstraints="NO" id="gug-qc-vXL">
+                                <rect key="frame" x="46" y="72" width="35" height="35"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpM-yU-ijK">
+                                <rect key="frame" x="78" y="125" width="165" height="170"/>
+                                <state key="normal" image="workout_12.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eVi-uH-Hd5" kind="push" id="aqH-MI-P1N"/>
+                                    <segue destination="eVi-uH-Hd5" kind="push" id="cBz-vl-z0J"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6g3-ET-X0x">
+                                <rect key="frame" x="78" y="241" width="165" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Consejos para" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt0-fg-aQ8">
+                                <rect key="frame" x="84" y="241" width="105" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CARRERAS DE OBSTÁCULOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwX-Sh-nRA">
+                                <rect key="frame" x="84" y="261" width="159" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHW-lw-L3d">
+                                <rect key="frame" x="78" y="303" width="165" height="170"/>
+                                <state key="normal" image="workout_58.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZY9-Sb-zKe" kind="push" id="rJq-7Q-umL"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cI-Iq-2BN">
+                                <rect key="frame" x="78" y="419" width="165" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Consejos para" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idm-hI-rmT">
+                                <rect key="frame" x="84" y="422" width="105" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ANTES DE LA CARRERA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="que-Pz-IBa">
+                                <rect key="frame" x="84" y="442" width="159" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="que-Pz-IBa" secondAttribute="trailing" constant="61" id="05r-2z-pcL"/>
+                            <constraint firstItem="LHW-lw-L3d" firstAttribute="top" secondItem="NwX-Sh-nRA" secondAttribute="bottom" constant="21" id="2km-XP-ocb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LHW-lw-L3d" secondAttribute="trailing" constant="61" id="2y0-QZ-mlD"/>
+                            <constraint firstItem="LHW-lw-L3d" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="62" id="4J8-HK-ZWx"/>
+                            <constraint firstItem="Ibd-MX-4ch" firstAttribute="top" secondItem="eAD-ga-wfB" secondAttribute="bottom" constant="21" id="6M6-kL-T3x"/>
+                            <constraint firstItem="que-Pz-IBa" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="68" id="6da-GP-vDh"/>
+                            <constraint firstItem="0cI-Iq-2BN" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="62" id="7Jw-Lv-d0M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="idm-hI-rmT" secondAttribute="trailing" constant="115" id="7Zy-3Z-mB3"/>
+                            <constraint firstAttribute="centerX" secondItem="CpM-yU-ijK" secondAttribute="centerX" id="856-gN-uxJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NwX-Sh-nRA" secondAttribute="trailing" constant="61" id="AId-FD-cf3"/>
+                            <constraint firstItem="que-Pz-IBa" firstAttribute="top" secondItem="6g3-ET-X0x" secondAttribute="bottom" constant="147" id="DuC-yj-FVD"/>
+                            <constraint firstItem="hCv-fa-C5d" firstAttribute="top" secondItem="0cI-Iq-2BN" secondAttribute="bottom" constant="46" id="EC9-uO-m8Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6g3-ET-X0x" secondAttribute="trailing" constant="61" id="IjZ-x2-sit"/>
+                            <constraint firstItem="NwX-Sh-nRA" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="68" id="LFp-5D-btn"/>
+                            <constraint firstItem="idm-hI-rmT" firstAttribute="top" secondItem="6g3-ET-X0x" secondAttribute="bottom" constant="127" id="Mh2-tC-6Qr"/>
+                            <constraint firstItem="hCv-fa-C5d" firstAttribute="top" secondItem="LHW-lw-L3d" secondAttribute="bottom" constant="46" id="OTs-eg-Oon"/>
+                            <constraint firstItem="hCv-fa-C5d" firstAttribute="top" secondItem="que-Pz-IBa" secondAttribute="bottom" constant="56" id="PuD-MJ-EPU"/>
+                            <constraint firstItem="tt0-fg-aQ8" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="68" id="TxJ-HY-qGY"/>
+                            <constraint firstItem="tt0-fg-aQ8" firstAttribute="top" secondItem="8ON-bW-ARj" secondAttribute="bottom" constant="135" id="UcA-Xr-Arg"/>
+                            <constraint firstItem="LHW-lw-L3d" firstAttribute="top" secondItem="6g3-ET-X0x" secondAttribute="bottom" constant="8" id="Vrs-VH-FKz"/>
+                            <constraint firstAttribute="centerX" secondItem="LHW-lw-L3d" secondAttribute="centerX" id="WqV-Lq-dwc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0cI-Iq-2BN" secondAttribute="trailing" constant="61" id="aZE-No-pk1"/>
+                            <constraint firstItem="gug-qc-vXL" firstAttribute="top" secondItem="eAD-ga-wfB" secondAttribute="bottom" constant="8" id="cRL-zQ-A9Z"/>
+                            <constraint firstItem="hCv-fa-C5d" firstAttribute="top" secondItem="idm-hI-rmT" secondAttribute="bottom" constant="76" id="cx2-dh-LF3"/>
+                            <constraint firstItem="0cI-Iq-2BN" firstAttribute="top" secondItem="6g3-ET-X0x" secondAttribute="bottom" constant="124" id="dZg-Ko-0qk"/>
+                            <constraint firstItem="NwX-Sh-nRA" firstAttribute="top" secondItem="8ON-bW-ARj" secondAttribute="bottom" constant="155" id="dew-EF-a5O"/>
+                            <constraint firstItem="CpM-yU-ijK" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="62" id="fTq-go-Bh8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tt0-fg-aQ8" secondAttribute="trailing" constant="115" id="fpE-03-L64"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CpM-yU-ijK" secondAttribute="trailing" constant="61" id="h0i-A1-pCM"/>
+                            <constraint firstItem="6g3-ET-X0x" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="62" id="mp1-kf-ON2"/>
+                            <constraint firstItem="6g3-ET-X0x" firstAttribute="top" secondItem="8ON-bW-ARj" secondAttribute="bottom" constant="135" id="n48-Jq-mf8"/>
+                            <constraint firstItem="LHW-lw-L3d" firstAttribute="top" secondItem="tt0-fg-aQ8" secondAttribute="bottom" constant="41" id="qcZ-8h-Gi8"/>
+                            <constraint firstItem="LHW-lw-L3d" firstAttribute="top" secondItem="CpM-yU-ijK" secondAttribute="bottom" constant="8" id="wej-LX-qqn"/>
+                            <constraint firstItem="8ON-bW-ARj" firstAttribute="top" secondItem="eAD-ga-wfB" secondAttribute="bottom" constant="21" id="xeC-x6-rM6"/>
+                            <constraint firstItem="CpM-yU-ijK" firstAttribute="top" secondItem="8ON-bW-ARj" secondAttribute="bottom" constant="19" id="yV0-uW-Xrv"/>
+                            <constraint firstItem="idm-hI-rmT" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="68" id="z1U-Me-726"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Consejos" id="hOd-qK-r3e"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQs-42-Ygj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="975" y="3707"/>
         </scene>
-        <!--Consejos 1-->
+        <!--Carreras de Obstáculos-->
         <scene sceneID="uMe-7Q-3nk">
             <objects>
                 <viewController id="eVi-uH-Hd5" sceneMemberID="viewController">
@@ -534,13 +673,48 @@
                     <view key="view" contentMode="scaleToFill" id="aR8-1E-FfJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVT-hA-SI4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">CONSEJOS PARA DOMINAR LAS CARRERAS DE OBSTACULOS
+
+1.	HAZTE AMIGO DE TU PEOR ENEMIGO : BURPEES
+
++ Usa lo burpees para calentar y vete aumentando el número cada día, es importante ganar forma física con este ejercicio y controlar los que consigues hacer sin parar.
+
+2.	DOMINA TU PESO CORPORAL: Dominadas y Flexiones
++ En este tipo de carreras ha y muchos obstáculos que implican la parte superior del cuerpo, por lo que es importante entrenar con tu propio peso antes que con pesos muertos 
+
+3.	TRABAJOS CON KETTLELBELLS 
++ Un sola Kettlebells puede darte mas y mejores sesiones de entrenamiento que todos los apararos de un gimnasio juntos.
++ Haz sentadillas, swings , átala a una cuerda y arrástrala , súbela tipo polea, se creativo.
+4.	INTERVALOS, TU MEJOR ALIADO
++ Haz series de 400 a 600 metros de distancia a un ritmo fuerte corriendo y luego sigue con tus ejercicios. Por cada 2 series de ejercicios trata de meter una carrera. Es lo mas parecido a saltar un obstáculo y seguir corriendo
+5.	HAZTE AMIGO DE LAS COSAS MAS RARAS
++ Nunca sabes que prueba te va a tocar, y cada año son más creativos, por lo que prueba a entrenar o simplemente por curiosidad, con objetos extraños ( piedras, sacos, troncos, botellas de 20 litros de agua, todo lo que se os ocurra)
+
+6.	SE UN TODO TERRENO
++ Busca zonas con muchos desniveles y subidas muy fuertes, porque eso será lo que te encuentres en las carreras. La gente entrena en gimnasios y asfalto y cuando lega a la carrera se quedan en la primera subida. MUY IMPORTATE entrena los desniveles
+
+7.	LA CUERDA NO ES EXCUSA
++ Es técnica y poca fuerza aunque no lo crea la gente. Se riguroso y entrénala para mejorar tu técnica 
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vVT-hA-SI4" secondAttribute="centerX" id="KZE-5U-gcG"/>
+                            <constraint firstAttribute="centerY" secondItem="vVT-hA-SI4" secondAttribute="centerY" id="flb-iY-ZGI"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Consejos 1" id="5d3-2f-jLB"/>
+                    <navigationItem key="navigationItem" title="Carreras de Obstáculos" id="5d3-2f-jLB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03l-MK-9Bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1527" y="3580"/>
+            <point key="canvasLocation" x="1415" y="3707"/>
         </scene>
         <!--Nivel 4-->
         <scene sceneID="w8b-j5-mM4">
@@ -776,7 +950,7 @@
         <scene sceneID="Pct-Ia-Hwt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w7M-SJ-QrO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Consejos" id="Mka-Mk-hvJ"/>
+                    <tabBarItem key="tabBarItem" title="Consejos" image="main_goal_animation_flag_image.png" id="Mka-Mk-hvJ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QbR-Gj-aJq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -791,6 +965,64 @@
             </objects>
             <point key="canvasLocation" x="542" y="3707"/>
         </scene>
+        <!--Antes de la Carrera-->
+        <scene sceneID="dSB-qL-pj5">
+            <objects>
+                <viewController id="ZY9-Sb-zKe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TVt-cc-v0l"/>
+                        <viewControllerLayoutGuide type="bottom" id="M5u-7a-hO3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gg0-TK-PJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" canCancelContentTouches="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0p-qO-dRf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">CONSEJOS PARA ANTES DE LA CARRERA
+
+
+1.	Necesitas moverte el día antes de la carrera, para que tus músculos tengan flexibilidad. Corre ligero y entrena algunos burpees, con esto entraran todos 
+los músculos en calor. No te pases y ahorra energía!!!
+
+2.	Baja un poco el ritmo de la ultima semana, es necesario que estés al 100% en a carrera, pero mantén la intensidad y acorta los descansos.
+
+3.	Beber antes de la carrera no es la solución, desde los días anteriores necesitas ir hidratando tu cuerpo.
+
+
+4.	Come limpio de grasas los días anteriores y tampoco te pases con los carbohidratos o te sentirás pesado ( recomendado, carnes magras, fruta y frutos secos ). 
+
+5.	Justo horas antes de la carrera si es importante  recargar tu energía, utiliza carbohidratos y algo de grasas, porque lo necesitaras.
+
+
+6.	Dormir bien las noches anteriores es fundamental, ya que la noche de la carrera te costara dormir. Aunque no lo creas tu cabeza ya esta preparándose para el evento y no descansas
+
+7.	IMPORTANTEISIMO!!! Ropa y calzado trail cómoda y que se seque rápido. Normalmente nada mas iniciar la carrera te ponen una prueba de barro u agua para que empieces a meterte en el papel.
+
+
+8.	Dependiendo de lo DURO que seas usas mallas largas y camisetas de manga larga, siempre muy ajustado, ya que cualquier rozadura puede ser peor que cualquier carrera.
+
+9.	Los guantes son un buen aliado si los mantienes limpios en el agarre. Te ayudaran en varias pruebas pero es importante restregarlos con arena para que la superficie de agarre este siempre apta para no resbalar, sino serán tu peor enemigo.
+
+10.	ESTIRAR LOS MÚSCULOS.!!! La gente no le da importancia, pero en estas pruebas hay muchos impactos que nos pillan por sorpresa, es importante que te pille a ti pero no a tus musculo, tienen que responder para todo tipo de sorpresas.
+</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="l0p-qO-dRf" secondAttribute="centerY" id="Bqe-uQ-xXf"/>
+                            <constraint firstAttribute="centerX" secondItem="l0p-qO-dRf" secondAttribute="centerX" id="DKc-SY-Gem"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Antes de la Carrera" id="i5r-UI-aGZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z23-zh-fks" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1415" y="4343"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ICOSPARTAN.png" width="30" height="35"/>
@@ -799,6 +1031,10 @@
         <image name="TRIFECA_2M.png" width="40" height="35"/>
         <image name="TRIFECA_3M.png" width="35" height="35"/>
         <image name="main_calendar_btn_ios7.png" width="22" height="22"/>
+        <image name="main_goal_animation_flag_image.png" width="23" height="25"/>
+        <image name="main_goal_animation_flag_image_ios7.png" width="23" height="25"/>
+        <image name="workout_12.png" width="200" height="200"/>
+        <image name="workout_58.png" width="200" height="200"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

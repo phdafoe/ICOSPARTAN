@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "Appirater.h"
+
 
 @interface AppDelegate ()
 
@@ -22,33 +24,29 @@
     [self customizeNavigationBar];
     
     
-    /*//Crear el background
-    UIView* statusBg = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.window.frame.size.width, 20)];
-     
-    statusBg.backgroundColor = [UIColor colorWithWhite:1 alpha:1];
     
-    //Aderir la vista detras el status bar
-    [self.window.rootViewController.view addSubview:statusBg];
-    
-    //set the constraints to auto-resize
-     
-    statusBg.translatesAutoresizingMaskIntoConstraints = NO;
-     
-    [statusBg.superview addConstraint:[NSLayoutConstraint constraintWithItem:statusBg attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:statusBg.superview attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0]];
-     
-    [statusBg.superview addConstraint:[NSLayoutConstraint constraintWithItem:statusBg attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:statusBg.superview attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0.0]];
-     
-    [statusBg.superview addConstraint:[NSLayoutConstraint constraintWithItem:statusBg attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:statusBg.superview attribute:NSLayoutAttributeRight multiplier:1.0 constant:0.0]];
-     
-    [statusBg.superview addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[statusBg(==20)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(statusBg)]];
-     
-    [statusBg.superview setNeedsUpdateConstraints];*/
     
     
     
     UIView *view=[[UIView alloc] initWithFrame:CGRectMake(0, 0,self.window.frame.size.width, 20)];
     view.backgroundColor=[UIColor colorWithWhite:1 alpha:1];
     [self.window.rootViewController.view addSubview:view];
+    
+    //Para valorar la App
+    [Appirater setAppId:@"1007362230"];
+    [Appirater setDaysUntilPrompt:7];
+    [Appirater setUsesUntilPrompt:5];
+    [Appirater setSignificantEventsUntilPrompt:-1];
+    [Appirater setTimeBeforeReminding:2];
+    [Appirater setDebug:NO];
+    
+    [Appirater setCustomAlertTitle:@"Valorar"];
+    [Appirater setCustomAlertMessage:@"Si te gusta la App, te importaría valorarla? no te llevará más de un minuto. Gracias!! por tu colaboración"];
+    [Appirater setCustomAlertRateButtonTitle:@"Valorar"];
+    [Appirater setCustomAlertRateLaterButtonTitle:@"Recordar más tarde"];
+    [Appirater setCustomAlertCancelButtonTitle:@"No Gracias!!"];
+    
+    [Appirater appLaunched:YES];
 
  
     return YES;
@@ -66,6 +64,10 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
+    [Appirater appEnteredForeground:YES];
+    
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {

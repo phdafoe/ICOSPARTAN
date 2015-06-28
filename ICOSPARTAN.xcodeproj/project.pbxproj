@@ -82,6 +82,11 @@
 		63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2081B24DB58000249F8 /* iconApp180x180.png */; };
 		63D6230A1B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */; };
 		63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */; };
+		63D777181B403FD60052D61B /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D776B31B403FD60052D61B /* Appirater.m */; };
+		63D777191B403FD60052D61B /* Appirater.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 63D776B41B403FD60052D61B /* Appirater.podspec.json */; };
+		63D777431B4040790052D61B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D777401B40405D0052D61B /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		63D777441B4040790052D61B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D7773E1B4040550052D61B /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		63D777451B4040790052D61B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D7773C1B4040480052D61B /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		63D9043B1B3FFC3D007E9E0C /* samilvigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904371B3FFC3D007E9E0C /* samilvigo@2x.png */; };
 		63D9043C1B3FFC3D007E9E0C /* algarve@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904381B3FFC3D007E9E0C /* algarve@2x.png */; };
 		63D9043D1B3FFC3D007E9E0C /* bierzo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904391B3FFC3D007E9E0C /* bierzo@2x.png */; };
@@ -97,6 +102,11 @@
 		63D904501B4003FA007E9E0C /* antellavalencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9044F1B4003FA007E9E0C /* antellavalencia@2x.png */; };
 		63D904521B400485007E9E0C /* iznajarcordoba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904511B400485007E9E0C /* iznajarcordoba@2x.png */; };
 		63D904541B4004E3007E9E0C /* zamora@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904531B4004E3007E9E0C /* zamora@2x.png */; };
+		63D904561B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904551B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png */; };
+		63D904581B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */; };
+		63D9045A1B4009D7007E9E0C /* workout_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904591B4009D7007E9E0C /* workout_12@2x.png */; };
+		63D9045C1B400A16007E9E0C /* workout_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9045B1B400A16007E9E0C /* workout_58@2x.png */; };
+		63D904611B401429007E9E0C /* ICOurlWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D904601B401429007E9E0C /* ICOurlWebViewController.m */; };
 		63DAD1811B3B227500E2A728 /* main_calendar_btn_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */; };
 		63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */; };
 		63DAD1861B3B238F00E2A728 /* calendario.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1851B3B238F00E2A728 /* calendario.plist */; };
@@ -230,6 +240,13 @@
 		63CAB2081B24DB58000249F8 /* iconApp180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp180x180.png; sourceTree = "<group>"; };
 		63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_1@2x.jpg"; sourceTree = "<group>"; };
 		63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_2@2x.jpg"; sourceTree = "<group>"; };
+		63D776B21B403FD60052D61B /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		63D776B31B403FD60052D61B /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		63D776B41B403FD60052D61B /* Appirater.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Appirater.podspec.json; sourceTree = "<group>"; };
+		63D776B51B403FD60052D61B /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		63D7773C1B4040480052D61B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		63D7773E1B4040550052D61B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63D777401B40405D0052D61B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		63D904371B3FFC3D007E9E0C /* samilvigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "samilvigo@2x.png"; sourceTree = "<group>"; };
 		63D904381B3FFC3D007E9E0C /* algarve@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "algarve@2x.png"; sourceTree = "<group>"; };
 		63D904391B3FFC3D007E9E0C /* bierzo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bierzo@2x.png"; sourceTree = "<group>"; };
@@ -245,6 +262,12 @@
 		63D9044F1B4003FA007E9E0C /* antellavalencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "antellavalencia@2x.png"; sourceTree = "<group>"; };
 		63D904511B400485007E9E0C /* iznajarcordoba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iznajarcordoba@2x.png"; sourceTree = "<group>"; };
 		63D904531B4004E3007E9E0C /* zamora@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zamora@2x.png"; sourceTree = "<group>"; };
+		63D904551B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_goal_animation_flag_image_ios7@2x.png"; sourceTree = "<group>"; };
+		63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_goal_animation_flag_image@2x.png"; sourceTree = "<group>"; };
+		63D904591B4009D7007E9E0C /* workout_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout_12@2x.png"; sourceTree = "<group>"; };
+		63D9045B1B400A16007E9E0C /* workout_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout_58@2x.png"; sourceTree = "<group>"; };
+		63D9045F1B401429007E9E0C /* ICOurlWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOurlWebViewController.h; sourceTree = "<group>"; };
+		63D904601B401429007E9E0C /* ICOurlWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOurlWebViewController.m; sourceTree = "<group>"; };
 		63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_calendar_btn_ios7@2x.png"; sourceTree = "<group>"; };
 		63DAD1821B3B233300E2A728 /* ICOCalendarioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOCalendarioTableViewController.h; sourceTree = "<group>"; };
 		63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOCalendarioTableViewController.m; sourceTree = "<group>"; };
@@ -322,6 +345,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D777431B4040790052D61B /* StoreKit.framework in Frameworks */,
+				63D777441B4040790052D61B /* SystemConfiguration.framework in Frameworks */,
+				63D777451B4040790052D61B /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +357,7 @@
 		6307DAA61B239766008B141A /* EXERCISES_SPARTAN_NIVEL_1 */ = {
 			isa = PBXGroup;
 			children = (
+				63D904551B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png */,
 				6307DAA21B239761008B141A /* salto_vertical_1@2x.jpg */,
 				6307DAA31B239761008B141A /* salto_vertical_2@2x.jpg */,
 				6307DAA81B239B15008B141A /* flexiones_alterne_brazos_1@2x.jpg */,
@@ -376,6 +403,35 @@
 				63E36F821B28B8990017AB98 /* abdominales_cuarta_2@2x.jpg */,
 			);
 			name = EXERCISES_SPARTAN_NIVEL_2;
+			sourceTree = "<group>";
+		};
+		63D776B01B403F8D0052D61B /* PROJECT */ = {
+			isa = PBXGroup;
+			children = (
+				63EDAF6D1B207427007355D6 /* ICOSPARTAN */,
+			);
+			name = PROJECT;
+			sourceTree = "<group>";
+		};
+		63D776B11B403FB50052D61B /* APPPIRATE */ = {
+			isa = PBXGroup;
+			children = (
+				63D776B21B403FD60052D61B /* Appirater.h */,
+				63D776B31B403FD60052D61B /* Appirater.m */,
+				63D776B41B403FD60052D61B /* Appirater.podspec.json */,
+				63D776B51B403FD60052D61B /* AppiraterDelegate.h */,
+			);
+			name = APPPIRATE;
+			sourceTree = "<group>";
+		};
+		63D777421B4040630052D61B /* FRAMEWORKS */ = {
+			isa = PBXGroup;
+			children = (
+				63D777401B40405D0052D61B /* StoreKit.framework */,
+				63D7773E1B4040550052D61B /* SystemConfiguration.framework */,
+				63D7773C1B4040480052D61B /* CFNetwork.framework */,
+			);
+			name = FRAMEWORKS;
 			sourceTree = "<group>";
 		};
 		63DAD18A1B3B2BCE00E2A728 /* CITY */ = {
@@ -510,6 +566,8 @@
 				63EDAFD11B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m */,
 				63DAD1821B3B233300E2A728 /* ICOCalendarioTableViewController.h */,
 				63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */,
+				63D9045F1B401429007E9E0C /* ICOurlWebViewController.h */,
+				63D904601B401429007E9E0C /* ICOurlWebViewController.m */,
 				63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */,
 				63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */,
 				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
@@ -522,7 +580,8 @@
 		63EDAF621B207426007355D6 = {
 			isa = PBXGroup;
 			children = (
-				63EDAF6D1B207427007355D6 /* ICOSPARTAN */,
+				63D777421B4040630052D61B /* FRAMEWORKS */,
+				63D776B01B403F8D0052D61B /* PROJECT */,
 				63EDAF811B207427007355D6 /* ICOSPARTANTests */,
 				63EDAF6C1B207427007355D6 /* Products */,
 			);
@@ -539,6 +598,7 @@
 		63EDAF6D1B207427007355D6 /* ICOSPARTAN */ = {
 			isa = PBXGroup;
 			children = (
+				63D776B11B403FB50052D61B /* APPPIRATE */,
 				63E620C91B28DFA0005BAC37 /* MODELS */,
 				63EDAF9C1B2093D2007355D6 /* IMAGES */,
 				63E620CA1B28DFCB005BAC37 /* CLASS */,
@@ -595,6 +655,9 @@
 				6331F9771B249FC800E43940 /* top_menu_bg@2x.png */,
 				6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */,
 				63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */,
+				63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */,
+				63D904591B4009D7007E9E0C /* workout_12@2x.png */,
+				63D9045B1B400A16007E9E0C /* workout_58@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -641,6 +704,37 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				es,
+				fi,
+				fr,
+				he,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nb,
+				nl,
+				pl,
+				"pt-BR",
+				pt,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 63EDAF621B207426007355D6;
 			productRefGroup = 63EDAF6C1B207427007355D6 /* Products */;
@@ -698,12 +792,14 @@
 				63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */,
 				6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */,
 				63D904441B3FFE8B007E9E0C /* igualada@2x.png in Resources */,
+				63D9045C1B400A16007E9E0C /* workout_58@2x.png in Resources */,
 				637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */,
 				63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */,
 				637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */,
 				63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */,
 				63ABD30A1B30340C0099F520 /* band_press_alterne_2@2x.jpg in Resources */,
 				63D9044E1B400365007E9E0C /* valencia@2x.png in Resources */,
+				63D904561B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png in Resources */,
 				63D904431B3FFE8B007E9E0C /* sevilla@2x.png in Resources */,
 				631AC4021B282F230020D0E4 /* dominadas_opcion_1@2x.jpg in Resources */,
 				631AC4001B282E370020D0E4 /* burpees_militar_2@2x.jpg in Resources */,
@@ -743,6 +839,9 @@
 				63E620BB1B28DA49005BAC37 /* fondos_pie_elevado_2@2x.jpg in Resources */,
 				63CAB2021B24DAA8000249F8 /* iconApp58x58.png in Resources */,
 				63EDAFC01B20B1CA007355D6 /* spartanLevel4.plist in Resources */,
+				63D777191B403FD60052D61B /* Appirater.podspec.json in Resources */,
+				63D9045A1B4009D7007E9E0C /* workout_12@2x.png in Resources */,
+				63D904581B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png in Resources */,
 				63D904481B3FFF5D007E9E0C /* pontevedra@2x.png in Resources */,
 				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
 				631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */,
@@ -801,6 +900,7 @@
 				63EDAF741B207427007355D6 /* AppDelegate.m in Sources */,
 				63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */,
 				63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */,
+				63D904611B401429007E9E0C /* ICOurlWebViewController.m in Sources */,
 				63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
@@ -810,6 +910,7 @@
 				63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */,
 				63EDAFC91B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m in Sources */,
 				63EDAFD21B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m in Sources */,
+				63D777181B403FD60052D61B /* Appirater.m in Sources */,
 				63EDAF711B207427007355D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
