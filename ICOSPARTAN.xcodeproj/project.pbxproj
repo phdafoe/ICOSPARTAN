@@ -146,7 +146,6 @@
 		63EDAF711B207427007355D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF701B207427007355D6 /* main.m */; };
 		63EDAF741B207427007355D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF731B207427007355D6 /* AppDelegate.m */; };
 		63EDAF761B207427007355D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF751B207427007355D6 /* Images.xcassets */; };
-		63EDAF791B207427007355D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF771B207427007355D6 /* LaunchScreen.xib */; };
 		63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF931B2090D2007355D6 /* Storyboard.storyboard */; };
 		63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */; };
 		63EDAF9E1B20940D007355D6 /* spartanLevel1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF9D1B20940D007355D6 /* spartanLevel1.plist */; };
@@ -312,7 +311,6 @@
 		63EDAF721B207427007355D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63EDAF731B207427007355D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63EDAF751B207427007355D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		63EDAF781B207427007355D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		63EDAF831B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF841B207427007355D6 /* ICOSPARTANTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICOSPARTANTests.m; sourceTree = "<group>"; };
 		63EDAF931B2090D2007355D6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -572,7 +570,6 @@
 				63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */,
 				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
 				63EDAF751B207427007355D6 /* Images.xcassets */,
-				63EDAF771B207427007355D6 /* LaunchScreen.xib */,
 			);
 			name = CLASS;
 			sourceTree = "<group>";
@@ -703,38 +700,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
-				ar,
-				ca,
-				cs,
-				da,
-				de,
-				el,
-				es,
-				fi,
-				fr,
-				he,
-				hu,
-				id,
-				it,
-				ja,
-				ko,
-				ms,
-				nb,
-				nl,
-				pl,
-				"pt-BR",
-				pt,
-				ro,
-				ru,
-				sk,
-				sv,
-				th,
-				tr,
-				uk,
-				vi,
-				"zh-Hans",
-				"zh-Hant",
 			);
 			mainGroup = 63EDAF621B207426007355D6;
 			productRefGroup = 63EDAF6C1B207427007355D6 /* Products */;
@@ -788,7 +753,6 @@
 				63DAD1931B3B30D400E2A728 /* almeria@2x.png in Resources */,
 				63DAD1901B3B2F8300E2A728 /* santiagodecompostela@2x.png in Resources */,
 				631AC4131B28387F0020D0E4 /* press_hombro_45_1@2x.jpg in Resources */,
-				63EDAF791B207427007355D6 /* LaunchScreen.xib in Resources */,
 				63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */,
 				6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */,
 				63D904441B3FFE8B007E9E0C /* igualada@2x.png in Resources */,
@@ -916,17 +880,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		63EDAF771B207427007355D6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63EDAF781B207427007355D6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		63ABD3151B303B410099F520 /* Distribution */ = {
