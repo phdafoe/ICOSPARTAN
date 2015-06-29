@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8Y5-Vs-aM1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="urT-mS-ix1">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -8,7 +8,7 @@
         <!--Spartan Nivel 1-->
         <scene sceneID="4M2-Eo-gp3">
             <objects>
-                <tableViewController id="MJm-wd-rPC" customClass="ICOSpartanNivel1TableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="primerController" id="MJm-wd-rPC" customClass="ICOSpartanNivel1TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="89" sectionHeaderHeight="22" sectionFooterHeight="22" id="Pqr-9P-hTv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,7 +57,13 @@
                             <outlet property="delegate" destination="MJm-wd-rPC" id="Kxs-6V-RS2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Spartan Nivel 1" id="fNh-zA-swf"/>
+                    <navigationItem key="navigationItem" title="Spartan Nivel 1" id="fNh-zA-swf">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="YLL-1H-hoY">
+                            <connections>
+                                <action selector="showMenuSpartan:" destination="MJm-wd-rPC" id="0h8-mc-qMD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4UF-VF-yyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -128,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="1415" y="187"/>
         </scene>
-        <!--Galeria-->
+        <!--Home-->
         <scene sceneID="1J8-qg-ud0">
             <objects>
-                <viewController id="LaH-ch-Jwd" customClass="ICOGaleriaViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeController" id="LaH-ch-Jwd" customClass="ICOGaleriaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WLS-Vh-n1x"/>
                         <viewControllerLayoutGuide type="bottom" id="9cy-T6-3Jh"/>
@@ -161,6 +167,13 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Galeria" image="ICOSPARTAN.png" id="0wk-cd-MLv"/>
+                    <navigationItem key="navigationItem" title="Home" id="Wt2-8n-dHh">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="uhm-R8-cit">
+                            <connections>
+                                <action selector="showMenuSpartan:" destination="LaH-ch-Jwd" id="TEx-8r-rmw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="pageControll" destination="u6W-Ic-l8q" id="u60-9C-02z"/>
                         <outlet property="scrollView" destination="mB8-dr-Fcl" id="rv2-Es-mkz"/>
@@ -168,12 +181,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYK-iy-JMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542" y="-462"/>
+            <point key="canvasLocation" x="554" y="-502"/>
         </scene>
         <!--Nivel 1-->
         <scene sceneID="E8c-A0-RaC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gPb-FU-Z5G" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31Z-QK-sTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="contentController" automaticallyAdjustsScrollViewInsets="NO" id="gPb-FU-Z5G" customClass="ICONavigationViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Nivel 1" image="TRIFECA_0M.png" id="Fh6-hf-YtC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cQ6-aW-0DD">
@@ -182,40 +196,22 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="MJm-wd-rPC" kind="relationship" relationship="rootViewController" id="VUa-w2-XB9"/>
+                        <segue destination="9eU-rR-k5P" kind="push" identifier="Segundo" id="6yK-qt-jHo"/>
+                        <segue destination="mxL-sM-WTX" kind="push" identifier="Tercero" id="Jpu-70-7X3"/>
+                        <segue destination="2Kg-f4-tEa" kind="push" identifier="Cuarto" id="FYw-BW-oFd"/>
+                        <segue destination="aEd-2P-C31" kind="push" identifier="Quinto" id="lOD-ut-nJU"/>
+                        <segue destination="S2b-lE-q7t" kind="push" identifier="Sexto" id="64Z-A1-DyM"/>
+                        <segue destination="MJm-wd-rPC" kind="push" identifier="Primero" id="Nzy-WR-zE9"/>
+                        <segue destination="LaH-ch-Jwd" kind="relationship" relationship="rootViewController" id="PEY-Ii-2uU"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="31Z-QK-sTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542" y="187"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="z0g-jS-zcG">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="8Y5-Vs-aM1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="FML-Ji-wjG">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="gPb-FU-Z5G" kind="relationship" relationship="viewControllers" id="i68-ER-nLw"/>
-                        <segue destination="edm-ag-CSZ" kind="relationship" relationship="viewControllers" id="Mrx-8i-Z5y"/>
-                        <segue destination="FhO-XW-rB6" kind="relationship" relationship="viewControllers" id="9br-aq-zjo"/>
-                        <segue destination="Dne-1N-9Y6" kind="relationship" relationship="viewControllers" id="c4w-p8-x7K"/>
-                        <segue destination="3N7-P8-WbL" kind="relationship" relationship="viewControllers" id="7V0-kc-JRn"/>
-                        <segue destination="w7M-SJ-QrO" kind="relationship" relationship="viewControllers" id="YDA-Mv-5a2"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yaX-Pt-A1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="71" y="212"/>
+            <point key="canvasLocation" x="98" y="113"/>
         </scene>
         <!--Spartan Nivel 2-->
         <scene sceneID="ce6-eH-JSf">
             <objects>
-                <tableViewController id="9eU-rR-k5P" customClass="ICOSpartanNivel2TableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="segundoController" id="9eU-rR-k5P" customClass="ICOSpartanNivel2TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="89" sectionHeaderHeight="22" sectionFooterHeight="22" id="iLz-XL-PKf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,35 +260,22 @@
                             <outlet property="delegate" destination="9eU-rR-k5P" id="yyR-9q-Egc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Spartan Nivel 2" id="sxC-cE-EfF"/>
+                    <navigationItem key="navigationItem" title="Spartan Nivel 2" id="sxC-cE-EfF">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="B7y-uV-3ed">
+                            <connections>
+                                <action selector="showMenuSpartan:" destination="9eU-rR-k5P" id="UD5-ug-PoG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Zy-Pj-bzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="982" y="954"/>
         </scene>
-        <!--Nivel 2-->
-        <scene sceneID="9Zo-ih-VES">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="edm-ag-CSZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Nivel 2" image="TRIFECA_1M.png" id="DmH-IR-l4a"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Agj-2a-bSy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="9eU-rR-k5P" kind="relationship" relationship="rootViewController" id="ac7-fa-tN1"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Av0-9W-m9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="542" y="954"/>
-        </scene>
         <!--Spartan Nivel 3-->
         <scene sceneID="QY9-zX-Vqt">
             <objects>
-                <tableViewController id="mxL-sM-WTX" customClass="ICOSpartanNivel3TableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="tercerController" id="mxL-sM-WTX" customClass="ICOSpartanNivel3TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="89" sectionHeaderHeight="22" sectionFooterHeight="22" id="IkY-Vh-La8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -341,35 +324,66 @@
                             <outlet property="delegate" destination="mxL-sM-WTX" id="fza-41-gha"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Spartan Nivel 3" id="OFJ-Xg-BYd"/>
+                    <navigationItem key="navigationItem" title="Spartan Nivel 3" id="OFJ-Xg-BYd">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="fF0-6W-dCG">
+                            <connections>
+                                <action selector="showMenuSpartan:" destination="mxL-sM-WTX" id="TQU-mH-aMI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7E-VG-2Jt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="982" y="1643"/>
         </scene>
-        <!--Nivel 3-->
-        <scene sceneID="CLA-mH-XYi">
+        <!--Root View Controller-->
+        <scene sceneID="Rt6-Sm-Ctb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FhO-XW-rB6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Nivel 3" image="TRIFECA_2M.png" id="AyR-sj-k5J"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OZO-Cy-W1i">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="mxL-sM-WTX" kind="relationship" relationship="rootViewController" id="oJB-qk-tl7"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6rf-Ws-CYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="urT-mS-ix1" customClass="ICORootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BIX-EM-Jze"/>
+                        <viewControllerLayoutGuide type="bottom" id="VGz-bs-7Fb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2pC-Ud-K6Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZs-dd-TFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542" y="1643"/>
+            <point key="canvasLocation" x="-631" y="113"/>
+        </scene>
+        <!--Menu Table View Controller-->
+        <scene sceneID="BpV-Pb-ezp">
+            <objects>
+                <tableViewController storyboardIdentifier="menuController" id="fNP-Zi-wph" customClass="ICOMenuTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="eey-tG-n9i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ygD-zh-qdy">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ygD-zh-qdy" id="CXz-ak-z80">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fNP-Zi-wph" id="Fim-qf-ftl"/>
+                            <outlet property="delegate" destination="fNP-Zi-wph" id="hds-9c-ymZ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKM-Z2-vAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-255" y="113"/>
         </scene>
         <!--Spartan Nivel 4-->
         <scene sceneID="O2r-Tp-nxp">
             <objects>
-                <tableViewController id="2Kg-f4-tEa" customClass="ICOSpartanNivel4TableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="cuartoController" id="2Kg-f4-tEa" customClass="ICOSpartanNivel4TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="89" sectionHeaderHeight="22" sectionFooterHeight="22" id="gDo-ma-vya">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -418,7 +432,13 @@
                             <outlet property="delegate" destination="2Kg-f4-tEa" id="Kmr-dh-j1h"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Spartan Nivel 4" id="A2v-e1-tdb"/>
+                    <navigationItem key="navigationItem" title="Spartan Nivel 4" id="A2v-e1-tdb">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="q07-5O-Xnz">
+                            <connections>
+                                <action selector="showMenuSpartan:" destination="2Kg-f4-tEa" id="n7H-Oe-7uD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kym-HO-svJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -427,7 +447,7 @@
         <!--Calendario 2015-->
         <scene sceneID="wJo-7d-Ndd">
             <objects>
-                <tableViewController id="aEd-2P-C31" customClass="ICOCalendarioTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="quintoController" id="aEd-2P-C31" customClass="ICOCalendarioTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" sectionHeaderHeight="22" sectionFooterHeight="22" id="cbC-Ux-Wu8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -487,7 +507,13 @@
                             <outlet property="delegate" destination="aEd-2P-C31" id="mx1-rn-Rp5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Calendario 2015" id="V9Y-M7-dkm"/>
+                    <navigationItem key="navigationItem" title="Calendario 2015" id="V9Y-M7-dkm">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="vpN-jD-VGm">
+                            <connections>
+                                <action selector="showMenuSpartan:" destination="aEd-2P-C31" id="uKy-cF-cc7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W4G-Zf-v3M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -540,7 +566,7 @@
         <!--Consejos-->
         <scene sceneID="pbQ-o8-lQj">
             <objects>
-                <viewController id="S2b-lE-q7t" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sextoController" id="S2b-lE-q7t" customClass="ICOConsejosViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eAD-ga-wfB"/>
                         <viewControllerLayoutGuide type="bottom" id="hCv-fa-C5d"/>
@@ -564,7 +590,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="main_goal_animation_flag_image_ios7.png" translatesAutoresizingMaskIntoConstraints="NO" id="gug-qc-vXL">
                                 <rect key="frame" x="46" y="72" width="35" height="35"/>
                             </imageView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpM-yU-ijK">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpM-yU-ijK">
                                 <rect key="frame" x="78" y="125" width="165" height="170"/>
                                 <state key="normal" image="workout_12.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -573,23 +599,23 @@
                                     <segue destination="eVi-uH-Hd5" kind="push" id="cBz-vl-z0J"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6g3-ET-X0x">
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6g3-ET-X0x">
                                 <rect key="frame" x="78" y="241" width="165" height="54"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Consejos para" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt0-fg-aQ8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Consejos para" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt0-fg-aQ8">
                                 <rect key="frame" x="84" y="241" width="105" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CARRERAS DE OBSTÁCULOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwX-Sh-nRA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="CARRERAS DE OBSTÁCULOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwX-Sh-nRA">
                                 <rect key="frame" x="84" y="261" width="159" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHW-lw-L3d">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHW-lw-L3d">
                                 <rect key="frame" x="78" y="303" width="165" height="170"/>
                                 <state key="normal" image="workout_58.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -598,17 +624,17 @@
                                     <segue destination="ZY9-Sb-zKe" kind="push" id="rJq-7Q-umL"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cI-Iq-2BN">
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cI-Iq-2BN">
                                 <rect key="frame" x="78" y="419" width="165" height="54"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Consejos para" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idm-hI-rmT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Consejos para" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idm-hI-rmT">
                                 <rect key="frame" x="84" y="422" width="105" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ANTES DE LA CARRERA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="que-Pz-IBa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ANTES DE LA CARRERA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="que-Pz-IBa">
                                 <rect key="frame" x="84" y="442" width="159" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -655,7 +681,13 @@
                             <constraint firstItem="idm-hI-rmT" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="68" id="z1U-Me-726"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Consejos" id="hOd-qK-r3e"/>
+                    <navigationItem key="navigationItem" title="Consejos" id="hOd-qK-r3e">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="NGE-de-jyd">
+                            <connections>
+                                <action selector="showMenuSpartano:" destination="S2b-lE-q7t" id="q1c-yC-y2t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQs-42-Ygj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -715,25 +747,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03l-MK-9Bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1415" y="3707"/>
-        </scene>
-        <!--Nivel 4-->
-        <scene sceneID="w8b-j5-mM4">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dne-1N-9Y6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Nivel 4" image="TRIFECA_3M.png" id="DLI-2o-rnI"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WJV-Qw-184">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2Kg-f4-tEa" kind="relationship" relationship="rootViewController" id="Dub-E0-VQQ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ol0-Gk-FnO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="542" y="2410"/>
         </scene>
         <!--Detail Spartan Nivel2 View Controller-->
         <scene sceneID="aCa-pv-S8J">
@@ -927,44 +940,6 @@
             </objects>
             <point key="canvasLocation" x="1415" y="2410"/>
         </scene>
-        <!--Calendario-->
-        <scene sceneID="OoU-3B-Ada">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3N7-P8-WbL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Calendario" image="main_calendar_btn_ios7.png" id="90n-Kv-D7O"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FZ3-c3-l1d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="aEd-2P-C31" kind="relationship" relationship="rootViewController" id="hTN-up-INi"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MQ7-II-CPK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="542" y="3051"/>
-        </scene>
-        <!--Consejos-->
-        <scene sceneID="Pct-Ia-Hwt">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w7M-SJ-QrO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Consejos" image="main_goal_animation_flag_image.png" id="Mka-Mk-hvJ"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QbR-Gj-aJq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="S2b-lE-q7t" kind="relationship" relationship="rootViewController" id="ebI-tJ-GaI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vHR-Dw-f7U" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="542" y="3707"/>
-        </scene>
         <!--Antes de la Carrera-->
         <scene sceneID="dSB-qL-pj5">
             <objects>
@@ -1027,12 +1002,8 @@ los músculos en calor. No te pases y ahorra energía!!!
     <resources>
         <image name="ICOSPARTAN.png" width="30" height="35"/>
         <image name="TRIFECA_0M.png" width="29" height="35"/>
-        <image name="TRIFECA_1M.png" width="20" height="35"/>
-        <image name="TRIFECA_2M.png" width="40" height="35"/>
-        <image name="TRIFECA_3M.png" width="35" height="35"/>
-        <image name="main_calendar_btn_ios7.png" width="22" height="22"/>
-        <image name="main_goal_animation_flag_image.png" width="23" height="25"/>
         <image name="main_goal_animation_flag_image_ios7.png" width="23" height="25"/>
+        <image name="main_news_ios7.png" width="28" height="28"/>
         <image name="workout_12.png" width="200" height="200"/>
         <image name="workout_58.png" width="200" height="200"/>
     </resources>

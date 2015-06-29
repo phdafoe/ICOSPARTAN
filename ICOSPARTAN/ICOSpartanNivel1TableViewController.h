@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REFrostedViewController.h"
 
 @interface ICOSpartanNivel1TableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
@@ -14,5 +15,6 @@
 
 @property (nonatomic, strong) NSArray *spartanArray;
 @property (nonatomic, strong) NSDictionary *spartanDictionary;
+- (IBAction)showMenuSpartan:(id)sender;
 
 @end

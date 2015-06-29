@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REFrostedViewController.h"
 
 @interface ICOCalendarioTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
@@ -15,5 +16,6 @@
 @property (nonatomic, strong) NSArray *calendarArray;
 @property (nonatomic, strong) NSDictionary *calendarDictionary;
 
+- (IBAction)showMenuSpartan:(id)sender;
 
 @end

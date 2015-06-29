@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REFrostedViewController.h"
 
 @interface ICOGaleriaViewController : UIViewController <UIScrollViewDelegate>
 
@@ -14,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControll;
 
+- (IBAction)showMenuSpartan:(id)sender;
 
 
 @end

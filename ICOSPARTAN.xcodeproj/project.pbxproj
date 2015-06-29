@@ -80,6 +80,18 @@
 		63CAB2061B24DB01000249F8 /* iconApp80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2041B24DB01000249F8 /* iconApp80x80.png */; };
 		63CAB2071B24DB01000249F8 /* iconApp120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2051B24DB01000249F8 /* iconApp120x120.png */; };
 		63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2081B24DB58000249F8 /* iconApp180x180.png */; };
+		63D085F01B41E41B006E2518 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085E51B41E41B006E2518 /* RECommonFunctions.m */; };
+		63D085F11B41E41B006E2518 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085E71B41E41B006E2518 /* REFrostedContainerViewController.m */; };
+		63D085F21B41E41B006E2518 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085E91B41E41B006E2518 /* REFrostedViewController.m */; };
+		63D085F31B41E41B006E2518 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085EB1B41E41B006E2518 /* UIImage+REFrostedViewController.m */; };
+		63D085F41B41E41B006E2518 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085ED1B41E41B006E2518 /* UIView+REFrostedViewController.m */; };
+		63D085F51B41E41B006E2518 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085EF1B41E41B006E2518 /* UIViewController+REFrostedViewController.m */; };
+		63D085F81B41E450006E2518 /* ICORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085F71B41E450006E2518 /* ICORootViewController.m */; };
+		63D085FB1B41E523006E2518 /* ICONavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D085FA1B41E523006E2518 /* ICONavigationViewController.m */; };
+		63D085FF1B41E95E006E2518 /* main_news_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D085FE1B41E95E006E2518 /* main_news_ios7@2x.png */; };
+		63D086021B41EB19006E2518 /* ICOMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D086011B41EB19006E2518 /* ICOMenuTableViewController.m */; };
+		63D086041B41EBCA006E2518 /* avatar@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D086031B41EBCA006E2518 /* avatar@2x.jpg */; };
+		63D086071B41F067006E2518 /* ICOConsejosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D086061B41F067006E2518 /* ICOConsejosViewController.m */; };
 		63D6230A1B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */; };
 		63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */; };
 		63D777181B403FD60052D61B /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D776B31B403FD60052D61B /* Appirater.m */; };
@@ -237,6 +249,28 @@
 		63CAB2041B24DB01000249F8 /* iconApp80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp80x80.png; sourceTree = "<group>"; };
 		63CAB2051B24DB01000249F8 /* iconApp120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp120x120.png; sourceTree = "<group>"; };
 		63CAB2081B24DB58000249F8 /* iconApp180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconApp180x180.png; sourceTree = "<group>"; };
+		63D085E41B41E41B006E2518 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		63D085E51B41E41B006E2518 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		63D085E61B41E41B006E2518 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		63D085E71B41E41B006E2518 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		63D085E81B41E41B006E2518 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		63D085E91B41E41B006E2518 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		63D085EA1B41E41B006E2518 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		63D085EB1B41E41B006E2518 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		63D085EC1B41E41B006E2518 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		63D085ED1B41E41B006E2518 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		63D085EE1B41E41B006E2518 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		63D085EF1B41E41B006E2518 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		63D085F61B41E450006E2518 /* ICORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICORootViewController.h; sourceTree = "<group>"; };
+		63D085F71B41E450006E2518 /* ICORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICORootViewController.m; sourceTree = "<group>"; };
+		63D085F91B41E523006E2518 /* ICONavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICONavigationViewController.h; sourceTree = "<group>"; };
+		63D085FA1B41E523006E2518 /* ICONavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICONavigationViewController.m; sourceTree = "<group>"; };
+		63D085FE1B41E95E006E2518 /* main_news_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_news_ios7@2x.png"; sourceTree = "<group>"; };
+		63D086001B41EB19006E2518 /* ICOMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOMenuTableViewController.h; sourceTree = "<group>"; };
+		63D086011B41EB19006E2518 /* ICOMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOMenuTableViewController.m; sourceTree = "<group>"; };
+		63D086031B41EBCA006E2518 /* avatar@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar@2x.jpg"; sourceTree = "<group>"; };
+		63D086051B41F067006E2518 /* ICOConsejosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOConsejosViewController.h; sourceTree = "<group>"; };
+		63D086061B41F067006E2518 /* ICOConsejosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOConsejosViewController.m; sourceTree = "<group>"; };
 		63D623091B28949300E51A33 /* biceps_goma_sentado_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_1@2x.jpg"; sourceTree = "<group>"; };
 		63D6230B1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "biceps_goma_sentado_2@2x.jpg"; sourceTree = "<group>"; };
 		63D776B21B403FD60052D61B /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
@@ -403,6 +437,25 @@
 			name = EXERCISES_SPARTAN_NIVEL_2;
 			sourceTree = "<group>";
 		};
+		63D085E31B41E41B006E2518 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63D085E41B41E41B006E2518 /* RECommonFunctions.h */,
+				63D085E51B41E41B006E2518 /* RECommonFunctions.m */,
+				63D085E61B41E41B006E2518 /* REFrostedContainerViewController.h */,
+				63D085E71B41E41B006E2518 /* REFrostedContainerViewController.m */,
+				63D085E81B41E41B006E2518 /* REFrostedViewController.h */,
+				63D085E91B41E41B006E2518 /* REFrostedViewController.m */,
+				63D085EA1B41E41B006E2518 /* UIImage+REFrostedViewController.h */,
+				63D085EB1B41E41B006E2518 /* UIImage+REFrostedViewController.m */,
+				63D085EC1B41E41B006E2518 /* UIView+REFrostedViewController.h */,
+				63D085ED1B41E41B006E2518 /* UIView+REFrostedViewController.m */,
+				63D085EE1B41E41B006E2518 /* UIViewController+REFrostedViewController.h */,
+				63D085EF1B41E41B006E2518 /* UIViewController+REFrostedViewController.m */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
 		63D776B01B403F8D0052D61B /* PROJECT */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,6 +599,12 @@
 				63EDAFB61B2094A1007355D6 /* CustomCell.m */,
 				63DAD1871B3B255800E2A728 /* CustomCell1.h */,
 				63DAD1881B3B255800E2A728 /* CustomCell1.m */,
+				63D085F61B41E450006E2518 /* ICORootViewController.h */,
+				63D085F71B41E450006E2518 /* ICORootViewController.m */,
+				63D085F91B41E523006E2518 /* ICONavigationViewController.h */,
+				63D085FA1B41E523006E2518 /* ICONavigationViewController.m */,
+				63D086001B41EB19006E2518 /* ICOMenuTableViewController.h */,
+				63D086011B41EB19006E2518 /* ICOMenuTableViewController.m */,
 				63EDAF951B20913D007355D6 /* ICOSpartanNivel1TableViewController.h */,
 				63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */,
 				63EDAFC71B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.h */,
@@ -564,6 +623,8 @@
 				63EDAFD11B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m */,
 				63DAD1821B3B233300E2A728 /* ICOCalendarioTableViewController.h */,
 				63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */,
+				63D086051B41F067006E2518 /* ICOConsejosViewController.h */,
+				63D086061B41F067006E2518 /* ICOConsejosViewController.m */,
 				63D9045F1B401429007E9E0C /* ICOurlWebViewController.h */,
 				63D904601B401429007E9E0C /* ICOurlWebViewController.m */,
 				63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */,
@@ -595,6 +656,7 @@
 		63EDAF6D1B207427007355D6 /* ICOSPARTAN */ = {
 			isa = PBXGroup;
 			children = (
+				63D085E31B41E41B006E2518 /* REFrostedViewController */,
 				63D776B11B403FB50052D61B /* APPPIRATE */,
 				63E620C91B28DFA0005BAC37 /* MODELS */,
 				63EDAF9C1B2093D2007355D6 /* IMAGES */,
@@ -655,6 +717,8 @@
 				63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */,
 				63D904591B4009D7007E9E0C /* workout_12@2x.png */,
 				63D9045B1B400A16007E9E0C /* workout_58@2x.png */,
+				63D085FE1B41E95E006E2518 /* main_news_ios7@2x.png */,
+				63D086031B41EBCA006E2518 /* avatar@2x.jpg */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -745,6 +809,7 @@
 				6307DAA91B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg in Resources */,
 				631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */,
 				63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */,
+				63D086041B41EBCA006E2518 /* avatar@2x.jpg in Resources */,
 				63E620BA1B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg in Resources */,
 				63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */,
 				63E620C31B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg in Resources */,
@@ -808,6 +873,7 @@
 				63D904581B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png in Resources */,
 				63D904481B3FFF5D007E9E0C /* pontevedra@2x.png in Resources */,
 				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
+				63D085FF1B41E95E006E2518 /* main_news_ios7@2x.png in Resources */,
 				631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */,
 				63DAD18C1B3B2BDF00E2A728 /* pamplona@2x.png in Resources */,
 				631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */,
@@ -860,22 +926,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D086021B41EB19006E2518 /* ICOMenuTableViewController.m in Sources */,
 				63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */,
+				63D085F21B41E41B006E2518 /* REFrostedViewController.m in Sources */,
+				63D085F11B41E41B006E2518 /* REFrostedContainerViewController.m in Sources */,
 				63EDAF741B207427007355D6 /* AppDelegate.m in Sources */,
 				63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */,
+				63D085F41B41E41B006E2518 /* UIView+REFrostedViewController.m in Sources */,
 				63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */,
 				63D904611B401429007E9E0C /* ICOurlWebViewController.m in Sources */,
+				63D085F51B41E41B006E2518 /* UIViewController+REFrostedViewController.m in Sources */,
 				63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */,
+				63D085FB1B41E523006E2518 /* ICONavigationViewController.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
+				63D085F01B41E41B006E2518 /* RECommonFunctions.m in Sources */,
 				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
 				63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */,
 				63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */,
+				63D086071B41F067006E2518 /* ICOConsejosViewController.m in Sources */,
 				63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */,
 				63EDAFC91B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m in Sources */,
 				63EDAFD21B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m in Sources */,
 				63D777181B403FD60052D61B /* Appirater.m in Sources */,
+				63D085F81B41E450006E2518 /* ICORootViewController.m in Sources */,
 				63EDAF711B207427007355D6 /* main.m in Sources */,
+				63D085F31B41E41B006E2518 /* UIImage+REFrostedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
