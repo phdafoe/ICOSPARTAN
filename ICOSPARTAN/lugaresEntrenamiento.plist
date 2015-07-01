@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>PARQUE TIERNO GALVÁN</string>
+		<key>description</key>
+		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
+		<key>city</key>
+		<string>Madrid</string>
+		<key>parkImageName</key>
+		<string>parquetiernogalvan@2x.jpg</string>
+		<key>numberParkImageName</key>
+		<string>numero1@2x.png</string>
+		<key>parkBigImageName</key>
+		<string>numero1@2x.png</string>
+	</dict>
+</array>
+</plist>

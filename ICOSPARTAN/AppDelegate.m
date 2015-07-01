@@ -22,12 +22,7 @@
     
     //Configurar el aspecto de la Barra de NAvegacion
     [self customizeNavigationBar];
-    
-    
-    
-    
-    
-    
+
     UIView *view=[[UIView alloc] initWithFrame:CGRectMake(0, 0,self.window.frame.size.width, 20)];
     view.backgroundColor=[UIColor colorWithWhite:1 alpha:1];
     [self.window.rootViewController.view addSubview:view];
@@ -48,6 +43,17 @@
     
     [Appirater appLaunched:YES];
 
+    UILocalNotification *notification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if (notification) {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Entrénate con iCoSpartan"
+    message:notification.alertBody
+    delegate:nil
+    cancelButtonTitle:nil
+    otherButtonTitles:@"OK", nil];
+        
+    [alert show];
+        
+    }
  
     return YES;
 }

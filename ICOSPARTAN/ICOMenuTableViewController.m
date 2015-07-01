@@ -85,7 +85,7 @@
     if (sectionIndex == 0)
         return 0;
     
-    return 34;
+    return 24;
 }
 
 

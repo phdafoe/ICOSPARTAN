@@ -58,6 +58,15 @@
 		6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */; };
 		6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */; };
 		6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */; };
+		6347AE1F1B447ED800635E9C /* ICO_FOTO_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE1E1B447ED800635E9C /* ICO_FOTO_1@2x.png */; };
+		6347AE211B4484D500635E9C /* ICO_FOTO_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE201B4484D500635E9C /* ICO_FOTO_2@2x.png */; };
+		6347AE231B44853000635E9C /* workout_80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE221B44853000635E9C /* workout_80@2x.png */; };
+		6347AE251B44862800635E9C /* workout_map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE241B44862800635E9C /* workout_map@2x.png */; };
+		6347AE271B4488ED00635E9C /* lugaresEntrenamiento.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE261B4488ED00635E9C /* lugaresEntrenamiento.plist */; };
+		6347AE291B448A5A00635E9C /* parquetiernogalvan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE281B448A5A00635E9C /* parquetiernogalvan@2x.jpg */; };
+		6347AE2C1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347AE2B1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m */; };
+		6347AE2F1B448D5200635E9C /* CustomCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347AE2E1B448D5200635E9C /* CustomCell2.m */; };
+		6347AE311B448EE900635E9C /* numero1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE301B448EE900635E9C /* numero1@2x.png */; };
 		637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */; };
 		637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */; };
 		637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */; };
@@ -226,6 +235,17 @@
 		6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_1@2x.jpg"; sourceTree = "<group>"; };
 		6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_2@2x.jpg"; sourceTree = "<group>"; };
 		6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICOSPARTAN@2x.png"; sourceTree = "<group>"; };
+		6347AE1E1B447ED800635E9C /* ICO_FOTO_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICO_FOTO_1@2x.png"; sourceTree = "<group>"; };
+		6347AE201B4484D500635E9C /* ICO_FOTO_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICO_FOTO_2@2x.png"; sourceTree = "<group>"; };
+		6347AE221B44853000635E9C /* workout_80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout_80@2x.png"; sourceTree = "<group>"; };
+		6347AE241B44862800635E9C /* workout_map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout_map@2x.png"; sourceTree = "<group>"; };
+		6347AE261B4488ED00635E9C /* lugaresEntrenamiento.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lugaresEntrenamiento.plist; sourceTree = "<group>"; };
+		6347AE281B448A5A00635E9C /* parquetiernogalvan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "parquetiernogalvan@2x.jpg"; sourceTree = "<group>"; };
+		6347AE2A1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOMapasEntrenamientoTableViewController.h; sourceTree = "<group>"; };
+		6347AE2B1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOMapasEntrenamientoTableViewController.m; sourceTree = "<group>"; };
+		6347AE2D1B448D5200635E9C /* CustomCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell2.h; sourceTree = "<group>"; };
+		6347AE2E1B448D5200635E9C /* CustomCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell2.m; sourceTree = "<group>"; };
+		6347AE301B448EE900635E9C /* numero1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numero1@2x.png"; sourceTree = "<group>"; };
 		637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_0M@2x.png"; sourceTree = "<group>"; };
 		637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_1M@2x.png"; sourceTree = "<group>"; };
 		637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_2M@2x.png"; sourceTree = "<group>"; };
@@ -488,6 +508,7 @@
 		63DAD18A1B3B2BCE00E2A728 /* CITY */ = {
 			isa = PBXGroup;
 			children = (
+				6347AE281B448A5A00635E9C /* parquetiernogalvan@2x.jpg */,
 				63D904531B4004E3007E9E0C /* zamora@2x.png */,
 				63D904511B400485007E9E0C /* iznajarcordoba@2x.png */,
 				63D9044F1B4003FA007E9E0C /* antellavalencia@2x.png */,
@@ -586,6 +607,7 @@
 				63EDAFBD1B20AC79007355D6 /* spartanLevel3.plist */,
 				63EDAFBF1B20B1CA007355D6 /* spartanLevel4.plist */,
 				63DAD1851B3B238F00E2A728 /* calendario.plist */,
+				6347AE261B4488ED00635E9C /* lugaresEntrenamiento.plist */,
 			);
 			name = MODELS;
 			sourceTree = "<group>";
@@ -599,6 +621,8 @@
 				63EDAFB61B2094A1007355D6 /* CustomCell.m */,
 				63DAD1871B3B255800E2A728 /* CustomCell1.h */,
 				63DAD1881B3B255800E2A728 /* CustomCell1.m */,
+				6347AE2D1B448D5200635E9C /* CustomCell2.h */,
+				6347AE2E1B448D5200635E9C /* CustomCell2.m */,
 				63D085F61B41E450006E2518 /* ICORootViewController.h */,
 				63D085F71B41E450006E2518 /* ICORootViewController.m */,
 				63D085F91B41E523006E2518 /* ICONavigationViewController.h */,
@@ -629,6 +653,8 @@
 				63D904601B401429007E9E0C /* ICOurlWebViewController.m */,
 				63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */,
 				63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */,
+				6347AE2A1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.h */,
+				6347AE2B1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m */,
 				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
 				63EDAF751B207427007355D6 /* Images.xcassets */,
 			);
@@ -717,8 +743,13 @@
 				63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */,
 				63D904591B4009D7007E9E0C /* workout_12@2x.png */,
 				63D9045B1B400A16007E9E0C /* workout_58@2x.png */,
+				6347AE221B44853000635E9C /* workout_80@2x.png */,
+				6347AE241B44862800635E9C /* workout_map@2x.png */,
 				63D085FE1B41E95E006E2518 /* main_news_ios7@2x.png */,
 				63D086031B41EBCA006E2518 /* avatar@2x.jpg */,
+				6347AE1E1B447ED800635E9C /* ICO_FOTO_1@2x.png */,
+				6347AE201B4484D500635E9C /* ICO_FOTO_2@2x.png */,
+				6347AE301B448EE900635E9C /* numero1@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -787,6 +818,7 @@
 				631AC4151B2838860020D0E4 /* press_hombro_45_2@2x.jpg in Resources */,
 				63ABD3051B302BF20099F520 /* fondo_band_pushup_1@2x.jpg in Resources */,
 				631AC40B1B2836250020D0E4 /* fondos_elevados_1@2x.jpg in Resources */,
+				6347AE311B448EE900635E9C /* numero1@2x.png in Resources */,
 				631BFEF31B3DC8E900656159 /* benidorm@2x.png in Resources */,
 				63E620BF1B28DB37005BAC37 /* abdominal_corta_doble_rebote_1@2x.jpg in Resources */,
 				63ABD3091B30340C0099F520 /* band_press_alterne_1@2x.jpg in Resources */,
@@ -798,6 +830,7 @@
 				631AC40D1B2836350020D0E4 /* fondos_elevados_2@2x.jpg in Resources */,
 				631AC3FA1B282CA10020D0E4 /* press_hombro_1@2x.jpg in Resources */,
 				631BFF011B3DCE9000656159 /* buitragodelozoya@2x.png in Resources */,
+				6347AE1F1B447ED800635E9C /* ICO_FOTO_1@2x.png in Resources */,
 				63E36F801B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg in Resources */,
 				63ABD30D1B3034930099F520 /* alternating_split_jump_2@2x.jpg in Resources */,
 				63DDDB041B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg in Resources */,
@@ -811,6 +844,7 @@
 				63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */,
 				63D086041B41EBCA006E2518 /* avatar@2x.jpg in Resources */,
 				63E620BA1B28DA49005BAC37 /* fondos_pie_elevado_1@2x.jpg in Resources */,
+				6347AE231B44853000635E9C /* workout_80@2x.png in Resources */,
 				63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */,
 				63E620C31B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg in Resources */,
 				63DAD1961B3B343600E2A728 /* alamedadelasagra@2x.png in Resources */,
@@ -862,6 +896,7 @@
 				63E620B31B28D109005BAC37 /* press_militar_2@2x.jpg in Resources */,
 				631BFEED1B3DC73F00656159 /* beniarbeig@2x.png in Resources */,
 				63E620B71B28D8FD005BAC37 /* pendulo_kettle_bell_1@2x.jpg in Resources */,
+				6347AE271B4488ED00635E9C /* lugaresEntrenamiento.plist in Resources */,
 				63DAD19A1B3B344F00E2A728 /* pinsequezaragoza@2x.png in Resources */,
 				63D9043C1B3FFC3D007E9E0C /* algarve@2x.png in Resources */,
 				631BFEEC1B3DC73F00656159 /* benejuzaralizante@2x.png in Resources */,
@@ -869,10 +904,12 @@
 				63CAB2021B24DAA8000249F8 /* iconApp58x58.png in Resources */,
 				63EDAFC01B20B1CA007355D6 /* spartanLevel4.plist in Resources */,
 				63D777191B403FD60052D61B /* Appirater.podspec.json in Resources */,
+				6347AE291B448A5A00635E9C /* parquetiernogalvan@2x.jpg in Resources */,
 				63D9045A1B4009D7007E9E0C /* workout_12@2x.png in Resources */,
 				63D904581B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png in Resources */,
 				63D904481B3FFF5D007E9E0C /* pontevedra@2x.png in Resources */,
 				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
+				6347AE251B44862800635E9C /* workout_map@2x.png in Resources */,
 				63D085FF1B41E95E006E2518 /* main_news_ios7@2x.png in Resources */,
 				631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */,
 				63DAD18C1B3B2BDF00E2A728 /* pamplona@2x.png in Resources */,
@@ -908,6 +945,7 @@
 				63DAD18F1B3B2F8300E2A728 /* sanpedrodepinatar@2x.png in Resources */,
 				63CAB2091B24DB58000249F8 /* iconApp180x180.png in Resources */,
 				63D6230C1B28953600E51A33 /* biceps_goma_sentado_2@2x.jpg in Resources */,
+				6347AE211B4484D500635E9C /* ICO_FOTO_2@2x.png in Resources */,
 				631BFF0D1B3DD4C200656159 /* castuera@2x.png in Resources */,
 				631AC4081B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg in Resources */,
 				631BFEF21B3DC8E900656159 /* canarias@2x.png in Resources */,
@@ -935,6 +973,7 @@
 				63D085F41B41E41B006E2518 /* UIView+REFrostedViewController.m in Sources */,
 				63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */,
 				63D904611B401429007E9E0C /* ICOurlWebViewController.m in Sources */,
+				6347AE2F1B448D5200635E9C /* CustomCell2.m in Sources */,
 				63D085F51B41E41B006E2518 /* UIViewController+REFrostedViewController.m in Sources */,
 				63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */,
 				63D085FB1B41E523006E2518 /* ICONavigationViewController.m in Sources */,
@@ -944,6 +983,7 @@
 				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
 				63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */,
 				63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */,
+				6347AE2C1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m in Sources */,
 				63D086071B41F067006E2518 /* ICOConsejosViewController.m in Sources */,
 				63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */,
 				63EDAFC91B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.m in Sources */,
