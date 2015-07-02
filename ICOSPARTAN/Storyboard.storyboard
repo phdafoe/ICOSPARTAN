@@ -673,7 +673,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Bct-4S-hm1" kind="push" id="5Zy-WX-EZb"/>
+                                    <segue destination="OAU-Am-c6b" kind="push" id="YBV-FN-7is"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cI-Iq-2BN">
@@ -1051,7 +1051,7 @@ los músculos en calor. No te pases y ahorra energía!!!
         <!--Lugares de Entrenamiento-->
         <scene sceneID="wrV-Gh-nwz">
             <objects>
-                <tableViewController id="Bct-4S-hm1" customClass="ICOMapasEntrenamientoTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MyTableViewController" id="Bct-4S-hm1" customClass="ICOMapasEntrenamientoTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="106" sectionHeaderHeight="22" sectionFooterHeight="22" id="4C8-za-Hk9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1096,12 +1096,78 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ul7-vM-FEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1785" y="4348"/>
+            <point key="canvasLocation" x="2135" y="4476"/>
         </scene>
-        <!--View Controller-->
+        <!--My Parallax Controller-->
+        <scene sceneID="W3K-3B-16G">
+            <objects>
+                <viewController id="OAU-Am-c6b" customClass="MyParallaxController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="adu-g3-RVC"/>
+                        <viewControllerLayoutGuide type="bottom" id="bjv-k1-13y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x2j-nj-OoR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rug-6t-bhb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pc5-qk-Q1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="4476"/>
+        </scene>
+        <!--My Top View Controller-->
+        <scene sceneID="Y5n-Tm-hr2">
+            <objects>
+                <viewController storyboardIdentifier="ParallaxedViewController" id="JXv-vf-8GP" customClass="MyTopViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="28N-Ax-OXG"/>
+                        <viewControllerLayoutGuide type="bottom" id="XTi-22-4Z8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="REq-go-yxy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ICO_FOTO_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="q1g-F4-Lzu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient_overlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rzr-Hh-asM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iCoSpartan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NE-vM-gu8">
+                                <rect key="frame" x="15" y="96" width="288" height="75"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="66"/>
+                                <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nos gusta el Deporte!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPh-x9-TRg">
+                                <rect key="frame" x="37" y="159" width="252" height="42"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="32"/>
+                                <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="200"/>
+                    <connections>
+                        <outlet property="gradientImageView" destination="Rzr-Hh-asM" id="kby-il-vVb"/>
+                        <outlet property="imageView" destination="q1g-F4-Lzu" id="tNo-RT-die"/>
+                        <outlet property="label1" destination="5NE-vM-gu8" id="Vmz-HO-nUy"/>
+                        <outlet property="label2" destination="dPh-x9-TRg" id="k6N-s9-Ong"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Umx-hX-kBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2135" y="4115"/>
+        </scene>
+        <!--Detail Map View Controller-->
         <scene sceneID="Vbj-ss-4tj">
             <objects>
-                <viewController id="gEt-GV-Ajy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detalleMapasEntrenamiento" id="gEt-GV-Ajy" customClass="ICODetailMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jex-bt-4XM"/>
                         <viewControllerLayoutGuide type="bottom" id="O1a-Yq-9Bb"/>
@@ -1110,16 +1176,37 @@ los músculos en calor. No te pases y ahorra energía!!!
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXr-vX-n2l">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXr-vX-n2l">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="439"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnA-e9-6O8">
+                                <rect key="frame" x="0.0" y="440" width="320" height="128"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLS-3F-Ldr">
+                                <rect key="frame" x="0.0" y="401" width="320" height="38"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7K-e8-OKI">
+                                <rect key="frame" x="6" y="409" width="161" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="descriptionMapOfParkTrainer" destination="AnA-e9-6O8" id="606-HL-wTS"/>
+                        <outlet property="mapOfParkTrainerImageView" destination="vXr-vX-n2l" id="lPx-hL-Lcd"/>
+                        <outlet property="nameCityPark" destination="I7K-e8-OKI" id="HgR-q6-3go"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku7-pE-ewN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2146" y="4348"/>
+            <point key="canvasLocation" x="2659" y="4348"/>
         </scene>
         <!--Antes de la Carrera-->
         <scene sceneID="JBf-31-hRx">
@@ -1136,7 +1223,48 @@ los músculos en calor. No te pases y ahorra energía!!!
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" canCancelContentTouches="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWH-tn-91o">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">CONSEJOS PARA PASAR LOS OBSTACULOS MÁS COMUNES•	SALTAR MUROS:1.	MUROS MEDIOS .Coge carrerilla apoya u pie en el muro y impúlsate hasta llegar arriba haciendo una flexión de brazos para saltarlo 2.	MUROS ALTOS. Coge carrerilla apoya un pie y engánchate con los brazos dejando el muro entre tu bíceps y el dorsal. Una vez estabilizado haz fuerza para subir como si fuera en borde de la piscina usando tu cuerpo para ir pasando topo el peso al otro lado del muro.•	MONKEY BARS-	Estas barras resbalan mucho es importante que pases los pesos rápidamente de una mano a otra para evitar que te fallen las manos•	ARRASTRE BAJO-	El truco para esta prueba es reptar con los antebrazos siempre atentos para no levantar el culo ya que te puedes llevar un buen regalo con los alambres.-	Si tuvierais la suerte de llegar y no encontrar gente en la prueba , hay una forma que es cruzarse a la pista y hacer la croqueta, rodando hasta llegar al final, aunque pocas veces se tendrá esa suerte•	TREPAR CUERDA-	El gran problema de la cuerda es que nos encontramos con las manos y la cuerda llena de barro. IMPORTANTISIMO!!!! Coge arena antes de iniciar la prueba y restriégala con tus manos para tener el máximo agarre.-	Engánchate la cuerda a un pie y pisa sobre la cuerda que esta en el pie para impulsarte•	TREPAR PIRAMIDE-	Debes colocar tus pies en paralelo y dejar todo tu peso detrás, como si te fueras a sentar,  siempre que tus pies estén por delante tendrás la situación controlada.-	Una vez llegues a la cima cambia tu peso y lánzate hacia delante para llegar al final de la pirámide. Pero no te precipites, si lo haces antes de tiempo, resbalaras y volver a empezar.•	LANZAMIENTO DE JABALINA-	Esta es la prueba parece fácil pero es la que mas penalizaciones acumula.-	La jabalina debe estar totalmente equilibrada en nuestra mano, nos  colocaremos en una posición comoda, en la que el brazo opuesto al que va a lanzar apuntando al objetivo, mientras que el brazo que tiene la jabalina estará paralelo al otro brazo y con la  jabalina a la altura de los hombros.-	Echamos hacia atrás para realizar el lanzamiento y pensamos en hacer un poco de parábola porque sino se nos quedara bajo el tiro.-	Importante terminar de estirar el brazo de la jabalina.•	TRASLADO DE TRONCOS Y SACOS-	Es importante agacharse bien a coger los pesos porque sino podemos tener un problema a mitad de carrera con la espalda. Piensa en hacer una sentadilla para coger los pesos.-	Los troncos trataremos de llevarlos sobre el hombre pero para no hacernos daño debemos colocar el brazo doblado elevado y con el codo dirección hacia el frente. De esta forma e crea un hueco en nuestro hombro formado por musculo y no nos golpeara el tronco contra el hueso al correr.-	En cuanto a los sacos, lo mejor es ir cambiando los pesos de un hombro a otro, y llegado el momento colocárselo en el cuello para que los pesos se compensen.•	EQUILIBRIO-Lo más importante es no precipitarte, debes ir pasando los pesos de una pierna a otra, es más fácil controlar el equilibrio con una pierna apoyada que con las dos.- Recuerda que en esta prueba luchas contra tu mente y tu pensamiento en la penalización (BURPEES)•	SALTAR EL FUEGO- Esto más que una prueba es un photocall , ya que el salto es pequeño y te tienes que preocupar más por la foto que por otra cosa</mutableString>
+                                <string key="text">CONSEJOS PARA PASAR LOS OBSTACULOS MÁS COMUNES
+
+
+•	SALTAR MUROS:
+
+1.	MUROS MEDIOS .Coge carrerilla apoya u pie en el muro y impúlsate hasta llegar arriba haciendo una flexión de brazos para saltarlo 
+2.	MUROS ALTOS. Coge carrerilla apoya un pie y engánchate con los brazos dejando el muro entre tu bíceps y el dorsal. Una vez estabilizado haz fuerza para subir como si fuera en borde de la piscina usando tu cuerpo para ir pasando topo el peso al otro lado del muro.
+
+•	MONKEY BARS
+-	Estas barras resbalan mucho es importante que pases los pesos rápidamente de una mano a otra para evitar que te fallen las manos
+
+•	ARRASTRE BAJO
+-	El truco para esta prueba es reptar con los antebrazos siempre atentos para no levantar el culo ya que te puedes llevar un buen regalo con los alambres.
+-	Si tuvierais la suerte de llegar y no encontrar gente en la prueba , hay una forma que es cruzarse a la pista y hacer la croqueta, rodando hasta llegar al final, aunque pocas veces se tendrá esa suerte
+
+•	TREPAR CUERDA
+-	El gran problema de la cuerda es que nos encontramos con las manos y la cuerda llena de barro. IMPORTANTISIMO!!!! Coge arena antes de iniciar la prueba y restriégala con tus manos para tener el máximo agarre.
+-	Engánchate la cuerda a un pie y pisa sobre la cuerda que esta en el pie para impulsarte
+
+•	TREPAR PIRAMIDE
+-	Debes colocar tus pies en paralelo y dejar todo tu peso detrás, como si te fueras a sentar,  siempre que tus pies estén por delante tendrás la situación controlada.
+-	Una vez llegues a la cima cambia tu peso y lánzate hacia delante para llegar al final de la pirámide. Pero no te precipites, si lo haces antes de tiempo, resbalaras y volver a empezar.
+
+•	LANZAMIENTO DE JABALINA
+-	Esta es la prueba parece fácil pero es la que mas penalizaciones acumula.
+-	La jabalina debe estar totalmente equilibrada en nuestra mano, nos  colocaremos en una posición comoda, en la que el brazo opuesto al que va a lanzar apuntando al objetivo, mientras que el brazo que tiene la jabalina estará paralelo al otro brazo y con la  jabalina a la altura de los hombros.
+-	Echamos hacia atrás para realizar el lanzamiento y pensamos en hacer un poco de parábola porque sino se nos quedara bajo el tiro.
+-	Importante terminar de estirar el brazo de la jabalina.
+
+•	TRASLADO DE TRONCOS Y SACOS
+-	Es importante agacharse bien a coger los pesos porque sino podemos tener un problema a mitad de carrera con la espalda. Piensa en hacer una sentadilla para coger los pesos.
+-	Los troncos trataremos de llevarlos sobre el hombre pero para no hacernos daño debemos colocar el brazo doblado elevado y con el codo dirección hacia el frente. De esta forma e crea un hueco en nuestro hombro formado por musculo y no nos golpeara el tronco contra el hueso al correr.
+-	En cuanto a los sacos, lo mejor es ir cambiando los pesos de un hombro a otro, y llegado el momento colocárselo en el cuello para que los pesos se compensen.
+
+•	EQUILIBRIO
+-Lo más importante es no precipitarte, debes ir pasando los pesos de una pierna a otra, es más fácil controlar el equilibrio con una pierna apoyada que con las dos.
+- Recuerda que en esta prueba luchas contra tu mente y tu pensamiento en la penalización (BURPEES)
+
+
+•	SALTAR EL FUEGO
+- Esto más que una prueba es un photocall , ya que el salto es pequeño y te tienes que preocupar más por la foto que por otra cosa
+</string>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1159,6 +1287,7 @@ los músculos en calor. No te pases y ahorra energía!!!
         <image name="ICO_FOTO_1.png" width="320" height="122"/>
         <image name="ICO_FOTO_2.png" width="320" height="122"/>
         <image name="TRIFECA_0M.png" width="29" height="35"/>
+        <image name="gradient_overlay.png" width="320" height="300"/>
         <image name="imagenLanzamientoApp.png" width="250" height="250"/>
         <image name="main_goal_animation_flag_image_ios7.png" width="23" height="25"/>
         <image name="main_news_ios7.png" width="37" height="37"/>

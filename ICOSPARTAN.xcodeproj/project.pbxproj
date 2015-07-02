@@ -164,6 +164,14 @@
 		63E620C31B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C11B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg */; };
 		63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C51B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg */; };
 		63E620C81B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */; };
+		63E9D64F1B45A40F00062173 /* ICODetailMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D64E1B45A40F00062173 /* ICODetailMapViewController.m */; };
+		63E9D6511B45AA2200062173 /* tierno-galvan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */; };
+		63E9D6541B45AC7300062173 /* gradient_overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */; };
+		63E9D6551B45AC7300062173 /* gradient-over-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */; };
+		63E9D6581B45ADB500062173 /* UIViewController+M6ParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D6571B45ADB500062173 /* UIViewController+M6ParallaxController.m */; };
+		63E9D65C1B45ADDB00062173 /* M6ParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D65B1B45ADDB00062173 /* M6ParallaxController.m */; };
+		63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D65E1B45ADF700062173 /* MyParallaxController.m */; };
+		63E9D6621B45ADF700062173 /* MyTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D6601B45ADF700062173 /* MyTopViewController.m */; };
 		63EDAF711B207427007355D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF701B207427007355D6 /* main.m */; };
 		63EDAF741B207427007355D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF731B207427007355D6 /* AppDelegate.m */; };
 		63EDAF761B207427007355D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF751B207427007355D6 /* Images.xcassets */; };
@@ -359,6 +367,19 @@
 		63E620C11B28DC1D005BAC37 /* abdominales_elevando_piernas_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abdominales_elevando_piernas_2@2x.jpg"; sourceTree = "<group>"; };
 		63E620C51B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_2@2x.jpg"; sourceTree = "<group>"; };
 		63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_1@2x.jpg"; sourceTree = "<group>"; };
+		63E9D64D1B45A40F00062173 /* ICODetailMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODetailMapViewController.h; sourceTree = "<group>"; };
+		63E9D64E1B45A40F00062173 /* ICODetailMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODetailMapViewController.m; sourceTree = "<group>"; };
+		63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tierno-galvan@2x.jpg"; sourceTree = "<group>"; };
+		63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient_overlay@2x.png"; sourceTree = "<group>"; };
+		63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-over-image@2x.png"; sourceTree = "<group>"; };
+		63E9D6561B45ADB500062173 /* UIViewController+M6ParallaxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+M6ParallaxController.h"; sourceTree = "<group>"; };
+		63E9D6571B45ADB500062173 /* UIViewController+M6ParallaxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+M6ParallaxController.m"; sourceTree = "<group>"; };
+		63E9D65A1B45ADDB00062173 /* M6ParallaxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M6ParallaxController.h; sourceTree = "<group>"; };
+		63E9D65B1B45ADDB00062173 /* M6ParallaxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M6ParallaxController.m; sourceTree = "<group>"; };
+		63E9D65D1B45ADF700062173 /* MyParallaxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyParallaxController.h; sourceTree = "<group>"; };
+		63E9D65E1B45ADF700062173 /* MyParallaxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyParallaxController.m; sourceTree = "<group>"; };
+		63E9D65F1B45ADF700062173 /* MyTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTopViewController.h; sourceTree = "<group>"; };
+		63E9D6601B45ADF700062173 /* MyTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTopViewController.m; sourceTree = "<group>"; };
 		63EDAF6B1B207427007355D6 /* iCoSpartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoSpartan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EDAF6F1B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF701B207427007355D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -615,14 +636,10 @@
 		63E620CA1B28DFCB005BAC37 /* CLASS */ = {
 			isa = PBXGroup;
 			children = (
+				63E9D64C1B45A39D00062173 /* CUSTOM CELL */,
+				63E9D6591B45ADC000062173 /* M6PARALLAXCONTROLLER */,
 				63EDAF721B207427007355D6 /* AppDelegate.h */,
 				63EDAF731B207427007355D6 /* AppDelegate.m */,
-				63EDAFB51B2094A1007355D6 /* CustomCell.h */,
-				63EDAFB61B2094A1007355D6 /* CustomCell.m */,
-				63DAD1871B3B255800E2A728 /* CustomCell1.h */,
-				63DAD1881B3B255800E2A728 /* CustomCell1.m */,
-				6347AE2D1B448D5200635E9C /* CustomCell2.h */,
-				6347AE2E1B448D5200635E9C /* CustomCell2.m */,
 				63D085F61B41E450006E2518 /* ICORootViewController.h */,
 				63D085F71B41E450006E2518 /* ICORootViewController.m */,
 				63D085F91B41E523006E2518 /* ICONavigationViewController.h */,
@@ -655,10 +672,40 @@
 				63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */,
 				6347AE2A1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.h */,
 				6347AE2B1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m */,
+				63E9D64D1B45A40F00062173 /* ICODetailMapViewController.h */,
+				63E9D64E1B45A40F00062173 /* ICODetailMapViewController.m */,
 				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
 				63EDAF751B207427007355D6 /* Images.xcassets */,
 			);
 			name = CLASS;
+			sourceTree = "<group>";
+		};
+		63E9D64C1B45A39D00062173 /* CUSTOM CELL */ = {
+			isa = PBXGroup;
+			children = (
+				63EDAFB51B2094A1007355D6 /* CustomCell.h */,
+				63EDAFB61B2094A1007355D6 /* CustomCell.m */,
+				63DAD1871B3B255800E2A728 /* CustomCell1.h */,
+				63DAD1881B3B255800E2A728 /* CustomCell1.m */,
+				6347AE2D1B448D5200635E9C /* CustomCell2.h */,
+				6347AE2E1B448D5200635E9C /* CustomCell2.m */,
+			);
+			name = "CUSTOM CELL";
+			sourceTree = "<group>";
+		};
+		63E9D6591B45ADC000062173 /* M6PARALLAXCONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				63E9D65A1B45ADDB00062173 /* M6ParallaxController.h */,
+				63E9D65B1B45ADDB00062173 /* M6ParallaxController.m */,
+				63E9D6561B45ADB500062173 /* UIViewController+M6ParallaxController.h */,
+				63E9D6571B45ADB500062173 /* UIViewController+M6ParallaxController.m */,
+				63E9D65D1B45ADF700062173 /* MyParallaxController.h */,
+				63E9D65E1B45ADF700062173 /* MyParallaxController.m */,
+				63E9D65F1B45ADF700062173 /* MyTopViewController.h */,
+				63E9D6601B45ADF700062173 /* MyTopViewController.m */,
+			);
+			name = M6PARALLAXCONTROLLER;
 			sourceTree = "<group>";
 		};
 		63EDAF621B207426007355D6 = {
@@ -750,6 +797,9 @@
 				6347AE1E1B447ED800635E9C /* ICO_FOTO_1@2x.png */,
 				6347AE201B4484D500635E9C /* ICO_FOTO_2@2x.png */,
 				6347AE301B448EE900635E9C /* numero1@2x.png */,
+				63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */,
+				63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */,
+				63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -835,6 +885,7 @@
 				63ABD30D1B3034930099F520 /* alternating_split_jump_2@2x.jpg in Resources */,
 				63DDDB041B30175A000BEDDC /* 45_lat_pullDown_1@2x.jpg in Resources */,
 				63DDDB091B3019A7000BEDDC /* one_arm_snatch_2@2x.jpg in Resources */,
+				63E9D6551B45AC7300062173 /* gradient-over-image@2x.png in Resources */,
 				63E620B61B28D8FD005BAC37 /* pendulo_kettle_bell_2@2x.jpg in Resources */,
 				63D9043E1B3FFC3D007E9E0C /* telde@2x.png in Resources */,
 				63D904501B4003FA007E9E0C /* antellavalencia@2x.png in Resources */,
@@ -889,6 +940,7 @@
 				631BFEF81B3DCB9E00656159 /* bunyol@2x.png in Resources */,
 				63CAB2061B24DB01000249F8 /* iconApp80x80.png in Resources */,
 				631BFF081B3DD07600656159 /* canezademanzaneda@2x.png in Resources */,
+				63E9D6541B45AC7300062173 /* gradient_overlay@2x.png in Resources */,
 				631BFEF91B3DCB9E00656159 /* alicante@2x.png in Resources */,
 				63DAD1861B3B238F00E2A728 /* calendario.plist in Resources */,
 				631AC4041B2831E30020D0E4 /* dominadas_opcion_2@2x.jpg in Resources */,
@@ -911,6 +963,7 @@
 				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
 				6347AE251B44862800635E9C /* workout_map@2x.png in Resources */,
 				63D085FF1B41E95E006E2518 /* main_news_ios7@2x.png in Resources */,
+				63E9D6511B45AA2200062173 /* tierno-galvan@2x.jpg in Resources */,
 				631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */,
 				63DAD18C1B3B2BDF00E2A728 /* pamplona@2x.png in Resources */,
 				631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */,
@@ -964,6 +1017,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E9D6581B45ADB500062173 /* UIViewController+M6ParallaxController.m in Sources */,
 				63D086021B41EB19006E2518 /* ICOMenuTableViewController.m in Sources */,
 				63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */,
 				63D085F21B41E41B006E2518 /* REFrostedViewController.m in Sources */,
@@ -972,14 +1026,18 @@
 				63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */,
 				63D085F41B41E41B006E2518 /* UIView+REFrostedViewController.m in Sources */,
 				63EDAFC31B20B223007355D6 /* ICOSpartanNivel3TableViewController.m in Sources */,
+				63E9D65C1B45ADDB00062173 /* M6ParallaxController.m in Sources */,
 				63D904611B401429007E9E0C /* ICOurlWebViewController.m in Sources */,
 				6347AE2F1B448D5200635E9C /* CustomCell2.m in Sources */,
+				63E9D64F1B45A40F00062173 /* ICODetailMapViewController.m in Sources */,
 				63D085F51B41E41B006E2518 /* UIViewController+REFrostedViewController.m in Sources */,
 				63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */,
 				63D085FB1B41E523006E2518 /* ICONavigationViewController.m in Sources */,
+				63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
 				63D085F01B41E41B006E2518 /* RECommonFunctions.m in Sources */,
+				63E9D6621B45ADF700062173 /* MyTopViewController.m in Sources */,
 				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
 				63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */,
 				63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */,

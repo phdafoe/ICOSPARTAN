@@ -9,11 +9,23 @@
 #import "ICOMapasEntrenamientoTableViewController.h"
 #import "CustomCell2.h"
 
+#import "ICODetailMapViewController.h"
+
+#import "M6ParallaxController.h"
+
 @interface ICOMapasEntrenamientoTableViewController ()
 
 @end
 
+
+
 @implementation ICOMapasEntrenamientoTableViewController
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    [self.parallaxController tableViewControllerDidScroll:self];
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -65,12 +77,41 @@
     cell.numberParkTrainer.image = numeroPark;
     
     
-    // Configure the cell...
+    // Configure the cell... //detalleMapasEntrenamiento
     
     return cell;
 }
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    //Creamos la clase
+    
+    ICODetailMapViewController *detailMapsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"detalleMapasEntrenamiento"];
+    
+    
+    self.mapasDictionary = [self.mapasArray objectAtIndex:indexPath.row];
+    
+    NSString *title = self.mapasDictionary [@"title"];
+    NSString *mapaImage = self.mapasDictionary [@"parkBigImageName"];
+    NSString *descriptionMap = self.mapasDictionary [@"description"];
+    NSString *city = self.mapasDictionary [@"city"];
+    
+    UIImage *parkImage = [UIImage imageNamed:mapaImage];
+    
+    
+    detailMapsViewController.nameMapParkTrainer = title;
+    detailMapsViewController.descriptionMapParkTrainer = descriptionMap;
+    detailMapsViewController.imageMapPark = parkImage;
+    detailMapsViewController.nameCityMapParkTrainer = city;
+    
+    [self.navigationController pushViewController:detailMapsViewController animated:YES];
+    
+    NSLog(@"Esta siendo seleccionado %@", [self.mapasArray objectAtIndex:indexPath.row]);
+    
+    
+    
+}
 
 
 @end
