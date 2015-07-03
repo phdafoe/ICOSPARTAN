@@ -156,7 +156,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="una nueva forma de hacer ejercicio, porque Nos gusta el Deporte!!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR4-mL-GsN">
-                                <rect key="frame" x="16" y="321" width="288" height="73"/>
+                                <rect key="frame" x="16" y="331" width="288" height="73"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -708,7 +708,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ICO_FOTO_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HBC-af-Qq7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ICO_FOTO_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HBC-af-Qq7">
                                 <rect key="frame" x="0.0" y="445" width="320" height="126"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QyV-Gl-mP3">
@@ -729,6 +729,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="HBC-af-Qq7" secondAttribute="trailing" constant="-30" id="Jc3-P3-r6u"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="HBC-af-Qq7" secondAttribute="bottom" constant="-3" id="LlT-uz-MJC"/>
+                            <constraint firstItem="HBC-af-Qq7" firstAttribute="leading" secondItem="b44-fp-SEu" secondAttribute="leadingMargin" constant="-30" id="wOT-yf-HuF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Consejos" id="hOd-qK-r3e">
                         <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="NGE-de-jyd">
@@ -1052,33 +1057,39 @@ los músculos en calor. No te pases y ahorra energía!!!
         <scene sceneID="wrV-Gh-nwz">
             <objects>
                 <tableViewController storyboardIdentifier="MyTableViewController" id="Bct-4S-hm1" customClass="ICOMapasEntrenamientoTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="106" sectionHeaderHeight="22" sectionFooterHeight="22" id="4C8-za-Hk9">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" sectionHeaderHeight="22" sectionFooterHeight="22" id="4C8-za-Hk9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="106" id="CCo-QF-9N8" customClass="CustomCell2">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="111" id="CCo-QF-9N8" customClass="CustomCell2">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CCo-QF-9N8" id="F0h-lo-Cqt">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xW2-ne-F85">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xW2-ne-F85">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8qb-os-O89">
-                                            <rect key="frame" x="0.0" y="68" width="320" height="37"/>
+                                        <imageView userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8qb-os-O89">
+                                            <rect key="frame" x="0.0" y="74" width="320" height="37"/>
                                             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quR-nd-FF3">
+                                            <rect key="frame" x="292" y="8" width="20" height="20"/>
+                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre parque" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrx-yr-TJ8">
-                                            <rect key="frame" x="8" y="76" width="304" height="21"/>
+                                            <rect key="frame" x="8" y="82" width="304" height="21"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quR-nd-FF3">
-                                            <rect key="frame" x="292" y="8" width="20" height="20"/>
-                                        </imageView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="xW2-ne-F85" firstAttribute="leading" secondItem="F0h-lo-Cqt" secondAttribute="leadingMargin" constant="-18" id="C32-x9-UsQ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="xW2-ne-F85" secondAttribute="trailing" constant="-18" id="WFN-5t-94b"/>
+                                        <constraint firstItem="8qb-os-O89" firstAttribute="leading" secondItem="F0h-lo-Cqt" secondAttribute="leadingMargin" constant="-18" id="a3z-yW-huD"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="8qb-os-O89" secondAttribute="trailing" constant="-18" id="bKo-hA-21O"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="imageParkTrainer" destination="xW2-ne-F85" id="nqb-w5-Y9Y"/>
@@ -1096,7 +1107,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ul7-vM-FEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2135" y="4476"/>
+            <point key="canvasLocation" x="2193" y="4343"/>
         </scene>
         <!--My Parallax Controller-->
         <scene sceneID="W3K-3B-16G">
@@ -1115,7 +1126,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pc5-qk-Q1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1755" y="4476"/>
+            <point key="canvasLocation" x="1785" y="4343"/>
         </scene>
         <!--My Top View Controller-->
         <scene sceneID="Y5n-Tm-hr2">
@@ -1125,30 +1136,48 @@ los músculos en calor. No te pases y ahorra energía!!!
                         <viewControllerLayoutGuide type="top" id="28N-Ax-OXG"/>
                         <viewControllerLayoutGuide type="bottom" id="XTi-22-4Z8"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="REq-go-yxy">
+                    <view key="view" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" id="REq-go-yxy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ICO_FOTO_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="q1g-F4-Lzu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICO_FOTO_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="q1g-F4-Lzu">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient_overlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rzr-Hh-asM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient_overlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rzr-Hh-asM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iCoSpartan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NE-vM-gu8">
-                                <rect key="frame" x="15" y="96" width="288" height="75"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iCoSpartan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NE-vM-gu8">
+                                <rect key="frame" x="15" y="54" width="288" height="75"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="58"/>
                                 <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nos gusta el Deporte!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPh-x9-TRg">
-                                <rect key="frame" x="37" y="159" width="252" height="42"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nos gusta el Deporte!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPh-x9-TRg">
+                                <rect key="frame" x="37" y="114" width="252" height="42"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="25"/>
                                 <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="dPh-x9-TRg" secondAttribute="trailing" constant="15" id="I5o-Zm-deI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5NE-vM-gu8" secondAttribute="trailing" constant="1" id="NXh-H1-mIF"/>
+                            <constraint firstItem="XTi-22-4Z8" firstAttribute="top" secondItem="5NE-vM-gu8" secondAttribute="bottom" constant="71" id="Pgf-Kd-6tu"/>
+                            <constraint firstItem="5NE-vM-gu8" firstAttribute="leading" secondItem="REq-go-yxy" secondAttribute="leadingMargin" constant="-1" id="SLq-P3-GHB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rzr-Hh-asM" secondAttribute="trailing" constant="-16" id="bWn-D1-uMb"/>
+                            <constraint firstItem="dPh-x9-TRg" firstAttribute="leading" secondItem="REq-go-yxy" secondAttribute="leadingMargin" constant="21" id="c09-vm-1Ur"/>
+                            <constraint firstItem="XTi-22-4Z8" firstAttribute="top" secondItem="q1g-F4-Lzu" secondAttribute="bottom" id="dQn-v1-fJh"/>
+                            <constraint firstItem="XTi-22-4Z8" firstAttribute="top" secondItem="dPh-x9-TRg" secondAttribute="bottom" constant="44" id="exv-7C-xij"/>
+                            <constraint firstItem="XTi-22-4Z8" firstAttribute="top" secondItem="Rzr-Hh-asM" secondAttribute="bottom" id="gD0-yr-h3E"/>
+                            <constraint firstItem="q1g-F4-Lzu" firstAttribute="leading" secondItem="REq-go-yxy" secondAttribute="leadingMargin" constant="-16" id="hjS-ey-OG3"/>
+                            <constraint firstItem="5NE-vM-gu8" firstAttribute="top" secondItem="28N-Ax-OXG" secondAttribute="bottom" constant="54" id="jIb-U5-aIm"/>
+                            <constraint firstItem="dPh-x9-TRg" firstAttribute="top" secondItem="28N-Ax-OXG" secondAttribute="bottom" constant="114" id="l5o-2T-tni"/>
+                            <constraint firstItem="q1g-F4-Lzu" firstAttribute="top" secondItem="28N-Ax-OXG" secondAttribute="bottom" id="oZc-bY-geK"/>
+                            <constraint firstItem="Rzr-Hh-asM" firstAttribute="leading" secondItem="REq-go-yxy" secondAttribute="leadingMargin" constant="-16" id="pNO-hD-eHV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q1g-F4-Lzu" secondAttribute="trailing" constant="-16" id="ppK-cy-bUR"/>
+                            <constraint firstItem="Rzr-Hh-asM" firstAttribute="top" secondItem="28N-Ax-OXG" secondAttribute="bottom" id="ypg-UC-sMN"/>
+                        </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -1162,7 +1191,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Umx-hX-kBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2135" y="4115"/>
+            <point key="canvasLocation" x="2193" y="3919"/>
         </scene>
         <!--Detail Map View Controller-->
         <scene sceneID="Vbj-ss-4tj">
@@ -1176,20 +1205,23 @@ los músculos en calor. No te pases y ahorra energía!!!
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXr-vX-n2l">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="439"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnA-e9-6O8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Qg-TD-JAR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="401"/>
+                                <connections>
+                                    <outlet property="delegate" destination="gEt-GV-Ajy" id="L1d-1K-buB"/>
+                                </connections>
+                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnA-e9-6O8">
                                 <rect key="frame" x="0.0" y="440" width="320" height="128"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLS-3F-Ldr">
+                            <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLS-3F-Ldr">
                                 <rect key="frame" x="0.0" y="401" width="320" height="38"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7K-e8-OKI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7K-e8-OKI">
                                 <rect key="frame" x="6" y="409" width="161" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <color key="textColor" red="0.92915482949999995" green="0.92915482949999995" blue="0.92915482949999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1197,16 +1229,33 @@ los músculos en calor. No te pases y ahorra energía!!!
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="I7K-e8-OKI" firstAttribute="top" secondItem="jex-bt-4XM" secondAttribute="bottom" constant="389" id="3dO-nx-fad"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HLS-3F-Ldr" secondAttribute="trailing" constant="-16" id="41c-BM-Cgt"/>
+                            <constraint firstItem="I7K-e8-OKI" firstAttribute="leading" secondItem="FoT-By-aiT" secondAttribute="leadingMargin" constant="-10" id="HlA-ua-cX7"/>
+                            <constraint firstItem="HLS-3F-Ldr" firstAttribute="top" secondItem="5Qg-TD-JAR" secondAttribute="bottom" id="PLK-8k-MPc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I7K-e8-OKI" secondAttribute="trailing" constant="137" id="QRd-9r-sSk"/>
+                            <constraint firstItem="HLS-3F-Ldr" firstAttribute="leading" secondItem="FoT-By-aiT" secondAttribute="leadingMargin" constant="-16" id="SNd-BV-E0F"/>
+                            <constraint firstItem="AnA-e9-6O8" firstAttribute="top" secondItem="I7K-e8-OKI" secondAttribute="bottom" constant="10" id="TbL-HL-W32"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Qg-TD-JAR" secondAttribute="trailing" constant="-16" id="VRM-2X-aR8"/>
+                            <constraint firstItem="HLS-3F-Ldr" firstAttribute="top" secondItem="jex-bt-4XM" secondAttribute="bottom" constant="381" id="YNs-qN-Noa"/>
+                            <constraint firstItem="AnA-e9-6O8" firstAttribute="leading" secondItem="FoT-By-aiT" secondAttribute="leadingMargin" constant="-16" id="ffa-nS-q5z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AnA-e9-6O8" secondAttribute="trailing" constant="-16" id="jCk-kd-zD8"/>
+                            <constraint firstItem="5Qg-TD-JAR" firstAttribute="top" secondItem="FoT-By-aiT" secondAttribute="topMargin" id="jXK-MX-6gt"/>
+                            <constraint firstItem="5Qg-TD-JAR" firstAttribute="leading" secondItem="FoT-By-aiT" secondAttribute="leadingMargin" constant="-16" id="pCf-Jn-hJX"/>
+                            <constraint firstItem="AnA-e9-6O8" firstAttribute="top" secondItem="HLS-3F-Ldr" secondAttribute="bottom" constant="1" id="v1t-d9-jwE"/>
+                            <constraint firstItem="O1a-Yq-9Bb" firstAttribute="top" secondItem="AnA-e9-6O8" secondAttribute="bottom" id="yF4-PD-wsq"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="descriptionMapOfParkTrainer" destination="AnA-e9-6O8" id="606-HL-wTS"/>
-                        <outlet property="mapOfParkTrainerImageView" destination="vXr-vX-n2l" id="lPx-hL-Lcd"/>
+                        <outlet property="mapParkTrainerScrollView" destination="5Qg-TD-JAR" id="gn8-nw-cAl"/>
                         <outlet property="nameCityPark" destination="I7K-e8-OKI" id="HgR-q6-3go"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku7-pE-ewN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2659" y="4348"/>
+            <point key="canvasLocation" x="2589" y="4343"/>
         </scene>
         <!--Antes de la Carrera-->
         <scene sceneID="JBf-31-hRx">

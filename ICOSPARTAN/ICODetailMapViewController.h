@@ -16,8 +16,16 @@
 @property UIImage *imageMapPark;
 @property NSString *nameCityMapParkTrainer;
 
-@property (weak, nonatomic) IBOutlet UIImageView *mapOfParkTrainerImageView;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *mapParkTrainerScrollView;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionMapOfParkTrainer;
 @property (weak, nonatomic) IBOutlet UILabel *nameCityPark;
+
+
+@property (nonatomic, strong) UIImageView *imageView;
+
+- (void)centerScrollViewContents;
+- (void)scrollViewDoubleTapped:(UITapGestureRecognizer*)recognizer;
+- (void)scrollViewTwoFingerTapped:(UITapGestureRecognizer*)recognizer;
 
 @end

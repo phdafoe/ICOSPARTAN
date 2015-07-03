@@ -17,8 +17,6 @@
 
 @end
 
-
-
 @implementation ICOMapasEntrenamientoTableViewController
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {

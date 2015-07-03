@@ -72,6 +72,7 @@
 		637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */; };
 		637F63561B2638E500A70B6A /* TRIFECA_3M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */; };
 		637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63571B2639A400A70B6A /* SPARTAN1@2x.png */; };
+		639ABB021B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */; };
 		63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */; };
 		63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */; };
 		63ABD3051B302BF20099F520 /* fondo_band_pushup_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3031B302BF20099F520 /* fondo_band_pushup_1@2x.jpg */; };
@@ -172,6 +173,7 @@
 		63E9D65C1B45ADDB00062173 /* M6ParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D65B1B45ADDB00062173 /* M6ParallaxController.m */; };
 		63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D65E1B45ADF700062173 /* MyParallaxController.m */; };
 		63E9D6621B45ADF700062173 /* MyTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D6601B45ADF700062173 /* MyTopViewController.m */; };
+		63E9D6641B45B74D00062173 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6631B45B74D00062173 /* bg.jpg */; };
 		63EDAF711B207427007355D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF701B207427007355D6 /* main.m */; };
 		63EDAF741B207427007355D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF731B207427007355D6 /* AppDelegate.m */; };
 		63EDAF761B207427007355D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF751B207427007355D6 /* Images.xcassets */; };
@@ -259,6 +261,7 @@
 		637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_2M@2x.png"; sourceTree = "<group>"; };
 		637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_3M@2x.png"; sourceTree = "<group>"; };
 		637F63571B2639A400A70B6A /* SPARTAN1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPARTAN1@2x.png"; sourceTree = "<group>"; };
+		639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BASE_TIERNO_GALVAN@2x.png"; sourceTree = "<group>"; };
 		63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_1@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_2@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3031B302BF20099F520 /* fondo_band_pushup_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondo_band_pushup_1@2x.jpg"; sourceTree = "<group>"; };
@@ -380,6 +383,7 @@
 		63E9D65E1B45ADF700062173 /* MyParallaxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyParallaxController.m; sourceTree = "<group>"; };
 		63E9D65F1B45ADF700062173 /* MyTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTopViewController.h; sourceTree = "<group>"; };
 		63E9D6601B45ADF700062173 /* MyTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTopViewController.m; sourceTree = "<group>"; };
+		63E9D6631B45B74D00062173 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		63EDAF6B1B207427007355D6 /* iCoSpartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoSpartan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EDAF6F1B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF701B207427007355D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -800,6 +804,8 @@
 				63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */,
 				63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */,
 				63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */,
+				63E9D6631B45B74D00062173 /* bg.jpg */,
+				639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -907,6 +913,7 @@
 				6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */,
 				63D904441B3FFE8B007E9E0C /* igualada@2x.png in Resources */,
 				63D9045C1B400A16007E9E0C /* workout_58@2x.png in Resources */,
+				63E9D6641B45B74D00062173 /* bg.jpg in Resources */,
 				637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */,
 				63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */,
 				637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */,
@@ -969,6 +976,7 @@
 				631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */,
 				63DDDB011B301612000BEDDC /* barbell_row_2@2x.jpg in Resources */,
 				6310E0EE1B27936E00093BE5 /* fondos_pelota_2@2x.jpg in Resources */,
+				639ABB021B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png in Resources */,
 				63E36F7E1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg in Resources */,
 				637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */,
 				631AC4071B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg in Resources */,
