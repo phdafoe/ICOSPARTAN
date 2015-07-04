@@ -20,13 +20,13 @@
     CGRect contentsFrame = self.imageView.frame;
     
     if (contentsFrame.size.width < boundsSize.width) {
-        contentsFrame.origin.x = (boundsSize.width - contentsFrame.size.width) / 2.0f;
+        contentsFrame.origin.x = (boundsSize.width - contentsFrame.size.width) / 6.0f;
     } else {
         contentsFrame.origin.x = 0.0f;
     }
     
     if (contentsFrame.size.height < boundsSize.height) {
-        contentsFrame.origin.y = (boundsSize.height - contentsFrame.size.height) / 2.0f;
+        contentsFrame.origin.y = (boundsSize.height - contentsFrame.size.height) / 3.0f;
     } else {
         contentsFrame.origin.y = 0.0f;
     }
@@ -39,7 +39,7 @@
     CGPoint pointInView = [recognizer locationInView:self.imageView];
     
     // Get a zoom scale that's zoomed in slightly, capped at the maximum zoom scale specified by the scroll view
-    CGFloat newZoomScale = self.mapParkTrainerScrollView.zoomScale * 1.5f;
+    CGFloat newZoomScale = self.mapParkTrainerScrollView.zoomScale * 3.0f;
     newZoomScale = MIN(newZoomScale, self.mapParkTrainerScrollView.maximumZoomScale);
     
     // Figure out the rect we want to zoom to, then zoom to it
@@ -88,6 +88,8 @@
     twoFingerTapRecognizer.numberOfTapsRequired = 1;
     twoFingerTapRecognizer.numberOfTouchesRequired = 2;
     [self.mapParkTrainerScrollView addGestureRecognizer:twoFingerTapRecognizer];
+    
+    [self.nameCityPark setNumberOfLines:0];
     
     // Do any additional setup after loading the view.
 }

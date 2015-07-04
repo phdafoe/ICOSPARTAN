@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#define BARCELONA 0
+#define MADRID 1
+#define GRAN_CANARIA 2
+#define VALENCIA 3
+
+
 @interface ICOMapasEntrenamientoTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray *mapasArray;

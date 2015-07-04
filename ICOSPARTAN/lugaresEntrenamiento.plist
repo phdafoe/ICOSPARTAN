@@ -4,6 +4,20 @@
 <array>
 	<dict>
 		<key>title</key>
+		<string>MADRID CAPITAL PARQUE TIERNO GALVÁN </string>
+		<key>description</key>
+		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
+		<key>city</key>
+		<string>MADRID ZONA PLANETARIO</string>
+		<key>parkImageName</key>
+		<string>parquetiernogalvan@2x.jpg</string>
+		<key>numberParkImageName</key>
+		<string>numero1@2x.png</string>
+		<key>parkBigImageName</key>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
 		<string>PARQUE TIERNO GALVÁN</string>
 		<key>description</key>
 		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
@@ -28,7 +42,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -42,7 +56,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -56,7 +70,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -70,7 +84,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -84,7 +98,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -98,7 +112,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -112,7 +126,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -126,7 +140,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -140,7 +154,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -154,7 +168,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -168,7 +182,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -182,7 +196,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -196,7 +210,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -210,91 +224,7 @@
 		<key>numberParkImageName</key>
 		<string>numero1@2x.png</string>
 		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>tierno-galvan@2x.jpg</string>
+		<string>BASE_TIERNO_GALVAN@2x.png</string>
 	</dict>
 </array>
 </plist>

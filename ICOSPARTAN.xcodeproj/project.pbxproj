@@ -71,7 +71,6 @@
 		637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */; };
 		637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */; };
 		637F63561B2638E500A70B6A /* TRIFECA_3M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */; };
-		637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63571B2639A400A70B6A /* SPARTAN1@2x.png */; };
 		639ABB021B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */; };
 		63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */; };
 		63ABD3021B302ABC0099F520 /* brand_press_pecho_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */; };
@@ -125,11 +124,9 @@
 		63D904521B400485007E9E0C /* iznajarcordoba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904511B400485007E9E0C /* iznajarcordoba@2x.png */; };
 		63D904541B4004E3007E9E0C /* zamora@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904531B4004E3007E9E0C /* zamora@2x.png */; };
 		63D904561B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904551B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png */; };
-		63D904581B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */; };
 		63D9045A1B4009D7007E9E0C /* workout_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D904591B4009D7007E9E0C /* workout_12@2x.png */; };
 		63D9045C1B400A16007E9E0C /* workout_58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D9045B1B400A16007E9E0C /* workout_58@2x.png */; };
 		63D904611B401429007E9E0C /* ICOurlWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D904601B401429007E9E0C /* ICOurlWebViewController.m */; };
-		63DAD1811B3B227500E2A728 /* main_calendar_btn_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */; };
 		63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */; };
 		63DAD1861B3B238F00E2A728 /* calendario.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63DAD1851B3B238F00E2A728 /* calendario.plist */; };
 		63DAD1891B3B255800E2A728 /* CustomCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAD1881B3B255800E2A728 /* CustomCell1.m */; };
@@ -166,14 +163,12 @@
 		63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C51B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg */; };
 		63E620C81B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */; };
 		63E9D64F1B45A40F00062173 /* ICODetailMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D64E1B45A40F00062173 /* ICODetailMapViewController.m */; };
-		63E9D6511B45AA2200062173 /* tierno-galvan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */; };
 		63E9D6541B45AC7300062173 /* gradient_overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */; };
 		63E9D6551B45AC7300062173 /* gradient-over-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */; };
 		63E9D6581B45ADB500062173 /* UIViewController+M6ParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D6571B45ADB500062173 /* UIViewController+M6ParallaxController.m */; };
 		63E9D65C1B45ADDB00062173 /* M6ParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D65B1B45ADDB00062173 /* M6ParallaxController.m */; };
 		63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D65E1B45ADF700062173 /* MyParallaxController.m */; };
 		63E9D6621B45ADF700062173 /* MyTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D6601B45ADF700062173 /* MyTopViewController.m */; };
-		63E9D6641B45B74D00062173 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D6631B45B74D00062173 /* bg.jpg */; };
 		63EDAF711B207427007355D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF701B207427007355D6 /* main.m */; };
 		63EDAF741B207427007355D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF731B207427007355D6 /* AppDelegate.m */; };
 		63EDAF761B207427007355D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF751B207427007355D6 /* Images.xcassets */; };
@@ -260,7 +255,6 @@
 		637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_1M@2x.png"; sourceTree = "<group>"; };
 		637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_2M@2x.png"; sourceTree = "<group>"; };
 		637F63521B2638E500A70B6A /* TRIFECA_3M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_3M@2x.png"; sourceTree = "<group>"; };
-		637F63571B2639A400A70B6A /* SPARTAN1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPARTAN1@2x.png"; sourceTree = "<group>"; };
 		639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BASE_TIERNO_GALVAN@2x.png"; sourceTree = "<group>"; };
 		63ABD2FF1B302AB10099F520 /* brand_press_pecho_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_1@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3011B302ABC0099F520 /* brand_press_pecho_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brand_press_pecho_2@2x.jpg"; sourceTree = "<group>"; };
@@ -327,12 +321,10 @@
 		63D904511B400485007E9E0C /* iznajarcordoba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iznajarcordoba@2x.png"; sourceTree = "<group>"; };
 		63D904531B4004E3007E9E0C /* zamora@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zamora@2x.png"; sourceTree = "<group>"; };
 		63D904551B400835007E9E0C /* main_goal_animation_flag_image_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_goal_animation_flag_image_ios7@2x.png"; sourceTree = "<group>"; };
-		63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_goal_animation_flag_image@2x.png"; sourceTree = "<group>"; };
 		63D904591B4009D7007E9E0C /* workout_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout_12@2x.png"; sourceTree = "<group>"; };
 		63D9045B1B400A16007E9E0C /* workout_58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout_58@2x.png"; sourceTree = "<group>"; };
 		63D9045F1B401429007E9E0C /* ICOurlWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOurlWebViewController.h; sourceTree = "<group>"; };
 		63D904601B401429007E9E0C /* ICOurlWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOurlWebViewController.m; sourceTree = "<group>"; };
-		63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_calendar_btn_ios7@2x.png"; sourceTree = "<group>"; };
 		63DAD1821B3B233300E2A728 /* ICOCalendarioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOCalendarioTableViewController.h; sourceTree = "<group>"; };
 		63DAD1831B3B233300E2A728 /* ICOCalendarioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOCalendarioTableViewController.m; sourceTree = "<group>"; };
 		63DAD1851B3B238F00E2A728 /* calendario.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = calendario.plist; sourceTree = "<group>"; };
@@ -372,7 +364,6 @@
 		63E620C71B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "press_pajaro_mancuernas_1@2x.jpg"; sourceTree = "<group>"; };
 		63E9D64D1B45A40F00062173 /* ICODetailMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODetailMapViewController.h; sourceTree = "<group>"; };
 		63E9D64E1B45A40F00062173 /* ICODetailMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODetailMapViewController.m; sourceTree = "<group>"; };
-		63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tierno-galvan@2x.jpg"; sourceTree = "<group>"; };
 		63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient_overlay@2x.png"; sourceTree = "<group>"; };
 		63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-over-image@2x.png"; sourceTree = "<group>"; };
 		63E9D6561B45ADB500062173 /* UIViewController+M6ParallaxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+M6ParallaxController.h"; sourceTree = "<group>"; };
@@ -383,7 +374,6 @@
 		63E9D65E1B45ADF700062173 /* MyParallaxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyParallaxController.m; sourceTree = "<group>"; };
 		63E9D65F1B45ADF700062173 /* MyTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTopViewController.h; sourceTree = "<group>"; };
 		63E9D6601B45ADF700062173 /* MyTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTopViewController.m; sourceTree = "<group>"; };
-		63E9D6631B45B74D00062173 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		63EDAF6B1B207427007355D6 /* iCoSpartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoSpartan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EDAF6F1B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF701B207427007355D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -777,7 +767,6 @@
 				63E620AF1B28D0F0005BAC37 /* EXERCISES_SPARTAN_NIVEL_3 */,
 				631AC4091B2835730020D0E4 /* EXERCISES_SPARTAN_NIVEL_2 */,
 				6307DAA61B239766008B141A /* EXERCISES_SPARTAN_NIVEL_1 */,
-				637F63571B2639A400A70B6A /* SPARTAN1@2x.png */,
 				637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */,
 				637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */,
 				637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */,
@@ -790,8 +779,6 @@
 				63CAB2081B24DB58000249F8 /* iconApp180x180.png */,
 				6331F9771B249FC800E43940 /* top_menu_bg@2x.png */,
 				6331F9811B24AAFA00E43940 /* ICOSPARTAN@2x.png */,
-				63DAD1801B3B227500E2A728 /* main_calendar_btn_ios7@2x.png */,
-				63D904571B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png */,
 				63D904591B4009D7007E9E0C /* workout_12@2x.png */,
 				63D9045B1B400A16007E9E0C /* workout_58@2x.png */,
 				6347AE221B44853000635E9C /* workout_80@2x.png */,
@@ -801,10 +788,8 @@
 				6347AE1E1B447ED800635E9C /* ICO_FOTO_1@2x.png */,
 				6347AE201B4484D500635E9C /* ICO_FOTO_2@2x.png */,
 				6347AE301B448EE900635E9C /* numero1@2x.png */,
-				63E9D6501B45AA2200062173 /* tierno-galvan@2x.jpg */,
 				63E9D6521B45AC7300062173 /* gradient_overlay@2x.png */,
 				63E9D6531B45AC7300062173 /* gradient-over-image@2x.png */,
-				63E9D6631B45B74D00062173 /* bg.jpg */,
 				639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */,
 			);
 			name = IMAGES;
@@ -913,10 +898,8 @@
 				6331F9821B24AAFA00E43940 /* ICOSPARTAN@2x.png in Resources */,
 				63D904441B3FFE8B007E9E0C /* igualada@2x.png in Resources */,
 				63D9045C1B400A16007E9E0C /* workout_58@2x.png in Resources */,
-				63E9D6641B45B74D00062173 /* bg.jpg in Resources */,
 				637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */,
 				63DDDB001B301612000BEDDC /* barbell_row_1@2x.jpg in Resources */,
-				637F63581B2639A400A70B6A /* SPARTAN1@2x.png in Resources */,
 				63E620C61B28DF37005BAC37 /* press_pajaro_mancuernas_2@2x.jpg in Resources */,
 				63ABD30A1B30340C0099F520 /* band_press_alterne_2@2x.jpg in Resources */,
 				63D9044E1B400365007E9E0C /* valencia@2x.png in Resources */,
@@ -965,12 +948,10 @@
 				63D777191B403FD60052D61B /* Appirater.podspec.json in Resources */,
 				6347AE291B448A5A00635E9C /* parquetiernogalvan@2x.jpg in Resources */,
 				63D9045A1B4009D7007E9E0C /* workout_12@2x.png in Resources */,
-				63D904581B4008E5007E9E0C /* main_goal_animation_flag_image@2x.png in Resources */,
 				63D904481B3FFF5D007E9E0C /* pontevedra@2x.png in Resources */,
 				6307DAA51B239761008B141A /* salto_vertical_2@2x.jpg in Resources */,
 				6347AE251B44862800635E9C /* workout_map@2x.png in Resources */,
 				63D085FF1B41E95E006E2518 /* main_news_ios7@2x.png in Resources */,
-				63E9D6511B45AA2200062173 /* tierno-galvan@2x.jpg in Resources */,
 				631BFF001B3DCE9000656159 /* losyebenes@2x.png in Resources */,
 				63DAD18C1B3B2BDF00E2A728 /* pamplona@2x.png in Resources */,
 				631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */,
@@ -986,7 +967,6 @@
 				63D9044A1B3FFFC6007E9E0C /* ciudadreal@2x.png in Resources */,
 				63E36F831B28B8990017AB98 /* abdominales_cuarta_1@2x.jpg in Resources */,
 				631AC4171B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg in Resources */,
-				63DAD1811B3B227500E2A728 /* main_calendar_btn_ios7@2x.png in Resources */,
 				637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */,
 				631AC3F41B282A460020D0E4 /* fondos_cobra_1@2x.jpg in Resources */,
 				63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */,
