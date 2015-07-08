@@ -15,6 +15,7 @@
 #import "ICOSpartanNivel4TableViewController.h"
 #import "ICOCalendarioTableViewController.h"
 #import "ICOConsejosViewController.h"
+#import "ICOSobreNosotrosViewController.h"
 
 #import "ICONavigationViewController.h"
 
@@ -75,7 +76,7 @@
 {
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.textColor = [UIColor colorWithRed:62/255.0f green:68/255.0f blue:75/255.0f alpha:1.0f];
-    cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17];
+    cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:15];
 }
 
 
@@ -127,6 +128,11 @@
         
         ICOConsejosViewController *ConsejosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"sextoController"];
         navigationController.viewControllers = @[ConsejosViewController];
+        
+    }else if (indexPath.section == 0 && indexPath.row == 7) {
+        
+        ICOSobreNosotrosViewController *SobreNosotrosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"septimoController"];
+        navigationController.viewControllers = @[SobreNosotrosViewController];
     }
     
     self.frostedViewController.contentViewController = navigationController;
@@ -149,7 +155,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-    return 7;
+    return 8;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -163,7 +169,7 @@
     }
     
     if (indexPath.section == 0) {
-        NSArray *titles = @[@"Home", @"Tabla Nivel 1", @"Tabla Nivel 2", @"Tabla Nivel 3", @"Tabla Nivel 4", @"Calendario", @"Consejos"];
+        NSArray *titles = @[@"Home", @"Tabla Nivel 1", @"Tabla Nivel 2", @"Tabla Nivel 3", @"Tabla Nivel 4", @"Calendario", @"Consejos", @"Nosotros"];
         cell.textLabel.text = titles[indexPath.row];
     }
     

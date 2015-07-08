@@ -18,213 +18,45 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
+		<string>Proximamente en Barcelona!</string>
 		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
+		<string></string>
 		<key>city</key>
-		<string>Madrid</string>
+		<string>Barcelona</string>
 		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
+		<string>disculpamolestias_1@2x.jpg</string>
 		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
+		<string></string>
 		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
+		<string>DisculpaMolestias@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
+		<string>Proximamente en Valencia!</string>
 		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
+		<string></string>
 		<key>city</key>
-		<string>Madrid</string>
+		<string>Barcelona</string>
 		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
+		<string>disculpamolestias_1@2x.jpg</string>
 		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
+		<string></string>
 		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
+		<string>DisculpaMolestias@2x.png</string>
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
+		<string>Proximamente en Sevilla!</string>
 		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
+		<string></string>
 		<key>city</key>
-		<string>Madrid</string>
+		<string>Barcelona</string>
 		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
+		<string>disculpamolestias_1@2x.jpg</string>
 		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
+		<string></string>
 		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>PARQUE TIERNO GALVÁN</string>
-		<key>description</key>
-		<string>Área con desnivel entre 45º a 62º, con multiples zonas de obstáculos, hay fuentes de agua y sombra ya que cuenta con muchas zonas verdes de árboles grandes</string>
-		<key>city</key>
-		<string>Madrid</string>
-		<key>parkImageName</key>
-		<string>parquetiernogalvan@2x.jpg</string>
-		<key>numberParkImageName</key>
-		<string>numero1@2x.png</string>
-		<key>parkBigImageName</key>
-		<string>BASE_TIERNO_GALVAN@2x.png</string>
+		<string>DisculpaMolestias@2x.png</string>
 	</dict>
 </array>
 </plist>
