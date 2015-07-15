@@ -42,19 +42,14 @@
     [Appirater setCustomAlertCancelButtonTitle:@"No Gracias!!"];
     
     [Appirater appLaunched:YES];
-
-    UILocalNotification *notification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
-    if (notification) {
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Entrénate con iCoSpartan"
-    message:notification.alertBody
-    delegate:nil
-    cancelButtonTitle:nil
-    otherButtonTitles:@"OK", nil];
-        
-    [alert show];
-        
+    
+    // Handle launching from a notification
+    UILocalNotification *locationNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if (locationNotification) {
+        // Set icon badge number to zero
+        application.applicationIconBadgeNumber = 0;
     }
- 
+
     return YES;
 }
 
@@ -100,13 +95,28 @@
     
     //personalizacion de la Barra ionferior de navegacion tabBar Controller
     //[[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"top_menu_bg@2x.png"]];
-    
-    
-  
-    
-    
-    
+   
 }
+
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    UIApplicationState state = [application applicationState];
+    if (state == UIApplicationStateActive) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Recuerda Hacer Deporte con iCoSpartan"
+                                                        message:nil
+                                                       delegate:self cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+    
+    // Request to reload table view data
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:self];
+    
+    // Set icon badge number to zero
+    application.applicationIconBadgeNumber = 0;
+}
+
 
 
 

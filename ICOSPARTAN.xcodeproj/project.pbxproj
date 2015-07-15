@@ -73,6 +73,7 @@
 		6347AE2C1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347AE2B1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m */; };
 		6347AE2F1B448D5200635E9C /* CustomCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347AE2E1B448D5200635E9C /* CustomCell2.m */; };
 		6347AE311B448EE900635E9C /* numero1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE301B448EE900635E9C /* numero1@2x.png */; };
+		6367B62B1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367B62A1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m */; };
 		637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */; };
 		637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */; };
 		637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */; };
@@ -271,6 +272,8 @@
 		6347AE2D1B448D5200635E9C /* CustomCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell2.h; sourceTree = "<group>"; };
 		6347AE2E1B448D5200635E9C /* CustomCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell2.m; sourceTree = "<group>"; };
 		6347AE301B448EE900635E9C /* numero1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numero1@2x.png"; sourceTree = "<group>"; };
+		6367B6291B571012002D7BD5 /* ICOEntrenamientosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOEntrenamientosTableViewController.h; sourceTree = "<group>"; };
+		6367B62A1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOEntrenamientosTableViewController.m; sourceTree = "<group>"; };
 		637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_0M@2x.png"; sourceTree = "<group>"; };
 		637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_1M@2x.png"; sourceTree = "<group>"; };
 		637F63511B2638E500A70B6A /* TRIFECA_2M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_2M@2x.png"; sourceTree = "<group>"; };
@@ -695,6 +698,8 @@
 				63D085FA1B41E523006E2518 /* ICONavigationViewController.m */,
 				63D086001B41EB19006E2518 /* ICOMenuTableViewController.h */,
 				63D086011B41EB19006E2518 /* ICOMenuTableViewController.m */,
+				6367B6291B571012002D7BD5 /* ICOEntrenamientosTableViewController.h */,
+				6367B62A1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m */,
 				63EDAF951B20913D007355D6 /* ICOSpartanNivel1TableViewController.h */,
 				63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */,
 				63EDAFC71B20BA76007355D6 /* ICODetailSpartanNivel1ViewController.h */,
@@ -1076,6 +1081,7 @@
 				63E9D6581B45ADB500062173 /* UIViewController+M6ParallaxController.m in Sources */,
 				63D086021B41EB19006E2518 /* ICOMenuTableViewController.m in Sources */,
 				6322BC191B4D7C38001279E4 /* GHWalkThroughPageCell.m in Sources */,
+				6367B62B1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m in Sources */,
 				63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */,
 				63D085F21B41E41B006E2518 /* REFrostedViewController.m in Sources */,
 				63D085F11B41E41B006E2518 /* REFrostedContainerViewController.m in Sources */,

@@ -9,6 +9,9 @@
 #import "ICOMenuTableViewController.h"
 
 #import "ICOGaleriaViewController.h"
+
+#import "ICOEntrenamientosTableViewController.h"
+
 #import "ICOSpartanNivel1TableViewController.h"
 #import "ICOSpartanNivel2TableViewController.h"
 #import "ICOSpartanNivel3TableViewController.h"
@@ -102,10 +105,10 @@
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
-        ICOSpartanNivel1TableViewController *spartanNivel1ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"primerController"];
-        navigationController.viewControllers = @[spartanNivel1ViewController];
+        ICOEntrenamientosTableViewController *spartanEntrenamientosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"entrenamientos"];
+        navigationController.viewControllers = @[spartanEntrenamientosViewController];
         
-    }else if (indexPath.section == 0 && indexPath.row == 2) {
+    }/*else if (indexPath.section == 0 && indexPath.row == 2) {
         
         ICOSpartanNivel2TableViewController *spartanNivel2ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"segundoController"];
         navigationController.viewControllers = @[spartanNivel2ViewController];
@@ -119,17 +122,17 @@
         
         ICOSpartanNivel4TableViewController *spartanNivel4ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"cuartoController"];
         navigationController.viewControllers = @[spartanNivel4ViewController];
-    }else if (indexPath.section == 0 && indexPath.row == 5) {
+    }*/else if (indexPath.section == 0 && indexPath.row == 2) {
         
         ICOCalendarioTableViewController *CalendarioTableViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"quintoController"];
         navigationController.viewControllers = @[CalendarioTableViewController];
         
-    }else if (indexPath.section == 0 && indexPath.row == 6) {
+    }else if (indexPath.section == 0 && indexPath.row == 3) {
         
         ICOConsejosViewController *ConsejosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"sextoController"];
         navigationController.viewControllers = @[ConsejosViewController];
         
-    }else if (indexPath.section == 0 && indexPath.row == 7) {
+    }else if (indexPath.section == 0 && indexPath.row == 4) {
         
         ICOSobreNosotrosViewController *SobreNosotrosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"septimoController"];
         navigationController.viewControllers = @[SobreNosotrosViewController];
@@ -155,7 +158,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-    return 8;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -169,7 +172,7 @@
     }
     
     if (indexPath.section == 0) {
-        NSArray *titles = @[@"Home", @"Tabla Nivel 1", @"Tabla Nivel 2", @"Tabla Nivel 3", @"Tabla Nivel 4", @"Calendario", @"Consejos", @"Nosotros"];
+        NSArray *titles = @[@"Home", @"Entrenamientos", @"Calendario", @"Consejos", @"Nosotros"];
         cell.textLabel.text = titles[indexPath.row];
     }
     
