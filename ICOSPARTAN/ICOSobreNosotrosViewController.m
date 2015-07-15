@@ -53,67 +53,40 @@
 
 - (IBAction)sendMessage:(id)sender {
     
-    if ([MFMailComposeViewController canSendMail]) {
-        
         MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc]init];
-        
         mailComposer.mailComposeDelegate = self;
+        
         [mailComposer setSubject:@"iCoSpartan App"];
+        NSArray *toRecipient = [NSArray arrayWithObject:@"info@icospartan.com"];
+        NSArray *ccRecipient = [NSArray arrayWithObject:@""];
+        NSArray *bccRecipient = [NSArray arrayWithObject:@""];
         
-        NSArray *toRecipient = [NSArray arrayWithObjects:@"", nil];
         [mailComposer setToRecipients:toRecipient];
+        [mailComposer setCcRecipients:ccRecipient];
+        [mailComposer setBccRecipients:bccRecipient];
         
-        UIImage *myImage = [UIImage imageNamed:@"iconApp180x180.png"];
+        UIImage *myImage = [UIImage imageNamed:@"iconApp80x80.png"];
         NSData *imageData = UIImageJPEGRepresentation(myImage, 50);
-        
+    
         [mailComposer addAttachmentData:imageData
-                               mimeType:@"IMAGES"
-                               fileName:@"iconApp180x180.png"];
-        
+                           mimeType:@"IMAGES"
+                           fileName:@"iconApp80x80.png"];
+    
         NSString *emailBody = @"";
+    
         [mailComposer setMessageBody:emailBody isHTML:NO];
         
-        [self presentViewController:mailComposer animated:YES completion:nil];
-    }
-    else{
-        
+        if (mailComposer != nil) {
+            [self presentViewController:mailComposer animated:YES completion:nil];
+            
+            
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ATENCIÓN"
-                                                        message:@"TU DISPOSITIVO NO SOPORTA EL COMPONENTE DE ENVIAR MAIL"
+                                                        message:@"TU DISPOSITIVO NO SOPORTA EL COMPONENTE PARA ENVIAR MAIL"
                                                        delegate:nil
                                               cancelButtonTitle:@"OK!"
                                               otherButtonTitles:nil];
         [alert show];
 }
-    
-
-    
-/*-(void)mailComposeController:(MFMailComposeViewController *)controller
-didFinishWithResult:(MFMailComposeResult)result
-error:(NSError *)error{
-        
-        switch (result) {
-            case MFMailComposeResultCancelled:
-                NSLog(@"Mail cancelado: Haz cancelado la operación y el no envío del mail que haz solicitado");
-                break;
-            case MFMailComposeResultSaved:
-                NSLog(@"Mail salvado: Haz salvado el mail in la carpeta de borradores");
-                break;
-            case MFMailComposeResultSent:
-                NSLog(@"Mail enviado: el mail que haz enviado esta en la carpeta de salida, esta preparado para salir");
-                break;
-            case MFMailComposeResultFailed:
-                NSLog(@"Mail fallido: ha ocurrido un error en el envio del mail, existe un posible error");
-                break;
-                
-            default:
-                NSLog(@"Mail no enviado");
-                break;
-        }
-        
-        [self dismissViewControllerAnimated:YES completion:nil];
-        
-}*/
-    
     
 }
 @end

@@ -54,6 +54,12 @@
 		631BFF0A1B3DD30D00656159 /* cartagenaespana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF091B3DD30D00656159 /* cartagenaespana@2x.png */; };
 		631BFF0D1B3DD4C200656159 /* castuera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF0B1B3DD4C200656159 /* castuera@2x.png */; };
 		631BFF0E1B3DD4C200656159 /* castelldefels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631BFF0C1B3DD4C200656159 /* castelldefels@2x.png */; };
+		6322BC101B4D6860001279E4 /* intro_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0C1B4D6860001279E4 /* intro_1@2x.jpg */; };
+		6322BC111B4D6860001279E4 /* intro_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0D1B4D6860001279E4 /* intro_2@2x.jpg */; };
+		6322BC121B4D6860001279E4 /* intro_3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0E1B4D6860001279E4 /* intro_3@2x.jpg */; };
+		6322BC131B4D6860001279E4 /* intro_4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0F1B4D6860001279E4 /* intro_4@2x.jpg */; };
+		6322BC161B4D79EF001279E4 /* ICOGaleriaImagenesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6322BC151B4D79EF001279E4 /* ICOGaleriaImagenesView.m */; };
+		6322BC191B4D7C38001279E4 /* GHWalkThroughPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6322BC181B4D7C38001279E4 /* GHWalkThroughPageCell.m */; };
 		6331F9781B249FC800E43940 /* top_menu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9771B249FC800E43940 /* top_menu_bg@2x.png */; };
 		6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */; };
 		6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */; };
@@ -242,6 +248,14 @@
 		631BFF091B3DD30D00656159 /* cartagenaespana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cartagenaespana@2x.png"; sourceTree = "<group>"; };
 		631BFF0B1B3DD4C200656159 /* castuera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castuera@2x.png"; sourceTree = "<group>"; };
 		631BFF0C1B3DD4C200656159 /* castelldefels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castelldefels@2x.png"; sourceTree = "<group>"; };
+		6322BC0C1B4D6860001279E4 /* intro_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_1@2x.jpg"; sourceTree = "<group>"; };
+		6322BC0D1B4D6860001279E4 /* intro_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_2@2x.jpg"; sourceTree = "<group>"; };
+		6322BC0E1B4D6860001279E4 /* intro_3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_3@2x.jpg"; sourceTree = "<group>"; };
+		6322BC0F1B4D6860001279E4 /* intro_4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_4@2x.jpg"; sourceTree = "<group>"; };
+		6322BC141B4D79EF001279E4 /* ICOGaleriaImagenesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOGaleriaImagenesView.h; sourceTree = "<group>"; };
+		6322BC151B4D79EF001279E4 /* ICOGaleriaImagenesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOGaleriaImagenesView.m; sourceTree = "<group>"; };
+		6322BC171B4D7C38001279E4 /* GHWalkThroughPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHWalkThroughPageCell.h; sourceTree = "<group>"; };
+		6322BC181B4D7C38001279E4 /* GHWalkThroughPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHWalkThroughPageCell.m; sourceTree = "<group>"; };
 		6331F9771B249FC800E43940 /* top_menu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_menu_bg@2x.png"; sourceTree = "<group>"; };
 		6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_1@2x.jpg"; sourceTree = "<group>"; };
 		6331F97A1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saltos_cuarta_mov_2@2x.jpg"; sourceTree = "<group>"; };
@@ -487,6 +501,17 @@
 			name = EXERCISES_SPARTAN_NIVEL_2;
 			sourceTree = "<group>";
 		};
+		6322BC0B1B4D683D001279E4 /* INTRO */ = {
+			isa = PBXGroup;
+			children = (
+				6322BC0C1B4D6860001279E4 /* intro_1@2x.jpg */,
+				6322BC0D1B4D6860001279E4 /* intro_2@2x.jpg */,
+				6322BC0E1B4D6860001279E4 /* intro_3@2x.jpg */,
+				6322BC0F1B4D6860001279E4 /* intro_4@2x.jpg */,
+			);
+			name = INTRO;
+			sourceTree = "<group>";
+		};
 		63D085E31B41E41B006E2518 /* REFrostedViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -591,6 +616,10 @@
 			children = (
 				63E07BBF1B4D0A9E009D5F50 /* ICORawScrollView.h */,
 				63E07BC01B4D0A9E009D5F50 /* ICORawScrollView.m */,
+				6322BC141B4D79EF001279E4 /* ICOGaleriaImagenesView.h */,
+				6322BC151B4D79EF001279E4 /* ICOGaleriaImagenesView.m */,
+				6322BC171B4D7C38001279E4 /* GHWalkThroughPageCell.h */,
+				6322BC181B4D7C38001279E4 /* GHWalkThroughPageCell.m */,
 			);
 			name = LIBRARIES;
 			sourceTree = "<group>";
@@ -791,6 +820,7 @@
 		63EDAF9C1B2093D2007355D6 /* IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				6322BC0B1B4D683D001279E4 /* INTRO */,
 				63DAD18A1B3B2BCE00E2A728 /* CITY */,
 				63E620C41B28DCC2005BAC37 /* EXERCISES_SPARTAN_NIVEL_4 */,
 				63E620AF1B28D0F0005BAC37 /* EXERCISES_SPARTAN_NIVEL_3 */,
@@ -900,6 +930,7 @@
 				631AC4191B2839B90020D0E4 /* saltos_vertical_2@2x.jpg in Resources */,
 				63EDAFBC1B209925007355D6 /* spartanLevel2.plist in Resources */,
 				631AC40D1B2836350020D0E4 /* fondos_elevados_2@2x.jpg in Resources */,
+				6322BC131B4D6860001279E4 /* intro_4@2x.jpg in Resources */,
 				631AC3FA1B282CA10020D0E4 /* press_hombro_1@2x.jpg in Resources */,
 				631BFF011B3DCE9000656159 /* buitragodelozoya@2x.png in Resources */,
 				6347AE1F1B447ED800635E9C /* ICO_FOTO_1@2x.png in Resources */,
@@ -954,6 +985,7 @@
 				6310E0F21B27951E00093BE5 /* sentadilla_peso_1@2x.jpg in Resources */,
 				63DDDB0D1B301A66000BEDDC /* press_hombro_rodilla_1@2x.jpg in Resources */,
 				63DDDB0B1B3019B9000BEDDC /* one_arm_snatch_1@2x.jpg in Resources */,
+				6322BC101B4D6860001279E4 /* intro_1@2x.jpg in Resources */,
 				6331F9781B249FC800E43940 /* top_menu_bg@2x.png in Resources */,
 				63E620BE1B28DB37005BAC37 /* abdominal_corta_doble_rebote_2@2x.jpg in Resources */,
 				631AC40F1B28376B0020D0E4 /* pendulo Kettle bell_1@2x.jpg in Resources */,
@@ -989,9 +1021,11 @@
 				631BFF021B3DCE9000656159 /* lanuncia@2x.png in Resources */,
 				63DDDB011B301612000BEDDC /* barbell_row_2@2x.jpg in Resources */,
 				6310E0EE1B27936E00093BE5 /* fondos_pelota_2@2x.jpg in Resources */,
+				6322BC111B4D6860001279E4 /* intro_2@2x.jpg in Resources */,
 				639ABB021B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png in Resources */,
 				63E36F7E1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg in Resources */,
 				63E07BCB1B4D2401009D5F50 /* disculpamolestias_1@2x.jpg in Resources */,
+				6322BC121B4D6860001279E4 /* intro_3@2x.jpg in Resources */,
 				637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */,
 				631AC4071B2832E70020D0E4 /* abdominales_tipo_1@2x.jpg in Resources */,
 				631AC4111B2837760020D0E4 /* pendulo Kettle bell_2@2x.jpg in Resources */,
@@ -1041,6 +1075,7 @@
 			files = (
 				63E9D6581B45ADB500062173 /* UIViewController+M6ParallaxController.m in Sources */,
 				63D086021B41EB19006E2518 /* ICOMenuTableViewController.m in Sources */,
+				6322BC191B4D7C38001279E4 /* GHWalkThroughPageCell.m in Sources */,
 				63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */,
 				63D085F21B41E41B006E2518 /* REFrostedViewController.m in Sources */,
 				63D085F11B41E41B006E2518 /* REFrostedContainerViewController.m in Sources */,
@@ -1058,6 +1093,7 @@
 				63D085FB1B41E523006E2518 /* ICONavigationViewController.m in Sources */,
 				63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
+				6322BC161B4D79EF001279E4 /* ICOGaleriaImagenesView.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
 				63D085F01B41E41B006E2518 /* RECommonFunctions.m in Sources */,
 				63E9D6621B45ADF700062173 /* MyTopViewController.m in Sources */,

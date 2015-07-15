@@ -7,8 +7,17 @@
 //
 
 #import "ICOGaleriaViewController.h"
+#import "ICOGaleriaImagenesView.h"
 
-@interface ICOGaleriaViewController ()
+
+
+@interface ICOGaleriaViewController () <GHWalkThroughViewDataSource>
+
+@property (nonatomic, strong) GHWalkThroughView* ghView ;
+
+@property (nonatomic, strong) NSArray* descStrings;
+
+@property (nonatomic, strong) UILabel* welcomeLabel;
 
 @end
 
@@ -17,31 +26,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    int i;
+    _ghView = [[GHWalkThroughView alloc] initWithFrame:self.navigationController.view.bounds];
+    [_ghView setDataSource:self];
+    [_ghView setWalkThroughDirection:GHWalkThroughViewDirectionVertical];
+    UILabel* welcomeLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
+    welcomeLabel.text = @"Welcome";
+    welcomeLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:40];
+    welcomeLabel.textColor = [UIColor whiteColor];
+    welcomeLabel.textAlignment = NSTextAlignmentCenter;
+    self.welcomeLabel = welcomeLabel;
     
-    for (i = 0 ; i < 23; i ++) {
-        UIImageView *imagenes = [[UIImageView alloc]initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"SPARTAN%d@2x.png", i]]];
-        imagenes.frame = CGRectMake((i - 1) * 320, 0 ,320, 499);
-        [self.scrollView addSubview:imagenes];
-    }
-    
-    self.scrollView.contentSize = CGSizeMake(10 * 320, 499);
-    self.scrollView.pagingEnabled = YES;
-    self.pageControll.numberOfPages = 10;
-    self.pageControll.currentPage = 0;
-    //self.pageControll.preservesSuperviewLayoutMargins = YES;
-    
-    // Do any additional setup after loading the view.
+}
+
+#pragma mark - GHDataSource
+
+-(NSInteger) numberOfPages
+{
+    return 4;
 }
 
 
--(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    
-    int page = self.scrollView.contentOffset.x / self.scrollView.frame.size.width;
-    
-    self.pageControll.currentPage = page;
-    
+- (UIImage*) bgImageforPage:(NSInteger)index
+{
+    NSString* imageName =[NSString stringWithFormat:@"intro_%d@2x.jpg", index+1];
+    UIImage* image = [UIImage imageNamed:imageName];
+    return image;
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -69,5 +81,12 @@
     // Present the view controller
     //
     [self.frostedViewController presentMenuViewController];
+}
+
+- (IBAction)showGaleria:(id)sender {
+    
+    self.ghView.floatingHeaderView = nil;
+    [self.ghView setWalkThroughDirection:GHWalkThroughViewDirectionHorizontal];
+    [self.ghView showInView:self.navigationController.view animateDuration:0.3];
 }
 @end

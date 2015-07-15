@@ -149,57 +149,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ICO_FOTO_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oBA-Sl-I1b">
-                                <rect key="frame" x="0.0" y="64" width="320" height="112"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Hdc-Ry-O1t">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Estamos orgullosos de presentarles a" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Gw-nA-WTd">
-                                <rect key="frame" x="16" y="231" width="288" height="39"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="una nueva forma de hacer ejercicio, porque Nos gusta el Deporte!!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR4-mL-GsN">
-                                <rect key="frame" x="16" y="334" width="288" height="73"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="iCoSpartan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXC-x3-EcR">
-                                <rect key="frame" x="16" y="256" width="288" height="75"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="66"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iCoSpartan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXC-x3-EcR">
+                                <rect key="frame" x="95" y="434" width="221" height="75"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="49"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="imagenLanzamientoApp.png" translatesAutoresizingMaskIntoConstraints="NO" id="GaB-w5-d8U">
-                                <rect key="frame" x="85" y="406" width="150" height="150"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nos gusta el Deporte!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb0-aF-X7l">
-                                <rect key="frame" x="43" y="184" width="252" height="42"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="32"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nos gusta el Deporte!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb0-aF-X7l">
+                                <rect key="frame" x="104" y="488" width="211" height="42"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBr-7a-wQf">
+                                <rect key="frame" x="101" y="527" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
+                                <state key="normal" title="Galeria">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showGaleria:" destination="LaH-ch-Jwd" eventType="touchUpInside" id="o8e-Tb-ttd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="bb0-aF-X7l" secondAttribute="trailing" constant="9" id="2Z1-QU-C6f"/>
-                            <constraint firstItem="5Gw-nA-WTd" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" id="7cW-fK-dgj"/>
-                            <constraint firstItem="HXC-x3-EcR" firstAttribute="trailing" secondItem="5sq-ia-UdX" secondAttribute="trailingMargin" id="9I7-wa-Z1M"/>
-                            <constraint firstItem="oBA-Sl-I1b" firstAttribute="top" secondItem="WLS-Vh-n1x" secondAttribute="bottom" id="J5K-4O-M9V"/>
-                            <constraint firstItem="9cy-T6-3Jh" firstAttribute="top" secondItem="GaB-w5-d8U" secondAttribute="bottom" constant="12" id="Jzl-dH-FWx"/>
-                            <constraint firstItem="GaB-w5-d8U" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" constant="69" id="Lf2-ku-b7L"/>
-                            <constraint firstItem="GR4-mL-GsN" firstAttribute="top" secondItem="HXC-x3-EcR" secondAttribute="bottom" constant="3" id="MMY-kq-GcD"/>
-                            <constraint firstItem="5Gw-nA-WTd" firstAttribute="trailing" secondItem="5sq-ia-UdX" secondAttribute="trailingMargin" id="MRc-Q0-tG9"/>
-                            <constraint firstItem="HXC-x3-EcR" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" id="Mng-lG-7yP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="GaB-w5-d8U" secondAttribute="trailing" constant="69" id="NZx-je-jPq"/>
-                            <constraint firstItem="9cy-T6-3Jh" firstAttribute="top" secondItem="GR4-mL-GsN" secondAttribute="bottom" constant="161" id="Nbu-XT-jVi"/>
-                            <constraint firstItem="HXC-x3-EcR" firstAttribute="top" secondItem="bb0-aF-X7l" secondAttribute="bottom" constant="30" id="Ute-Lx-Edi"/>
-                            <constraint firstItem="oBA-Sl-I1b" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" constant="-16" id="Ycq-95-3dZ"/>
-                            <constraint firstItem="GaB-w5-d8U" firstAttribute="top" secondItem="HXC-x3-EcR" secondAttribute="bottom" constant="75" id="Ywd-yL-yLR"/>
-                            <constraint firstItem="GR4-mL-GsN" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" id="Yyd-RT-i4x"/>
-                            <constraint firstItem="GR4-mL-GsN" firstAttribute="trailing" secondItem="5sq-ia-UdX" secondAttribute="trailingMargin" id="ZT0-c9-yie"/>
-                            <constraint firstItem="bb0-aF-X7l" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" constant="27" id="iEX-Ps-c66"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oBA-Sl-I1b" secondAttribute="trailing" constant="-16" id="iys-NQ-d31"/>
-                            <constraint firstItem="bb0-aF-X7l" firstAttribute="top" secondItem="oBA-Sl-I1b" secondAttribute="bottom" constant="8" id="kqW-jM-xhj"/>
-                            <constraint firstItem="5Gw-nA-WTd" firstAttribute="top" secondItem="bb0-aF-X7l" secondAttribute="bottom" constant="5" id="xbt-Ly-s8M"/>
+                            <constraint firstItem="Hdc-Ry-O1t" firstAttribute="top" secondItem="WLS-Vh-n1x" secondAttribute="bottom" id="J3n-kw-see"/>
+                            <constraint firstItem="Hdc-Ry-O1t" firstAttribute="leading" secondItem="5sq-ia-UdX" secondAttribute="leadingMargin" constant="-16" id="au4-ri-6GQ"/>
+                            <constraint firstItem="9cy-T6-3Jh" firstAttribute="top" secondItem="Hdc-Ry-O1t" secondAttribute="bottom" id="eAv-fk-1YV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hdc-Ry-O1t" secondAttribute="trailing" constant="-16" id="vms-fk-MQZ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Galeria" image="ICOSPARTAN.png" id="0wk-cd-MLv"/>
@@ -212,6 +194,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="buttonLabel" destination="fBr-7a-wQf" id="51X-6V-i2u"/>
+                        <outlet property="descriptionLabel" destination="bb0-aF-X7l" id="17o-Yq-KDP"/>
+                        <outlet property="titleLabel" destination="HXC-x3-EcR" id="2Ph-GK-gc6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYK-iy-JMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -507,7 +494,7 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nombre Prueba" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ui-Ed-UUO">
                                             <rect key="frame" x="6" y="74" width="154" height="33"/>
-                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
                                             <color key="textColor" red="0.9015940657" green="0.9015940657" blue="0.9015940657" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -1064,11 +1051,11 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ivF-ab-mcU">
                                 <rect key="frame" x="8" y="114" width="304" height="393"/>
-                                <mutableString key="text">- iCoStartan nace de la necesidad de tener unas tablas de entrenamiento fundamentalmente orientadas a el desarrollo de ejercicios que implican partes de nuestro cuerpo que normalmente no tocamos en el momento de entrenar en el Gimnasio.  
+                                <string key="text">- iCoStartan nace de la necesidad de tener unas tablas de entrenamiento fundamentalmente orientadas a el desarrollo de ejercicios que implican partes de nuestro cuerpo que normalmente no tocamos en el momento de entrenar en el Gimnasio.  
 - Y para tener claro que las carreras de Obstáculos implican movimientos y posturas no muy convencionales presentamos ésta alternativa con hasta 4 tipos de tablas distintas de entrenamiento, muy exigentes. 
 - iCoSpartan aporta además el calendario completo de las Carreras de Obstáculos mas relevantes a nivel nacional, en las posteriores actualizaciones se dará mas información, además de comentar que se realizarán periódicamente actualizaciones de la App para mejorar aspectos visuales y de optimización en el desarrollo.
 - Somos una equipo de emprendedores que muestra gran interés primero por el deporte y la vida sana, pero además por la tecnología que nos envuelve, por tanto nace la idea de hacer iCoSpartan primero para la plataforma iOS y posteriormente se hará para la plataforma Android, muchas gracias a todos por darnos la oportunidad de estar en vuestro móviles aportando un granito de salud, vida sana, y deporte porque NOS GUSTA EL DEPORTE!
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1446,7 +1433,7 @@ los músculos en calor. No te pases y ahorra energía!!!
         <image name="ICO_FOTO_2.png" width="320" height="122"/>
         <image name="TRIFECA_0M.png" width="29" height="35"/>
         <image name="gradient_overlay.png" width="320" height="300"/>
-        <image name="imagenLanzamientoApp.png" width="250" height="250"/>
+        <image name="intro_2.jpg" width="320" height="504"/>
         <image name="main_goal_animation_flag_image_ios7.png" width="23" height="25"/>
         <image name="main_news_ios7.png" width="37" height="37"/>
         <image name="workout_12.png" width="200" height="200"/>
