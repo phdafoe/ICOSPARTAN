@@ -89,6 +89,16 @@
 		63ABD30E1B3034930099F520 /* alternating_split_jump_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */; };
 		63ABD3121B3039680099F520 /* arnold_press_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */; };
 		63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */; };
+		63C77FA01B5D46EB0084190B /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F951B5D46EB0084190B /* EAIntroPage.m */; };
+		63C77FA11B5D46EB0084190B /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F971B5D46EB0084190B /* EAIntroView.m */; };
+		63C77FA21B5D46EB0084190B /* EFCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F991B5D46EB0084190B /* EFCircularSlider.m */; };
+		63C77FA31B5D46EB0084190B /* NSString+TimeToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F9B1B5D46EB0084190B /* NSString+TimeToString.m */; };
+		63C77FA41B5D46EB0084190B /* RoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F9D1B5D46EB0084190B /* RoundImageView.m */; };
+		63C77FA51B5D46EB0084190B /* SVStatusHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F9F1B5D46EB0084190B /* SVStatusHUD.m */; };
+		63C77FA81B5D47010084190B /* ICOMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77FA71B5D47010084190B /* ICOMusicPlayer.m */; };
+		63C77FAC1B5D486E0084190B /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C77FA91B5D486E0084190B /* back@2x.png */; };
+		63C77FAD1B5D486E0084190B /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C77FAA1B5D486E0084190B /* next@2x.png */; };
+		63C77FAE1B5D486E0084190B /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C77FAB1B5D486E0084190B /* play@2x.png */; };
 		63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */; };
 		63CAB1FB1B24D964000249F8 /* imagenLanzamientoApp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB1FA1B24D964000249F8 /* imagenLanzamientoApp@2x.png */; };
 		63CAB2021B24DAA8000249F8 /* iconApp58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAB2001B24DAA8000249F8 /* iconApp58x58.png */; };
@@ -289,6 +299,23 @@
 		63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alternating_split_jump_1@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_2@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_1@2x.jpg"; sourceTree = "<group>"; };
+		63C77F941B5D46EB0084190B /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		63C77F951B5D46EB0084190B /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		63C77F961B5D46EB0084190B /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		63C77F971B5D46EB0084190B /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		63C77F981B5D46EB0084190B /* EFCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularSlider.h; sourceTree = "<group>"; };
+		63C77F991B5D46EB0084190B /* EFCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCircularSlider.m; sourceTree = "<group>"; };
+		63C77F9A1B5D46EB0084190B /* NSString+TimeToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeToString.h"; sourceTree = "<group>"; };
+		63C77F9B1B5D46EB0084190B /* NSString+TimeToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeToString.m"; sourceTree = "<group>"; };
+		63C77F9C1B5D46EB0084190B /* RoundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundImageView.h; sourceTree = "<group>"; };
+		63C77F9D1B5D46EB0084190B /* RoundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundImageView.m; sourceTree = "<group>"; };
+		63C77F9E1B5D46EB0084190B /* SVStatusHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVStatusHUD.h; sourceTree = "<group>"; };
+		63C77F9F1B5D46EB0084190B /* SVStatusHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVStatusHUD.m; sourceTree = "<group>"; };
+		63C77FA61B5D47010084190B /* ICOMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOMusicPlayer.h; sourceTree = "<group>"; };
+		63C77FA71B5D47010084190B /* ICOMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOMusicPlayer.m; sourceTree = "<group>"; };
+		63C77FA91B5D486E0084190B /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		63C77FAA1B5D486E0084190B /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		63C77FAB1B5D486E0084190B /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		63CAB1F71B24D738000249F8 /* ICOGaleriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOGaleriaViewController.h; sourceTree = "<group>"; };
 		63CAB1F81B24D738000249F8 /* ICOGaleriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOGaleriaViewController.m; sourceTree = "<group>"; };
 		63CAB1FA1B24D964000249F8 /* imagenLanzamientoApp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagenLanzamientoApp@2x.png"; sourceTree = "<group>"; };
@@ -515,6 +542,25 @@
 			name = INTRO;
 			sourceTree = "<group>";
 		};
+		63C77F931B5D46CA0084190B /* MUSICPLAYER */ = {
+			isa = PBXGroup;
+			children = (
+				63C77F941B5D46EB0084190B /* EAIntroPage.h */,
+				63C77F951B5D46EB0084190B /* EAIntroPage.m */,
+				63C77F961B5D46EB0084190B /* EAIntroView.h */,
+				63C77F971B5D46EB0084190B /* EAIntroView.m */,
+				63C77F981B5D46EB0084190B /* EFCircularSlider.h */,
+				63C77F991B5D46EB0084190B /* EFCircularSlider.m */,
+				63C77F9A1B5D46EB0084190B /* NSString+TimeToString.h */,
+				63C77F9B1B5D46EB0084190B /* NSString+TimeToString.m */,
+				63C77F9C1B5D46EB0084190B /* RoundImageView.h */,
+				63C77F9D1B5D46EB0084190B /* RoundImageView.m */,
+				63C77F9E1B5D46EB0084190B /* SVStatusHUD.h */,
+				63C77F9F1B5D46EB0084190B /* SVStatusHUD.m */,
+			);
+			name = MUSICPLAYER;
+			sourceTree = "<group>";
+		};
 		63D085E31B41E41B006E2518 /* REFrostedViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -687,6 +733,7 @@
 		63E620CA1B28DFCB005BAC37 /* CLASS */ = {
 			isa = PBXGroup;
 			children = (
+				63C77F931B5D46CA0084190B /* MUSICPLAYER */,
 				63E07BBE1B4D0A70009D5F50 /* LIBRARIES */,
 				63E9D64C1B45A39D00062173 /* CUSTOM CELL */,
 				63E9D6591B45ADC000062173 /* M6PARALLAXCONTROLLER */,
@@ -730,6 +777,8 @@
 				63E9D64E1B45A40F00062173 /* ICODetailMapViewController.m */,
 				63E07BC21B4D0B46009D5F50 /* ICOSobreNosotrosViewController.h */,
 				63E07BC31B4D0B46009D5F50 /* ICOSobreNosotrosViewController.m */,
+				63C77FA61B5D47010084190B /* ICOMusicPlayer.h */,
+				63C77FA71B5D47010084190B /* ICOMusicPlayer.m */,
 				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
 				63E07BCC1B4D42A9009D5F50 /* Launch Screen.xib */,
 				63EDAF751B207427007355D6 /* Images.xcassets */,
@@ -857,6 +906,9 @@
 				639ABB011B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png */,
 				63E07BC81B4D233A009D5F50 /* DisculpaMolestias@2x.png */,
 				63E07BCA1B4D2401009D5F50 /* disculpamolestias_1@2x.jpg */,
+				63C77FA91B5D486E0084190B /* back@2x.png */,
+				63C77FAA1B5D486E0084190B /* next@2x.png */,
+				63C77FAB1B5D486E0084190B /* play@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -938,6 +990,7 @@
 				6322BC131B4D6860001279E4 /* intro_4@2x.jpg in Resources */,
 				631AC3FA1B282CA10020D0E4 /* press_hombro_1@2x.jpg in Resources */,
 				631BFF011B3DCE9000656159 /* buitragodelozoya@2x.png in Resources */,
+				63C77FAE1B5D486E0084190B /* play@2x.png in Resources */,
 				6347AE1F1B447ED800635E9C /* ICO_FOTO_1@2x.png in Resources */,
 				63E36F801B28B73F0017AB98 /* goma_tubo_detras_espalda_2@2x.jpg in Resources */,
 				63ABD30D1B3034930099F520 /* alternating_split_jump_2@2x.jpg in Resources */,
@@ -949,6 +1002,7 @@
 				63E07BC91B4D233A009D5F50 /* DisculpaMolestias@2x.png in Resources */,
 				63D904501B4003FA007E9E0C /* antellavalencia@2x.png in Resources */,
 				6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */,
+				63C77FAD1B5D486E0084190B /* next@2x.png in Resources */,
 				6307DAA91B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg in Resources */,
 				631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */,
 				63ABD3001B302AB10099F520 /* brand_press_pecho_1@2x.jpg in Resources */,
@@ -1029,6 +1083,7 @@
 				6322BC111B4D6860001279E4 /* intro_2@2x.jpg in Resources */,
 				639ABB021B46FC380052DEF3 /* BASE_TIERNO_GALVAN@2x.png in Resources */,
 				63E36F7E1B28B7340017AB98 /* goma_tubo_detras_espalda_1@2x.jpg in Resources */,
+				63C77FAC1B5D486E0084190B /* back@2x.png in Resources */,
 				63E07BCB1B4D2401009D5F50 /* disculpamolestias_1@2x.jpg in Resources */,
 				6322BC121B4D6860001279E4 /* intro_3@2x.jpg in Resources */,
 				637F63551B2638E500A70B6A /* TRIFECA_2M@2x.png in Resources */,
@@ -1081,10 +1136,13 @@
 				63E9D6581B45ADB500062173 /* UIViewController+M6ParallaxController.m in Sources */,
 				63D086021B41EB19006E2518 /* ICOMenuTableViewController.m in Sources */,
 				6322BC191B4D7C38001279E4 /* GHWalkThroughPageCell.m in Sources */,
+				63C77FA41B5D46EB0084190B /* RoundImageView.m in Sources */,
 				6367B62B1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m in Sources */,
 				63DAD1841B3B233300E2A728 /* ICOCalendarioTableViewController.m in Sources */,
+				63C77FA01B5D46EB0084190B /* EAIntroPage.m in Sources */,
 				63D085F21B41E41B006E2518 /* REFrostedViewController.m in Sources */,
 				63D085F11B41E41B006E2518 /* REFrostedContainerViewController.m in Sources */,
+				63C77FA81B5D47010084190B /* ICOMusicPlayer.m in Sources */,
 				63EDAF741B207427007355D6 /* AppDelegate.m in Sources */,
 				63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */,
 				63D085F41B41E41B006E2518 /* UIView+REFrostedViewController.m in Sources */,
@@ -1099,13 +1157,16 @@
 				63D085FB1B41E523006E2518 /* ICONavigationViewController.m in Sources */,
 				63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
+				63C77FA31B5D46EB0084190B /* NSString+TimeToString.m in Sources */,
 				6322BC161B4D79EF001279E4 /* ICOGaleriaImagenesView.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
+				63C77FA51B5D46EB0084190B /* SVStatusHUD.m in Sources */,
 				63D085F01B41E41B006E2518 /* RECommonFunctions.m in Sources */,
 				63E9D6621B45ADF700062173 /* MyTopViewController.m in Sources */,
 				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
 				63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */,
 				63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */,
+				63C77FA11B5D46EB0084190B /* EAIntroView.m in Sources */,
 				6347AE2C1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m in Sources */,
 				63D086071B41F067006E2518 /* ICOConsejosViewController.m in Sources */,
 				63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */,
@@ -1113,6 +1174,7 @@
 				63EDAFD21B20C4CD007355D6 /* ICODetailSpartanNivel4ViewController.m in Sources */,
 				63D777181B403FD60052D61B /* Appirater.m in Sources */,
 				63E07BC11B4D0A9E009D5F50 /* ICORawScrollView.m in Sources */,
+				63C77FA21B5D46EB0084190B /* EFCircularSlider.m in Sources */,
 				63D085F81B41E450006E2518 /* ICORootViewController.m in Sources */,
 				63EDAF711B207427007355D6 /* main.m in Sources */,
 				63D085F31B41E41B006E2518 /* UIImage+REFrostedViewController.m in Sources */,
@@ -1166,13 +1228,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
-				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Distribution;
 		};
@@ -1264,13 +1326,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
-				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1278,13 +1340,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
-				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

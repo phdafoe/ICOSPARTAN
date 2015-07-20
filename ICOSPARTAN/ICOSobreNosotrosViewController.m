@@ -53,11 +53,26 @@
 
 - (IBAction)sendMessage:(id)sender {
     
+    
+    
+    
+    
+    
     if ([MFMailComposeViewController canSendMail]) {
+        
+        //personalizacion de la barra de navegacion superior
+        NSShadow *shadow = [[NSShadow alloc]init];
         
         MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc]init];
         
         mailComposer.mailComposeDelegate = self;
+        
+        
+        [mailComposer.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor],
+                                                               NSShadowAttributeName: shadow}];
+        
+        [mailComposer.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_menu_bg@2x.png"] forBarMetrics:UIBarMetricsDefault];
+        
         [mailComposer setSubject:@"iCoSpartan"];
         
         NSArray *toRecipient = [NSArray arrayWithObjects:@"info@icospartan.com", nil];

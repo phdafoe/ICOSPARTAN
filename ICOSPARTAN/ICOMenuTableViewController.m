@@ -12,10 +12,12 @@
 
 #import "ICOEntrenamientosTableViewController.h"
 
-#import "ICOSpartanNivel1TableViewController.h"
+/*#import "ICOSpartanNivel1TableViewController.h"
 #import "ICOSpartanNivel2TableViewController.h"
 #import "ICOSpartanNivel3TableViewController.h"
-#import "ICOSpartanNivel4TableViewController.h"
+#import "ICOSpartanNivel4TableViewController.h"*/
+
+#import "ICOMusicPlayer.h"
 #import "ICOCalendarioTableViewController.h"
 #import "ICOConsejosViewController.h"
 #import "ICOSobreNosotrosViewController.h"
@@ -32,6 +34,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    
+    // debe de activarse dentro de 5 segundos
+    notification.fireDate = [[NSDate alloc] initWithTimeIntervalSinceNow:3600000];
+    // mensaje que saldrá en la alerta
+    notification.alertBody = @"Entrénate con iCoSpartan";
+    // sonido por defecto
+    notification.soundName = UILocalNotificationDefaultSoundName;
+    // título del botón
+    notification.alertAction = @"OK!";
+    notification.hasAction = YES;
+    // activa la notificación
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+    
     
     self.tableView.separatorColor = [UIColor colorWithRed:150/255.0f green:161/255.0f blue:177/255.0f alpha:1.0f];
     self.tableView.delegate = self;
@@ -108,12 +126,12 @@
         ICOEntrenamientosTableViewController *spartanEntrenamientosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"entrenamientos"];
         navigationController.viewControllers = @[spartanEntrenamientosViewController];
         
-    }/*else if (indexPath.section == 0 && indexPath.row == 2) {
+    }else if (indexPath.section == 0 && indexPath.row == 2) {
         
-        ICOSpartanNivel2TableViewController *spartanNivel2ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"segundoController"];
-        navigationController.viewControllers = @[spartanNivel2ViewController];
+        ICOMusicPlayer *musicPayerViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"octavoController"];
+        navigationController.viewControllers = @[musicPayerViewController];
         
-    }else if (indexPath.section == 0 && indexPath.row == 3) {
+    }/*else if (indexPath.section == 0 && indexPath.row == 3) {
         
         ICOSpartanNivel3TableViewController *spartanNivel3ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"tercerController"];
         navigationController.viewControllers = @[spartanNivel3ViewController];
@@ -122,21 +140,23 @@
         
         ICOSpartanNivel4TableViewController *spartanNivel4ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"cuartoController"];
         navigationController.viewControllers = @[spartanNivel4ViewController];
-    }*/else if (indexPath.section == 0 && indexPath.row == 2) {
+    }*/else if (indexPath.section == 0 && indexPath.row == 3) {
         
         ICOCalendarioTableViewController *CalendarioTableViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"quintoController"];
         navigationController.viewControllers = @[CalendarioTableViewController];
         
-    }else if (indexPath.section == 0 && indexPath.row == 3) {
+    }else if (indexPath.section == 0 && indexPath.row == 4) {
         
         ICOConsejosViewController *ConsejosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"sextoController"];
         navigationController.viewControllers = @[ConsejosViewController];
         
-    }else if (indexPath.section == 0 && indexPath.row == 4) {
+    }else if (indexPath.section == 0 && indexPath.row == 5) {
         
         ICOSobreNosotrosViewController *SobreNosotrosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"septimoController"];
         navigationController.viewControllers = @[SobreNosotrosViewController];
     }
+    
+    //octavoController
     
     self.frostedViewController.contentViewController = navigationController;
     
@@ -172,7 +192,7 @@
     }
     
     if (indexPath.section == 0) {
-        NSArray *titles = @[@"Home", @"Entrenamientos", @"Calendario", @"Consejos", @"Nosotros"];
+        NSArray *titles = @[@"Home", @"Entrenamientos",@"Music Player", @"Calendario", @"Consejos", @"Nosotros"];
         cell.textLabel.text = titles[indexPath.row];
     }
     

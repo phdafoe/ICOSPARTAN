@@ -215,6 +215,7 @@
                         <segue destination="6T8-eN-lU6" kind="push" id="uJQ-2E-t1D"/>
                         <segue destination="jLL-BX-QAw" kind="push" id="tdZ-4k-20V"/>
                         <segue destination="Gun-gt-76z" kind="push" id="5Pn-kF-JHt"/>
+                        <segue destination="fDD-7W-xHr" kind="push" id="dnU-af-U4C"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31Z-QK-sTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1501,14 +1502,148 @@ los músculos en calor. No te pases y ahorra energía!!!
             </objects>
             <point key="canvasLocation" x="1784.5333333333333" y="4031.8533333333335"/>
         </scene>
+        <!--iCoSpartan Música-->
+        <scene sceneID="HV8-yv-NlA">
+            <objects>
+                <viewController storyboardIdentifier="octavoController" id="fDD-7W-xHr" customClass="ICOMusicPlayer" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cyf-BA-h5x"/>
+                        <viewControllerLayoutGuide type="bottom" id="pch-2x-7am"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XlB-E7-cje">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Msc-wa-XII">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CaN-k6-vgY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="f8K-5h-z33">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hlo-cD-Wtf" customClass="RoundImageView">
+                                            <rect key="frame" x="65" y="182" width="190" height="190"/>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWi-EG-eUj" customClass="EFCircularSlider">
+                                            <rect key="frame" x="56" y="170" width="208" height="208"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Zij-Y8-BJC">
+                                            <rect key="frame" x="8" y="133" width="304" height="30"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e5o-8t-xCM">
+                                            <rect key="frame" x="8" y="497" width="304" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="J9u-r5-xDZ">
+                                            <rect key="frame" x="8" y="533" width="304" height="27"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncg-En-Tje">
+                                            <rect key="frame" x="8" y="463" width="117" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCb-OL-MGQ">
+                                            <rect key="frame" x="195" y="460" width="117" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TQ-VW-1Vo">
+                                            <rect key="frame" x="41" y="385" width="44" height="44"/>
+                                            <state key="normal" image="back.png">
+                                                <color key="titleColor" red="0.89259785349999998" green="0.89259785349999998" blue="0.89259785349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="toPreviusRight:" destination="fDD-7W-xHr" eventType="touchUpInside" id="Rga-Ob-6bb"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxe-l7-46B">
+                                            <rect key="frame" x="236" y="385" width="44" height="44"/>
+                                            <state key="normal" image="next.png">
+                                                <color key="titleColor" red="0.89259785349999998" green="0.89259785349999998" blue="0.89259785349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="toNextLeft:" destination="fDD-7W-xHr" eventType="touchUpInside" id="ZcG-9D-ksd"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyz-No-ykO">
+                                            <rect key="frame" x="19" y="88" width="58" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <state key="normal" title="Libreria">
+                                                <color key="titleColor" red="0.89259785349999998" green="0.89259785349999998" blue="0.89259785349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="showMusicLibrary:" destination="fDD-7W-xHr" eventType="touchUpInside" id="odm-Kd-ysG"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwF-fO-9yK">
+                                            <rect key="frame" x="117" y="386" width="87" height="87"/>
+                                            <state key="normal" image="play.png">
+                                                <color key="titleColor" red="0.89259785349999998" green="0.89259785349999998" blue="0.89259785349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="playPause:" destination="fDD-7W-xHr" eventType="touchUpInside" id="WJ2-iZ-Cdf"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <gestureRecognizers/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="iCoSpartan Música" id="ETc-qX-vyk">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Ds7-Lq-pZ4">
+                            <color key="tintColor" red="0.94067629419999998" green="0.94067629419999998" blue="0.94067629419999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="shareDown:" destination="fDD-7W-xHr" id="Wue-ER-96P"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="albumLabel" destination="Zij-Y8-BJC" id="BsK-G1-p6X"/>
+                        <outlet property="artWorkBAckground" destination="Msc-wa-XII" id="Rwc-zd-kgc"/>
+                        <outlet property="artistLabel" destination="J9u-r5-xDZ" id="wHz-QO-I1Q"/>
+                        <outlet property="artwork" destination="hlo-cD-Wtf" id="p3G-Jg-USV"/>
+                        <outlet property="durationLabel" destination="tCb-OL-MGQ" id="Oqq-nh-GQ7"/>
+                        <outlet property="elapsedTimeLabel" destination="Ncg-En-Tje" id="o5l-qc-iW5"/>
+                        <outlet property="musicLabel" destination="e5o-8t-xCM" id="1AL-b5-yRf"/>
+                        <outlet property="progressTime" destination="bWi-EG-eUj" id="gd2-a6-XcY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TWC-iA-CfH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="974" y="5331"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ICOSPARTAN.png" width="30" height="35"/>
         <image name="ICO_FOTO_1.png" width="320" height="122"/>
         <image name="TRIFECA_0M.png" width="29" height="35"/>
+        <image name="back.png" width="239" height="239"/>
         <image name="gradient_overlay.png" width="320" height="300"/>
         <image name="intro_2.jpg" width="320" height="504"/>
         <image name="main_news_ios7.png" width="37" height="37"/>
+        <image name="next.png" width="239" height="239"/>
+        <image name="play.png" width="239" height="239"/>
         <image name="workout_12.png" width="200" height="200"/>
         <image name="workout_58.png" width="200" height="200"/>
         <image name="workout_80.png" width="200" height="200"/>
