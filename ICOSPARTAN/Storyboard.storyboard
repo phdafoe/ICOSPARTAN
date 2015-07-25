@@ -714,7 +714,7 @@
         <scene sceneID="Xer-iS-IcS">
             <objects>
                 <tableViewController storyboardIdentifier="sextoController" id="jLL-BX-QAw" customClass="ICOConsejosViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="127" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cav-CW-iP2">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="127" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cav-CW-iP2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1609,11 +1609,17 @@ los músculos en calor. No te pases y ahorra energía!!!
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="iCoSpartan Música" id="ETc-qX-vyk">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Ds7-Lq-pZ4">
+                    <navigationItem key="navigationItem" title="iCoSpartan Música" id="cCb-8t-5sG">
+                        <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="gx3-iG-92s">
                             <color key="tintColor" red="0.94067629419999998" green="0.94067629419999998" blue="0.94067629419999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="shareDown:" destination="fDD-7W-xHr" id="Wue-ER-96P"/>
+                                <action selector="showMenu:" destination="fDD-7W-xHr" id="27Y-wk-8nb"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="IeA-bL-KRg">
+                            <color key="tintColor" red="0.94067629419999998" green="0.94067629419999998" blue="0.94067629419999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="shareDown:" destination="fDD-7W-xHr" id="dvE-HW-sNp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

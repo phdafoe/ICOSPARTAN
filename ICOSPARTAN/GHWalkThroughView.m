@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 iCologic. All rights reserved.
 //
 
-#import "ICOGaleriaImagenesView.h"
+#import "GHWalkThroughView.h"
 
 @interface GHWalkThroughView ()<UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 

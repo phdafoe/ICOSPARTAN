@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, EFHandleType){
 @property (nonatomic, strong) UIColor *labelColor;
 @property (nonatomic) BOOL snapToLabels;
 
--(void) setInnerMarkingLabel:(NSArray *)labels;
+-(void)setInnerMarkingLabel:(NSArray *)labels;
 
 
 

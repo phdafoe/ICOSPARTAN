@@ -58,7 +58,7 @@
 		6322BC111B4D6860001279E4 /* intro_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0D1B4D6860001279E4 /* intro_2@2x.jpg */; };
 		6322BC121B4D6860001279E4 /* intro_3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0E1B4D6860001279E4 /* intro_3@2x.jpg */; };
 		6322BC131B4D6860001279E4 /* intro_4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6322BC0F1B4D6860001279E4 /* intro_4@2x.jpg */; };
-		6322BC161B4D79EF001279E4 /* ICOGaleriaImagenesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6322BC151B4D79EF001279E4 /* ICOGaleriaImagenesView.m */; };
+		6322BC161B4D79EF001279E4 /* GHWalkThroughView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6322BC151B4D79EF001279E4 /* GHWalkThroughView.m */; };
 		6322BC191B4D7C38001279E4 /* GHWalkThroughPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6322BC181B4D7C38001279E4 /* GHWalkThroughPageCell.m */; };
 		6331F9781B249FC800E43940 /* top_menu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9771B249FC800E43940 /* top_menu_bg@2x.png */; };
 		6331F97B1B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6331F9791B24A67C00E43940 /* saltos_cuarta_mov_1@2x.jpg */; };
@@ -263,8 +263,8 @@
 		6322BC0D1B4D6860001279E4 /* intro_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_2@2x.jpg"; sourceTree = "<group>"; };
 		6322BC0E1B4D6860001279E4 /* intro_3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_3@2x.jpg"; sourceTree = "<group>"; };
 		6322BC0F1B4D6860001279E4 /* intro_4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_4@2x.jpg"; sourceTree = "<group>"; };
-		6322BC141B4D79EF001279E4 /* ICOGaleriaImagenesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOGaleriaImagenesView.h; sourceTree = "<group>"; };
-		6322BC151B4D79EF001279E4 /* ICOGaleriaImagenesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOGaleriaImagenesView.m; sourceTree = "<group>"; };
+		6322BC141B4D79EF001279E4 /* GHWalkThroughView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHWalkThroughView.h; sourceTree = "<group>"; };
+		6322BC151B4D79EF001279E4 /* GHWalkThroughView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHWalkThroughView.m; sourceTree = "<group>"; };
 		6322BC171B4D7C38001279E4 /* GHWalkThroughPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHWalkThroughPageCell.h; sourceTree = "<group>"; };
 		6322BC181B4D7C38001279E4 /* GHWalkThroughPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHWalkThroughPageCell.m; sourceTree = "<group>"; };
 		6331F9771B249FC800E43940 /* top_menu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_menu_bg@2x.png"; sourceTree = "<group>"; };
@@ -665,8 +665,8 @@
 			children = (
 				63E07BBF1B4D0A9E009D5F50 /* ICORawScrollView.h */,
 				63E07BC01B4D0A9E009D5F50 /* ICORawScrollView.m */,
-				6322BC141B4D79EF001279E4 /* ICOGaleriaImagenesView.h */,
-				6322BC151B4D79EF001279E4 /* ICOGaleriaImagenesView.m */,
+				6322BC141B4D79EF001279E4 /* GHWalkThroughView.h */,
+				6322BC151B4D79EF001279E4 /* GHWalkThroughView.m */,
 				6322BC171B4D7C38001279E4 /* GHWalkThroughPageCell.h */,
 				6322BC181B4D7C38001279E4 /* GHWalkThroughPageCell.m */,
 			);
@@ -1158,7 +1158,7 @@
 				63E9D6611B45ADF700062173 /* MyParallaxController.m in Sources */,
 				63EDAFCC1B20C2A4007355D6 /* ICODetailSpartanNivel2ViewController.m in Sources */,
 				63C77FA31B5D46EB0084190B /* NSString+TimeToString.m in Sources */,
-				6322BC161B4D79EF001279E4 /* ICOGaleriaImagenesView.m in Sources */,
+				6322BC161B4D79EF001279E4 /* GHWalkThroughView.m in Sources */,
 				63CAB1F91B24D738000249F8 /* ICOGaleriaViewController.m in Sources */,
 				63C77FA51B5D46EB0084190B /* SVStatusHUD.m in Sources */,
 				63D085F01B41E41B006E2518 /* RECommonFunctions.m in Sources */,
@@ -1228,13 +1228,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 			};
 			name = Distribution;
 		};
@@ -1326,13 +1326,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 			};
 			name = Debug;
 		};
@@ -1340,13 +1340,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andres Ocampo (2C7W4RF846)";
 				INFOPLIST_FILE = ICOSPARTAN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = iCoSpartan;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 			};
 			name = Release;
 		};

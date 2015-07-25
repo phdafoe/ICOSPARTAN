@@ -229,9 +229,9 @@
         for (int i=0; i<[labelsEvenSpacing count]; i++) {
             CGFloat percentageAlongCircle = i/(float)[labelsEvenSpacing count];
             CGFloat degreesForLabel = percentageAlongCircle * 360;
-            if(abs(fixedAngle - degreesForLabel) < minDist) {
+            if(fabs(fixedAngle - degreesForLabel) < minDist) {
                 newAngle=degreesForLabel ? 360 - degreesForLabel : 0;
-                minDist = abs(fixedAngle - degreesForLabel);
+                minDist = fabs(fixedAngle - degreesForLabel);
             }
         }
         angle = newAngle;
@@ -330,7 +330,7 @@ static inline float AngleFromNorth(CGPoint p1, CGPoint p2, BOOL flipped) {
 }
 
 #pragma mark - public methods
--(void)setInnerMarkingLabels:(NSArray*)labels{
+-(void)setInnerMarkingLabel:(NSArray*)labels{
     labelsEvenSpacing = labels;
     [self setNeedsDisplay];
 }

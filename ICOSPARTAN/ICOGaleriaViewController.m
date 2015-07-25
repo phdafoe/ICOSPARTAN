@@ -7,7 +7,7 @@
 //
 
 #import "ICOGaleriaViewController.h"
-#import "ICOGaleriaImagenesView.h"
+#import "GHWalkThroughView.h"
 
 
 
