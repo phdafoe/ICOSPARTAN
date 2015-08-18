@@ -1,5 +1,5 @@
 //
-//  ICOGaleriaImagenesView.h
+//  GHWalkThroughView.h
 //  iCoSpartan
 //
 //  Created by User on 8/7/15.

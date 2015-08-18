@@ -128,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZW-Py-AKR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1366" y="194"/>
+            <point key="canvasLocation" x="1366" y="187"/>
         </scene>
         <!--iCoSpartan-->
         <scene sceneID="1J8-qg-ud0">
@@ -226,7 +226,7 @@
         <scene sceneID="NoI-RZ-rD6">
             <objects>
                 <tableViewController storyboardIdentifier="entrenamientos" id="Gun-gt-76z" customClass="ICOEntrenamientosTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="127" sectionHeaderHeight="22" sectionFooterHeight="22" id="u5z-VU-TDV">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="127" sectionHeaderHeight="22" sectionFooterHeight="22" id="u5z-VU-TDV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -365,6 +365,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Fs-dQ-Q5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -714,7 +715,7 @@
         <scene sceneID="Xer-iS-IcS">
             <objects>
                 <tableViewController storyboardIdentifier="sextoController" id="jLL-BX-QAw" customClass="ICOConsejosViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="127" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cav-CW-iP2">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="127" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cav-CW-iP2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -841,10 +842,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPh-k2-Q83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="4022"/>
+            <point key="canvasLocation" x="974" y="4013"/>
         </scene>
         <!--Carreras de Obstáculos-->
         <scene sceneID="uMe-7Q-3nk">
@@ -1127,10 +1129,10 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ivF-ab-mcU">
                                 <rect key="frame" x="8" y="114" width="304" height="393"/>
-                                <string key="text">- iCoStartan nace de la necesidad de tener unas tablas de entrenamiento fundamentalmente orientadas a el desarrollo de ejercicios que implican partes de nuestro cuerpo que normalmente no tocamos en el momento de entrenar en el Gimnasio.  
+                                <string key="text">- iCoSpartan nace de tener unas tablas de entrenamiento fundamentalmente orientadas al desarrollo de ejercicios que implican partes de nuestro cuerpo que normalmente no utilizamos en el momento de entrenar en el Gimnasio.  
 - Y para tener claro que las carreras de Obstáculos implican movimientos y posturas no muy convencionales presentamos ésta alternativa con hasta 4 tipos de tablas distintas de entrenamiento, muy exigentes. 
-- iCoSpartan aporta además el calendario completo de las Carreras de Obstáculos mas relevantes a nivel nacional, en las posteriores actualizaciones se dará mas información, además de comentar que se realizarán periódicamente actualizaciones de la App para mejorar aspectos visuales y de optimización en el desarrollo.
-- Somos una equipo de emprendedores que muestra gran interés primero por el deporte y la vida sana, pero además por la tecnología que nos envuelve, por tanto nace la idea de hacer iCoSpartan primero para la plataforma iOS y posteriormente se hará para la plataforma Android, muchas gracias a todos por darnos la oportunidad de estar en vuestro móviles aportando un granito de salud, vida sana, y deporte porque NOS GUSTA EL DEPORTE!
+- iCoSpartan aporta además el calendario completo de las Carreras de Obstáculos mas relevantes a nivel nacional; en las posteriores actualizaciones se dará mas información, además de comentar que se realizarán periódicamente actualizaciones de la App para mejorar aspectos visuales y de optimización en el desarrollo.
+- Somos una equipo de emprendedores que muestra gran interés primero por el deporte y la vida sana, pero además por la tecnología que nos envuelve, por tanto nace iCoSpartan primero para la plataforma iOS y posteriormente se hará para la plataforma Android, muchas gracias a todos por darnos la oportunidad de estar en vuestro móviles aportando un granito de salud, vida sana porque NOS GUSTA EL DEPORTE!
 </string>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1510,12 +1512,12 @@ los músculos en calor. No te pases y ahorra energía!!!
                         <viewControllerLayoutGuide type="top" id="cyf-BA-h5x"/>
                         <viewControllerLayoutGuide type="bottom" id="pch-2x-7am"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XlB-E7-cje">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="XlB-E7-cje">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Msc-wa-XII">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CaN-k6-vgY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -1548,14 +1550,14 @@ los músculos en calor. No te pases y ahorra energía!!!
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncg-En-Tje">
-                                            <rect key="frame" x="8" y="463" width="117" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCb-OL-MGQ">
+                                            <rect key="frame" x="195" y="460" width="117" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCb-OL-MGQ">
-                                            <rect key="frame" x="195" y="460" width="117" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncg-En-Tje">
+                                            <rect key="frame" x="8" y="463" width="117" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -1607,7 +1609,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                                 <blurEffect style="dark"/>
                             </visualEffectView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="iCoSpartan Música" id="cCb-8t-5sG">
                         <barButtonItem key="leftBarButtonItem" image="main_news_ios7.png" id="gx3-iG-92s">

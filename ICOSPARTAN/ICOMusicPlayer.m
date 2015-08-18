@@ -199,6 +199,10 @@
 
 - (IBAction)showMusicLibrary:(id)sender {
 
+    self.mediaPicker.title = [NSString stringWithFormat:@"%@", [UIColor blackColor]];
+    
+    //self.title = [UIColor blackColor];
+    
     [self presentViewController:self.mediaPicker animated:YES completion:nil];
 }
 
@@ -240,19 +244,20 @@
         [self.view addSubview:viewInitial];
         UIImageView *imageViewInitial = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"gestureOne"]];
         [viewInitial addSubview:imageViewInitial];
-        EAIntroPage *page1 = [EAIntroPage pageWithCustomView:viewInitial];
+        //EAIntroPage *page1 = [EAIntroPage pageWithCustomView:viewInitial];
         
         //second view tutorial
         UIView *viewSecond = [[UIView alloc]initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height)];
         [self.view addSubview:viewSecond];
         UIImageView *imageViewSecond = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"gestureTwo"]];
         [viewSecond addSubview:imageViewSecond];
-        EAIntroPage *page2 = [EAIntroPage pageWithCustomView:viewSecond];
         
-        EAIntroView *intro = [[EAIntroView alloc] initWithFrame:self.view.bounds andPages:@[page1, page2]];
         
-        [intro setDelegate:self];
-        [intro showInView:self.view animateDuration:0.5];
+        //Parte de paginas de tutoriales
+        //EAIntroPage *page2 = [EAIntroPage pageWithCustomView:viewSecond];
+        //EAIntroView *intro = [[EAIntroView alloc] initWithFrame:self.view.bounds andPages:@[page1, page2]];
+        //[intro setDelegate:self];
+        //[intro showInView:self.view animateDuration:0.5];
         
     }
     

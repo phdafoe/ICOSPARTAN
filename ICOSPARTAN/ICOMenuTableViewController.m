@@ -38,8 +38,9 @@
     
     UILocalNotification *notification = [[UILocalNotification alloc] init];
     
-    // debe de activarse dentro de 5 segundos
-    notification.fireDate = [[NSDate alloc] initWithTimeIntervalSinceNow:3600000];
+    // debe de activarse dentro de 3600 segundos = 1 Hora y asi en adelante
+    
+    notification.fireDate = [[NSDate alloc] initWithTimeIntervalSinceNow:7200];
     // mensaje que saldrá en la alerta
     notification.alertBody = @"Entrénate con iCoSpartan";
     // sonido por defecto

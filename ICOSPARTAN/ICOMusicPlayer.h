@@ -15,13 +15,13 @@
 #import "EFCircularSlider.h"
 #import "RoundImageView.h"
 #import "SVStatusHUD.h"
-#import "EAIntroView.h"
+//#import "EAIntroView.h"
 
 #import "REFrostedViewController.h"
 
 
 
-@interface ICOMusicPlayer : UIViewController <MPMediaPickerControllerDelegate, EAIntroDelegate>
+@interface ICOMusicPlayer : UIViewController <MPMediaPickerControllerDelegate>
 
 @property (nonatomic, strong) MPMusicPlayerController *musicPlayer;
 @property (nonatomic, strong) MPMediaItemCollection *mediaCollection;

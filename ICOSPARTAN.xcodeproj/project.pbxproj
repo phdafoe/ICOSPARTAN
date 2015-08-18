@@ -89,8 +89,8 @@
 		63ABD30E1B3034930099F520 /* alternating_split_jump_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */; };
 		63ABD3121B3039680099F520 /* arnold_press_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */; };
 		63ABD3141B3039870099F520 /* arnold_press_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */; };
+		63B4B13B1B83C5DF00247F26 /* Main-4.7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B4B13A1B83C5DF00247F26 /* Main-4.7.storyboard */; };
 		63C77FA01B5D46EB0084190B /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F951B5D46EB0084190B /* EAIntroPage.m */; };
-		63C77FA11B5D46EB0084190B /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F971B5D46EB0084190B /* EAIntroView.m */; };
 		63C77FA21B5D46EB0084190B /* EFCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F991B5D46EB0084190B /* EFCircularSlider.m */; };
 		63C77FA31B5D46EB0084190B /* NSString+TimeToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F9B1B5D46EB0084190B /* NSString+TimeToString.m */; };
 		63C77FA41B5D46EB0084190B /* RoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C77F9D1B5D46EB0084190B /* RoundImageView.m */; };
@@ -195,7 +195,7 @@
 		63EDAF711B207427007355D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF701B207427007355D6 /* main.m */; };
 		63EDAF741B207427007355D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF731B207427007355D6 /* AppDelegate.m */; };
 		63EDAF761B207427007355D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF751B207427007355D6 /* Images.xcassets */; };
-		63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF931B2090D2007355D6 /* Storyboard.storyboard */; };
+		63EDAF941B2090D2007355D6 /* Main-4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF931B2090D2007355D6 /* Main-4.storyboard */; };
 		63EDAF971B20913D007355D6 /* ICOSpartanNivel1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */; };
 		63EDAF9E1B20940D007355D6 /* spartanLevel1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EDAF9D1B20940D007355D6 /* spartanLevel1.plist */; };
 		63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EDAFB61B2094A1007355D6 /* CustomCell.m */; };
@@ -299,10 +299,9 @@
 		63ABD30C1B3034930099F520 /* alternating_split_jump_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alternating_split_jump_1@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3111B3039680099F520 /* arnold_press_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_2@2x.jpg"; sourceTree = "<group>"; };
 		63ABD3131B3039870099F520 /* arnold_press_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arnold_press_1@2x.jpg"; sourceTree = "<group>"; };
+		63B4B13A1B83C5DF00247F26 /* Main-4.7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-4.7.storyboard"; sourceTree = "<group>"; };
 		63C77F941B5D46EB0084190B /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
 		63C77F951B5D46EB0084190B /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
-		63C77F961B5D46EB0084190B /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
-		63C77F971B5D46EB0084190B /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
 		63C77F981B5D46EB0084190B /* EFCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularSlider.h; sourceTree = "<group>"; };
 		63C77F991B5D46EB0084190B /* EFCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCircularSlider.m; sourceTree = "<group>"; };
 		63C77F9A1B5D46EB0084190B /* NSString+TimeToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeToString.h"; sourceTree = "<group>"; };
@@ -440,7 +439,7 @@
 		63EDAF751B207427007355D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63EDAF831B207427007355D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EDAF841B207427007355D6 /* ICOSPARTANTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICOSPARTANTests.m; sourceTree = "<group>"; };
-		63EDAF931B2090D2007355D6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		63EDAF931B2090D2007355D6 /* Main-4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-4.storyboard"; sourceTree = "<group>"; };
 		63EDAF951B20913D007355D6 /* ICOSpartanNivel1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSpartanNivel1TableViewController.h; sourceTree = "<group>"; };
 		63EDAF961B20913D007355D6 /* ICOSpartanNivel1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSpartanNivel1TableViewController.m; sourceTree = "<group>"; };
 		63EDAF9D1B20940D007355D6 /* spartanLevel1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spartanLevel1.plist; sourceTree = "<group>"; };
@@ -547,8 +546,6 @@
 			children = (
 				63C77F941B5D46EB0084190B /* EAIntroPage.h */,
 				63C77F951B5D46EB0084190B /* EAIntroPage.m */,
-				63C77F961B5D46EB0084190B /* EAIntroView.h */,
-				63C77F971B5D46EB0084190B /* EAIntroView.m */,
 				63C77F981B5D46EB0084190B /* EFCircularSlider.h */,
 				63C77F991B5D46EB0084190B /* EFCircularSlider.m */,
 				63C77F9A1B5D46EB0084190B /* NSString+TimeToString.h */,
@@ -779,7 +776,8 @@
 				63E07BC31B4D0B46009D5F50 /* ICOSobreNosotrosViewController.m */,
 				63C77FA61B5D47010084190B /* ICOMusicPlayer.h */,
 				63C77FA71B5D47010084190B /* ICOMusicPlayer.m */,
-				63EDAF931B2090D2007355D6 /* Storyboard.storyboard */,
+				63EDAF931B2090D2007355D6 /* Main-4.storyboard */,
+				63B4B13A1B83C5DF00247F26 /* Main-4.7.storyboard */,
 				63E07BCC1B4D42A9009D5F50 /* Launch Screen.xib */,
 				63EDAF751B207427007355D6 /* Images.xcassets */,
 			);
@@ -1039,6 +1037,7 @@
 				63E620C81B28DF41005BAC37 /* press_pajaro_mancuernas_1@2x.jpg in Resources */,
 				63DAD1941B3B30D400E2A728 /* madrid@2x.png in Resources */,
 				63DDDB051B30175A000BEDDC /* 45_lat_pullDown_2@2x.jpg in Resources */,
+				63B4B13B1B83C5DF00247F26 /* Main-4.7.storyboard in Resources */,
 				63D9043B1B3FFC3D007E9E0C /* samilvigo@2x.png in Resources */,
 				63CAB2031B24DAA8000249F8 /* iconApp87x87.png in Resources */,
 				6310E0F21B27951E00093BE5 /* sentadilla_peso_1@2x.jpg in Resources */,
@@ -1097,7 +1096,7 @@
 				631AC4171B2839AA0020D0E4 /* saltos_vertical_1@2x.jpg in Resources */,
 				637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */,
 				631AC3F41B282A460020D0E4 /* fondos_cobra_1@2x.jpg in Resources */,
-				63EDAF941B2090D2007355D6 /* Storyboard.storyboard in Resources */,
+				63EDAF941B2090D2007355D6 /* Main-4.storyboard in Resources */,
 				631AC3F81B282AE50020D0E4 /* fondos_cobra_2@2x.jpg in Resources */,
 				63CAB1FB1B24D964000249F8 /* imagenLanzamientoApp@2x.png in Resources */,
 				631BFF0A1B3DD30D00656159 /* cartagenaespana@2x.png in Resources */,
@@ -1166,7 +1165,6 @@
 				63EDAFCF1B20C410007355D6 /* ICODetailSpartanNivel3ViewController.m in Sources */,
 				63EDAFC61B20B8D6007355D6 /* ICOSpartanNivel4TableViewController.m in Sources */,
 				63EDAFB71B2094A1007355D6 /* CustomCell.m in Sources */,
-				63C77FA11B5D46EB0084190B /* EAIntroView.m in Sources */,
 				6347AE2C1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m in Sources */,
 				63D086071B41F067006E2518 /* ICOConsejosViewController.m in Sources */,
 				63EDAFBA1B2098F5007355D6 /* ICOSpartanNivel2TableViewController.m in Sources */,

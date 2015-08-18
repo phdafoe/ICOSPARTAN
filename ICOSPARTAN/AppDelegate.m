@@ -17,7 +17,44 @@
 @implementation AppDelegate
 
 
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+#pragma mark - utils
+
+-(UIStoryboard *)customStoryboard{
+    
+    UIStoryboard *storyboard;
+    
+    //Condicion de que tipo de tamaño escogemos
+    if (IS_IPHONE_5) {
+        storyboard = [UIStoryboard storyboardWithName:@"Main-4" bundle:nil];
+        NSLog(@"Dispositivo a sido un 4 inch de pantalla iPhone 5");
+    }else{
+        storyboard = [UIStoryboard storyboardWithName:@"Main-4.7" bundle:nil];
+        NSLog(@"Dispositivo a sido un 4.7 inch de pantalla iPhone 6");
+    }
+    
+    return storyboard;
+    
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    UIStoryboard * storyboard = [self customStoryboard];
+    //Muestra el Storyboard
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
     
     //Configurar el aspecto de la Barra de NAvegacion
     [self customizeNavigationBar];
@@ -50,13 +87,15 @@
     
     if(notification){
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Venga Vamos a Entrenar!!"
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Venga Vamos con iCoSpartan!!"
                                                         message:notification.alertBody
                                                        delegate:nil
                                               cancelButtonTitle:nil
                                               otherButtonTitles:@"OK", nil];
         [alert show];
     }
+    
+    
 
     return YES;
 }
@@ -64,16 +103,13 @@
 -(void) application:(UIApplication *)application
 didReceiveLocalNotification:(UILocalNotification *)notification{
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Venga Vamos a Entrenar!!"
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Venga Vamos a iCoSpartan!!"
                                                     message:notification.alertBody
                                                    delegate:nil
                                           cancelButtonTitle:nil
                                           otherButtonTitles:@"OK", nil];
     [alert show];
 }
-
-
-    
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
