@@ -7,6 +7,7 @@
 //
 
 #import "ICONavigationViewController.h"
+#import "Configs.h"
 
 @interface ICONavigationViewController ()
 
@@ -19,6 +20,15 @@
     
     [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
     // Do any additional setup after loading the view.
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    self.navigationBar.tintColor = [UIColor blackColor];
+    if (!chatGroupVisible) {
+        self.navigationBar.hidden = true;
+    } else {
+        self.navigationBar.hidden = false;
+    }
 }
 
 #pragma mark -
