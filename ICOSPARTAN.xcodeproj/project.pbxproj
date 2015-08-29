@@ -73,6 +73,9 @@
 		6347AE2C1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347AE2B1B448A8000635E9C /* ICOMapasEntrenamientoTableViewController.m */; };
 		6347AE2F1B448D5200635E9C /* CustomCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347AE2E1B448D5200635E9C /* CustomCell2.m */; };
 		6347AE311B448EE900635E9C /* numero1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347AE301B448EE900635E9C /* numero1@2x.png */; };
+		634C254B1B9207F000E595C5 /* intro_5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634C25491B9207F000E595C5 /* intro_5@2x.jpg */; };
+		634C254C1B9207F000E595C5 /* intro_6@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634C254A1B9207F000E595C5 /* intro_6@2x.jpg */; };
+		634C254E1B920A8000E595C5 /* biblioteca@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C254D1B920A8000E595C5 /* biblioteca@2x.png */; };
 		6367B62B1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367B62A1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m */; };
 		637F63531B2638E500A70B6A /* TRIFECA_0M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */; };
 		637F63541B2638E500A70B6A /* TRIFECA_1M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F63501B2638E500A70B6A /* TRIFECA_1M@2x.png */; };
@@ -282,6 +285,9 @@
 		6347AE2D1B448D5200635E9C /* CustomCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell2.h; sourceTree = "<group>"; };
 		6347AE2E1B448D5200635E9C /* CustomCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell2.m; sourceTree = "<group>"; };
 		6347AE301B448EE900635E9C /* numero1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numero1@2x.png"; sourceTree = "<group>"; };
+		634C25491B9207F000E595C5 /* intro_5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_5@2x.jpg"; sourceTree = "<group>"; };
+		634C254A1B9207F000E595C5 /* intro_6@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "intro_6@2x.jpg"; sourceTree = "<group>"; };
+		634C254D1B920A8000E595C5 /* biblioteca@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biblioteca@2x.png"; sourceTree = "<group>"; };
 		6367B6291B571012002D7BD5 /* ICOEntrenamientosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOEntrenamientosTableViewController.h; sourceTree = "<group>"; };
 		6367B62A1B571012002D7BD5 /* ICOEntrenamientosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOEntrenamientosTableViewController.m; sourceTree = "<group>"; };
 		637F634F1B2638E500A70B6A /* TRIFECA_0M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRIFECA_0M@2x.png"; sourceTree = "<group>"; };
@@ -537,6 +543,8 @@
 				6322BC0D1B4D6860001279E4 /* intro_2@2x.jpg */,
 				6322BC0E1B4D6860001279E4 /* intro_3@2x.jpg */,
 				6322BC0F1B4D6860001279E4 /* intro_4@2x.jpg */,
+				634C25491B9207F000E595C5 /* intro_5@2x.jpg */,
+				634C254A1B9207F000E595C5 /* intro_6@2x.jpg */,
 			);
 			name = INTRO;
 			sourceTree = "<group>";
@@ -907,6 +915,7 @@
 				63C77FA91B5D486E0084190B /* back@2x.png */,
 				63C77FAA1B5D486E0084190B /* next@2x.png */,
 				63C77FAB1B5D486E0084190B /* play@2x.png */,
+				634C254D1B920A8000E595C5 /* biblioteca@2x.png */,
 			);
 			name = IMAGES;
 			sourceTree = "<group>";
@@ -1000,6 +1009,7 @@
 				63E07BC91B4D233A009D5F50 /* DisculpaMolestias@2x.png in Resources */,
 				63D904501B4003FA007E9E0C /* antellavalencia@2x.png in Resources */,
 				6331F97C1B24A67C00E43940 /* saltos_cuarta_mov_2@2x.jpg in Resources */,
+				634C254B1B9207F000E595C5 /* intro_5@2x.jpg in Resources */,
 				63C77FAD1B5D486E0084190B /* next@2x.png in Resources */,
 				6307DAA91B239B15008B141A /* flexiones_alterne_brazos_2@2x.jpg in Resources */,
 				631AC41D1B283AE80020D0E4 /* pushup_triceps_2@2x.jpg in Resources */,
@@ -1051,6 +1061,7 @@
 				63ABD3061B302BF20099F520 /* fondo_band_pushup_2@2x.jpg in Resources */,
 				631BFEF81B3DCB9E00656159 /* bunyol@2x.png in Resources */,
 				63CAB2061B24DB01000249F8 /* iconApp80x80.png in Resources */,
+				634C254C1B9207F000E595C5 /* intro_6@2x.jpg in Resources */,
 				631BFF081B3DD07600656159 /* canezademanzaneda@2x.png in Resources */,
 				63E9D6541B45AC7300062173 /* gradient_overlay@2x.png in Resources */,
 				631BFEF91B3DCB9E00656159 /* alicante@2x.png in Resources */,
@@ -1118,6 +1129,7 @@
 				631AC4081B2832E70020D0E4 /* abdominales_tipo_2@2x.jpg in Resources */,
 				631BFEF21B3DC8E900656159 /* canarias@2x.png in Resources */,
 				63ABD3121B3039680099F520 /* arnold_press_2@2x.jpg in Resources */,
+				634C254E1B920A8000E595C5 /* biblioteca@2x.png in Resources */,
 				631AC3FE1B282E2B0020D0E4 /* burpees_militar_1@2x.jpg in Resources */,
 				63EDAFBE1B20AC79007355D6 /* spartanLevel3.plist in Resources */,
 				637F63561B2638E500A70B6A /* TRIFECA_3M@2x.png in Resources */,

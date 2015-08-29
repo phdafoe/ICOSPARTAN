@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fvw-sT-uXj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fvw-sT-uXj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -238,25 +238,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gyx-si-Mu1" id="Wrc-yn-Kt3">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="PRINCIPIANTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bY3-Ql-4Er">
-                                                    <rect key="frame" x="8" y="37" width="304" height="38"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PRINCIPIANTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bY3-Ql-4Er">
+                                                    <rect key="frame" x="38" y="37" width="304" height="38"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="38"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Realizas una media de 1 a 2 entrenamientos mensuales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6g-bq-fIM">
-                                                    <rect key="frame" x="73" y="68" width="174" height="51"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Realizas una media de 1 a 2 entrenamientos mensuales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6g-bq-fIM">
+                                                    <rect key="frame" x="103" y="68" width="174" height="51"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TRIFECA_0M.png" translatesAutoresizingMaskIntoConstraints="NO" id="o8j-Gd-eme">
+                                                    <rect key="frame" x="13" y="59" width="35" height="35"/>
+                                                </imageView>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="g6g-bq-fIM" secondAttribute="trailing" constant="65" id="9LP-nM-SUG"/>
-                                                <constraint firstItem="bY3-Ql-4Er" firstAttribute="leading" secondItem="Wrc-yn-Kt3" secondAttribute="leadingMargin" id="HCD-if-GnX"/>
-                                                <constraint firstItem="g6g-bq-fIM" firstAttribute="leading" secondItem="Wrc-yn-Kt3" secondAttribute="leadingMargin" constant="65" id="UVi-6E-5ja"/>
-                                                <constraint firstItem="bY3-Ql-4Er" firstAttribute="trailing" secondItem="Wrc-yn-Kt3" secondAttribute="trailingMargin" id="bZZ-GO-Cgh"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="XNA-Ed-7w2" kind="push" id="5SW-wP-gdI"/>
@@ -267,25 +264,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pLq-Eg-P0I" id="dEY-bS-Iar">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="INTERMEDIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wam-2L-t07">
-                                                    <rect key="frame" x="8" y="26" width="304" height="52"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INTERMEDIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wam-2L-t07">
+                                                    <rect key="frame" x="33" y="26" width="304" height="52"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="38"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Realizas una media de 2 a 3 entrenamientos mensuales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZU9-ds-tmR">
-                                                    <rect key="frame" x="87" y="57" width="147" height="58"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Realizas una media de 2 a 3 entrenamientos mensuales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZU9-ds-tmR">
+                                                    <rect key="frame" x="112" y="57" width="147" height="58"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TRIFECA_1M.png" translatesAutoresizingMaskIntoConstraints="NO" id="m1D-c4-QxZ">
+                                                    <rect key="frame" x="13" y="57" width="35" height="35"/>
+                                                </imageView>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Wam-2L-t07" firstAttribute="leading" secondItem="dEY-bS-Iar" secondAttribute="leadingMargin" id="2re-Mi-6nx"/>
-                                                <constraint firstItem="Wam-2L-t07" firstAttribute="trailing" secondItem="dEY-bS-Iar" secondAttribute="trailingMargin" id="9nY-hi-CfF"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="ZU9-ds-tmR" secondAttribute="trailing" constant="78" id="hif-7d-roK"/>
-                                                <constraint firstItem="ZU9-ds-tmR" firstAttribute="leading" secondItem="dEY-bS-Iar" secondAttribute="leadingMargin" constant="79" id="iHO-px-t0b"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="ya6-KQ-kHZ" kind="push" id="Nsq-qS-Dmz"/>
@@ -296,25 +290,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g5O-oo-ITR" id="2D5-kr-eZX">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="AVANZADO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO7-Ox-BXB">
-                                                    <rect key="frame" x="8" y="17" width="304" height="52"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AVANZADO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO7-Ox-BXB">
+                                                    <rect key="frame" x="28" y="30" width="304" height="52"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="38"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Realizas una media de 2 a 3 entrenamientos semanales " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8m-3l-giH">
-                                                    <rect key="frame" x="77" y="54" width="158" height="50"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Realizas una media de 2 a 3 entrenamientos semanales " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8m-3l-giH">
+                                                    <rect key="frame" x="97" y="67" width="158" height="50"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TRIFECA_2M.png" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-9G-Pg9">
+                                                    <rect key="frame" x="13" y="57" width="35" height="35"/>
+                                                </imageView>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="SO7-Ox-BXB" firstAttribute="trailing" secondItem="2D5-kr-eZX" secondAttribute="trailingMargin" id="K9u-5o-3VG"/>
-                                                <constraint firstItem="S8m-3l-giH" firstAttribute="leading" secondItem="2D5-kr-eZX" secondAttribute="leadingMargin" constant="58" id="OFN-2i-NtD"/>
-                                                <constraint firstItem="SO7-Ox-BXB" firstAttribute="leading" secondItem="2D5-kr-eZX" secondAttribute="leadingMargin" id="aSy-1S-xdr"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="S8m-3l-giH" secondAttribute="trailing" constant="57" id="pfk-3X-2RZ"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="0Py-sS-OVk" kind="push" id="dKH-vc-VNb"/>
@@ -325,25 +316,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P5w-Ax-tvH" id="c9M-5E-CYo">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ESPARTANO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yus-Qq-YXB">
-                                                    <rect key="frame" x="8" y="17" width="304" height="52"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ESPARTANO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yus-Qq-YXB">
+                                                    <rect key="frame" x="25" y="29" width="304" height="52"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="38"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Realizas una media de 3 a 5 entrenamientos semanales o más" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3e-2S-gRf">
-                                                    <rect key="frame" x="78" y="54" width="166" height="50"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Realizas una media de 3 a 5 entrenamientos semanales o más" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3e-2S-gRf">
+                                                    <rect key="frame" x="95" y="66" width="166" height="50"/>
                                                     <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TRIFECA_3M.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ipz-1A-RPj">
+                                                    <rect key="frame" x="13" y="57" width="35" height="35"/>
+                                                </imageView>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="q3e-2S-gRf" secondAttribute="trailing" constant="58" id="4vQ-xF-tUu"/>
-                                                <constraint firstItem="Yus-Qq-YXB" firstAttribute="trailing" secondItem="c9M-5E-CYo" secondAttribute="trailingMargin" id="X1M-nZ-9nl"/>
-                                                <constraint firstItem="q3e-2S-gRf" firstAttribute="leading" secondItem="c9M-5E-CYo" secondAttribute="leadingMargin" constant="59" id="XuI-qX-IrO"/>
-                                                <constraint firstItem="Yus-Qq-YXB" firstAttribute="leading" secondItem="c9M-5E-CYo" secondAttribute="leadingMargin" id="yvt-TA-voQ"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="ltW-nL-hHG" kind="push" id="qBP-hM-EpG"/>
@@ -1548,17 +1536,6 @@ los músculos en calor. No te pases y ahorra energía!!!
                                                 <action selector="toNextLeft:" destination="jks-x5-fZX" eventType="touchUpInside" id="ipb-TZ-Ljm"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="es8-7u-yUV">
-                                            <rect key="frame" x="19" y="88" width="58" height="30"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                            <state key="normal" title="Libreria">
-                                                <color key="titleColor" red="0.89259785349999998" green="0.89259785349999998" blue="0.89259785349999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="showMusicLibrary:" destination="jks-x5-fZX" eventType="touchUpInside" id="Utn-Eo-9Yz"/>
-                                            </connections>
-                                        </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTK-cg-dzi">
                                             <rect key="frame" x="144" y="385" width="87" height="87"/>
                                             <state key="normal" image="play.png">
@@ -1576,6 +1553,17 @@ los músculos en calor. No te pases y ahorra energía!!!
                                             <rect key="frame" x="83" y="160" width="208" height="208"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="es8-7u-yUV">
+                                            <rect key="frame" x="38" y="82" width="299" height="35"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <state key="normal" title="   Biblioteca de Música" image="biblioteca.png">
+                                                <color key="titleColor" red="0.89259785349999998" green="0.89259785349999998" blue="0.89259785349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="showMusicLibrary:" destination="jks-x5-fZX" eventType="touchUpInside" id="Utn-Eo-9Yz"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <gestureRecognizers/>
                                 </view>
@@ -1619,7 +1607,11 @@ los músculos en calor. No te pases y ahorra energía!!!
         <image name="ICOSPARTAN.png" width="30" height="35"/>
         <image name="ICO_FOTO_1.png" width="320" height="122"/>
         <image name="TRIFECA_0M.png" width="29" height="35"/>
+        <image name="TRIFECA_1M.png" width="20" height="35"/>
+        <image name="TRIFECA_2M.png" width="40" height="35"/>
+        <image name="TRIFECA_3M.png" width="35" height="35"/>
         <image name="back.png" width="239" height="239"/>
+        <image name="biblioteca.png" width="35" height="35"/>
         <image name="gradient_overlay.png" width="320" height="300"/>
         <image name="intro_2.jpg" width="320" height="504"/>
         <image name="main_news_ios7.png" width="37" height="37"/>
