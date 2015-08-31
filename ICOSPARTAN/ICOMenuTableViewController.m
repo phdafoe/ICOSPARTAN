@@ -7,22 +7,17 @@
 //
 
 #import "ICOMenuTableViewController.h"
-
 #import "ICOGaleriaViewController.h"
-
 #import "ICOEntrenamientosTableViewController.h"
-
-/*#import "ICOSpartanNivel1TableViewController.h"
-#import "ICOSpartanNivel2TableViewController.h"
-#import "ICOSpartanNivel3TableViewController.h"
-#import "ICOSpartanNivel4TableViewController.h"*/
-
 #import "ICOMusicPlayer.h"
 #import "ICOCalendarioTableViewController.h"
 #import "ICOConsejosViewController.h"
 #import "ICOSobreNosotrosViewController.h"
 
+
+
 #import "ICONavigationViewController.h"
+
 
 #import "UIViewController+REFrostedViewController.h"
 
@@ -115,16 +110,21 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    ICONavigationViewController *navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentController"];
+    ICONavigationViewController *navigationController = [self.storyboard
+                                                         instantiateViewControllerWithIdentifier:@"contentController"];
     
     if (indexPath.section == 0 && indexPath.row == 0) {
         
-        ICOGaleriaViewController *galeriaViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
+        ICOGaleriaViewController *galeriaViewController = [self.storyboard
+                                                           instantiateViewControllerWithIdentifier:@"homeController"];
+        
         navigationController.viewControllers = @[galeriaViewController];
+        
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
         ICOEntrenamientosTableViewController *spartanEntrenamientosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"entrenamientos"];
+        
         navigationController.viewControllers = @[spartanEntrenamientosViewController];
         
     }else if (indexPath.section == 0 && indexPath.row == 2) {
@@ -157,10 +157,9 @@
         navigationController.viewControllers = @[SobreNosotrosViewController];
     }
     
-    //octavoController
+    //octavoController  // WelcomeVC
     
     self.frostedViewController.contentViewController = navigationController;
-    
     [self.frostedViewController hideMenuViewController];
 }
 

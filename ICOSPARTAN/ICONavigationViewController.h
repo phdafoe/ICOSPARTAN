@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "REFrostedViewController.h"
 
-#import "ChatGroup.h"
+
 
 @interface ICONavigationViewController : UINavigationController
 

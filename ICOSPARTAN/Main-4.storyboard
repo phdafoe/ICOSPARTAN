@@ -216,7 +216,6 @@
                         <segue destination="jLL-BX-QAw" kind="push" id="tdZ-4k-20V"/>
                         <segue destination="Gun-gt-76z" kind="push" id="5Pn-kF-JHt"/>
                         <segue destination="fDD-7W-xHr" kind="push" id="dnU-af-U4C"/>
-                        <segue destination="lhV-ct-vMG" kind="push" id="I34-fP-9cu"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31Z-QK-sTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1639,13 +1638,13 @@ los músculos en calor. No te pases y ahorra energía!!!
                         <viewControllerLayoutGuide type="bottom" id="ptx-9t-kYD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="40k-Xn-aom">
-                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="w5" translatesAutoresizingMaskIntoConstraints="NO" id="YB6-Zw-iCx" userLabel="bkgImage">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AY-28-WLb">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AY-28-WLb">
                                 <rect key="frame" x="21" y="238" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="16"/>
@@ -1705,9 +1704,9 @@ los músculos en calor. No te pases y ahorra energía!!!
                     <navigationItem key="navigationItem" id="QoG-ZP-vpR"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="facebookOutlet" destination="4AY-28-WLb" id="fXY-t3-19e"/>
+                        <outlet property="facebookOutlet" destination="4AY-28-WLb" id="V8S-Mo-tc9"/>
                         <outlet property="loginOutlet" destination="6QA-ne-YiZ" id="saM-We-nh4"/>
                         <outlet property="logoImage" destination="zqE-PZ-g8h" id="ifS-GX-s2J"/>
                         <outlet property="signUpOutlet" destination="bYv-WH-Zkb" id="RtJ-7s-mBh"/>
@@ -1715,7 +1714,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1XH-YW-YBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1664" y="2144"/>
+            <point key="canvasLocation" x="-1701" y="2188"/>
         </scene>
         <!--LoginVC-->
         <scene sceneID="Io9-bH-ReN">
@@ -1803,7 +1802,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p42-lq-uQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1321" y="2144"/>
+            <point key="canvasLocation" x="-1356" y="2144"/>
         </scene>
         <!--RegisterVC-->
         <scene sceneID="SFt-dM-Qo3">
@@ -1893,7 +1892,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EhZ-UW-jAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-976" y="2144"/>
+            <point key="canvasLocation" x="-1004" y="2144"/>
         </scene>
         <!--Chat Group-->
         <scene sceneID="ehi-Sz-Zg0">
@@ -1937,7 +1936,7 @@ los músculos en calor. No te pases y ahorra energía!!!
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mqG-jo-6HX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-601" y="2144"/>
+            <point key="canvasLocation" x="-623" y="2144"/>
         </scene>
         <!--Chats-->
         <scene sceneID="gKp-s9-nOQ">
@@ -2527,33 +2526,6 @@ los músculos en calor. No te pases y ahorra energía!!!
             </objects>
             <point key="canvasLocation" x="-623" y="1021"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Rtv-Y4-s5O">
-            <objects>
-                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lhV-ct-vMG" customClass="NavigationController" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="LRI-Gz-I40"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="k6m-xj-b0X">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.320963214" green="0.8646560754" blue="0.53700132680000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="STHeitiTC-Medium" family="Heiti TC" pointSize="16"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Xyc-Rh-KBI" kind="relationship" relationship="rootViewController" id="RmZ-fW-scy"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9YU-es-oTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2020" y="2144"/>
-        </scene>
     </scenes>
     <resources>
         <image name="ICOSPARTAN.png" width="30" height="35"/>
@@ -2567,10 +2539,10 @@ los músculos en calor. No te pases y ahorra energía!!!
         <image name="defaultProfileImage" width="80" height="80"/>
         <image name="gradient_overlay.png" width="320" height="300"/>
         <image name="intro_2.jpg" width="320" height="504"/>
-        <image name="logo" width="375" height="667"/>
+        <image name="logo" width="100" height="100"/>
         <image name="main_news_ios7.png" width="37" height="37"/>
         <image name="next.png" width="239" height="239"/>
-        <image name="play.png" width="28" height="28"/>
+        <image name="play.png" width="239" height="239"/>
         <image name="tab_chats" width="30" height="30"/>
         <image name="tab_contacts" width="30" height="30"/>
         <image name="tab_settings" width="30" height="30"/>
