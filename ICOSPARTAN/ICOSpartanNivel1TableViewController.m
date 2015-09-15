@@ -67,7 +67,7 @@
     
     CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    self.spartanDictionary = [self.spartanArray objectAtIndex:indexPath.row];
+    self.spartanDictionary = (self.spartanArray)[indexPath.row];
     
     // Configure the cell...
     
@@ -102,7 +102,7 @@
   
     
     
-    self.spartanDictionary = [self.spartanArray objectAtIndex:indexPath.row];
+    self.spartanDictionary = (self.spartanArray)[indexPath.row];
     
     NSString *title = self.spartanDictionary [@"title"];
     NSString *description = self.spartanDictionary [@"description"];
@@ -119,7 +119,7 @@
     
     
     
-    NSLog(@"Esta siendo seleccionado %@", [self.spartanArray objectAtIndex:indexPath.row]);
+    NSLog(@"Esta siendo seleccionado %@", (self.spartanArray)[indexPath.row]);
     
     
     

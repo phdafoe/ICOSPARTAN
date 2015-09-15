@@ -10,9 +10,21 @@
 
 #import "Appirater.h"
 
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+
+#import "Configs.h"
+#import "Utilities.h"
+
+#import "ContactsVC.h"
+#import "ChatVC.h"
+#import "ProfileVC.h"
+
+/*#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>*/
 
 
 
@@ -58,6 +70,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    
+    
     UIStoryboard * storyboard = [self customStoryboard];
     //Muestra el Storyboard
     self.window.rootViewController = [storyboard instantiateInitialViewController];
@@ -89,7 +103,7 @@
         [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeSound categories:nil]];
     }
     
-    UILocalNotification *notification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    UILocalNotification *notification = launchOptions[UIApplicationLaunchOptionsLocalNotificationKey];
     
     if(notification){
         
@@ -101,10 +115,29 @@
         [alert show];
     }
     
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                    didFinishLaunchingWithOptions:launchOptions];
+    /*return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions];*/
+    
+    [Parse setApplicationId:PARSE_APP_ID
+                  clientKey:PARSE_CLIENT_KEY];
+    
+    // Init FB utilities from Parse
+    [PFFacebookUtils initializeFacebook];
+    
+    // Register for Push Notifications (within the device)
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        UIUserNotificationType userNotificationTypes = (
+                                                        UIUserNotificationTypeAlert |
+                                                        UIUserNotificationTypeBadge |
+                                                        UIUserNotificationTypeSound);
+        
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes categories:nil];
+        [application registerUserNotificationSettings:settings];
+        [application registerForRemoteNotifications];
+    }
     
     
+    [PFImageView class];
     
     
 
@@ -147,9 +180,9 @@ didReceiveLocalNotification:(UILocalNotification *)notification{
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
-   
+   //[FBAppCall handleDidBecomeActiveWithSession:[PFFacebookUtils session]];
     
-    [FBSDKAppEvents activateApp];
+    //[FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -176,17 +209,38 @@ didReceiveLocalNotification:(UILocalNotification *)notification{
 }
 
 
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-  sourceApplication:(NSString *)sourceApplication
-         annotation:(id)annotation {
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                          openURL:url
-                                                sourceApplication:sourceApplication
-                                                       annotation:annotation];
 
+
+
+#pragma mark - FACEBOOK RESPOSNSES =====================
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication withSession:[PFFacebookUtils session]];
 }
 
+
+
+#pragma mark - PUSH NOTIFICATIONS (WITH PARSE) =======================
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation setDeviceTokenFromData:deviceToken];
+    [currentInstallation saveInBackground];
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    NSLog(@"didFailToRegisterForRemoteNotificationsWithError %@", error);
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [self performSelector:@selector(refreshMessagesView) withObject:nil afterDelay:4.0];
+    [PFPush handlePush:userInfo];
+}
+
+
+// Refresh messages at app startup
+- (void)refreshMessagesView {
+    [_messages loadMessages];
+}
 
 
 

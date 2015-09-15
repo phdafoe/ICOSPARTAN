@@ -60,7 +60,7 @@
     
     CustomCell1 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    self.calendarDictionary = [self.calendarArray objectAtIndex:indexPath.row];
+    self.calendarDictionary = (self.calendarArray)[indexPath.row];
     
     NSString *title = self.calendarDictionary [@"title"];
     NSString *description = self.calendarDictionary [@"description"];
@@ -91,14 +91,14 @@
     
     [self.navigationController pushViewController:detailCalendar animated:YES];
     
-    self.calendarDictionary = [self.calendarArray objectAtIndex:indexPath.row];
+    self.calendarDictionary = (self.calendarArray)[indexPath.row];
     NSString *title = self.calendarDictionary [@"title"];
     NSString *urlWeb = self.calendarDictionary [@"urlWeb"];
     
     detailCalendar.data = title;
     detailCalendar.urlWeb = urlWeb;
     
-    NSLog(@"Esta siendo seleccioando %@", [self.calendarArray objectAtIndex:indexPath.row]);
+    NSLog(@"Esta siendo seleccioando %@", (self.calendarArray)[indexPath.row]);
     
 }
 

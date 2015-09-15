@@ -43,7 +43,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)loadInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *loadInBackground;
 
 /*!
  @abstract Initiate downloading of the remote image.

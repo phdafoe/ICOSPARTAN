@@ -32,7 +32,7 @@
 /*!
  @abstract Returns a <PFQuery> object that can be used to get objects in this relation.
  */
-- (PFQuery *)query;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) PFQuery *query;
 
 ///--------------------------------------
 /// @name Modifying Relations

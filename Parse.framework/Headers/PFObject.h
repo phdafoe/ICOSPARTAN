@@ -126,7 +126,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
  @discussion This does not include `createdAt`, `updatedAt`, `authData`, or `objectId`.
  It does include things like username and ACL.
  */
-- (NSArray *)allKeys;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSArray *allKeys;
 
 ///--------------------------------------
 /// @name Accessors
@@ -280,7 +280,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns Returns whether the save succeeded.
  */
-- (BOOL)save;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL save;
 
 /*!
  @abstract *Synchronously* saves the `PFObject` and sets an error if it occurs.
@@ -296,7 +296,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns The task that encapsulates the work being done.
  */
-- (BFTask *)saveInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *saveInBackground;
 
 /*!
  @abstract Saves the `PFObject` *asynchronously* and executes the given callback block.
@@ -461,7 +461,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns `YES` if the PFObject is new or has been fetched or refreshed, otherwise `NO`.
  */
-- (BOOL)isDataAvailable;
+@property (NS_NONATOMIC_IOSONLY, getter=isDataAvailable, readonly) BOOL dataAvailable;
 
 #if PARSE_IOS_ONLY
 
@@ -521,7 +521,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 /*!
  @abstract *Synchronously* fetches the `PFObject` data from the server if <isDataAvailable> is `NO`.
  */
-- (PFObject *)fetchIfNeeded;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) PFObject *fetchIfNeeded;
 
 /*!
  @abstract *Synchronously* fetches the `PFObject` data from the server if <isDataAvailable> is `NO`.
@@ -535,7 +535,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns The task that encapsulates the work being done.
  */
-- (BFTask *)fetchInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *fetchInBackground;
 
 /*!
  @abstract Fetches the PFObject *asynchronously* and executes the given callback block.
@@ -562,7 +562,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns The task that encapsulates the work being done.
  */
-- (BFTask *)fetchIfNeededInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *fetchIfNeededInBackground;
 
 /*!
  @abstract Fetches the `PFObject` data *asynchronously* if <isDataAvailable> is `NO`, then calls the callback block.
@@ -716,7 +716,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @return The task that encapsulates the work being done.
  */
-- (BFTask *)fetchFromLocalDatastoreInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *fetchFromLocalDatastoreInBackground;
 
 /*!
  @abstract *Asynchronously* loads data from the local datastore into this object,
@@ -736,7 +736,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns Returns whether the delete succeeded.
  */
-- (BOOL)delete;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL delete;
 
 /*!
  @abstract *Synchronously* deletes the `PFObject` and sets an error if it occurs.
@@ -752,7 +752,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns The task that encapsulates the work being done.
  */
-- (BFTask *)deleteInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *deleteInBackground;
 
 /*!
  @abstract Deletes the `PFObject` *asynchronously* and executes the given callback block.
@@ -801,7 +801,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
 
  @returns Returns whether this object has been altered and not saved yet.
  */
-- (BOOL)isDirty;
+@property (NS_NONATOMIC_IOSONLY, getter=isDirty, readonly) BOOL dirty;
 
 /*!
  @abstract Get whether a value associated with a key has been added/updated/removed and not saved yet.
@@ -831,7 +831,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
  @see unpin:
  @see PFObjectDefaultPin
  */
-- (BOOL)pin;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL pin;
 
 /*!
  @abstract *Synchronously* stores the object and every object it points to in the local datastore, recursively,
@@ -899,7 +899,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
  @see unpinInBackground:
  @see PFObjectDefaultPin
  */
-- (BFTask *)pinInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *pinInBackground;
 
 /*!
  @abstract *Asynchronously* stores the object and every object it points to in the local datastore, recursively,
@@ -1116,7 +1116,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
  @see pin:
  @see PFObjectDefaultPin
  */
-- (BOOL)unpin;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL unpin;
 
 /*!
  @abstract *Synchronously* removes the object and every object it points to in the local datastore, recursively,
@@ -1164,7 +1164,7 @@ NS_REQUIRES_PROPERTY_DEFINITIONS
  @see pinInBackground:
  @see PFObjectDefaultPin
  */
-- (BFTask *)unpinInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *unpinInBackground;
 
 /*!
  @abstract *Asynchronously* removes the object and every object it points to in the local datastore, recursively,

@@ -188,7 +188,7 @@
  Override to construct your own custom PFQuery to get the objects.
  @result PFQuery that loadObjects will use to the objects for this table.
  */
-- (PFQuery *)queryForTable;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) PFQuery *queryForTable;
 
 ///--------------------------------------
 /// @name Data Source Methods

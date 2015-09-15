@@ -92,7 +92,7 @@ typedef NS_ENUM(NSUInteger, FBTooltipColorStyle) {
 
  @see FBLoginTooltipView
  */
-- (id)initWithTagline:(NSString *)tagline message:(NSString *)message colorStyle:(FBTooltipColorStyle)colorStyle;
+- (instancetype)initWithTagline:(NSString *)tagline message:(NSString *)message colorStyle:(FBTooltipColorStyle)colorStyle;
 
 /*!
  @abstract

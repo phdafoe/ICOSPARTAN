@@ -68,7 +68,7 @@
     
     CustomCell2 *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    self.mapasDictionary = [self.mapasArray objectAtIndex:indexPath.row];
+    self.mapasDictionary = (self.mapasArray)[indexPath.row];
     
     NSString *title = self.mapasDictionary [@"title"];
     NSString *mapaImage = self.mapasDictionary [@"parkImageName"];
@@ -95,7 +95,7 @@
     ICODetailMapViewController *detailMapsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"detalleMapasEntrenamiento"];
     
     
-    self.mapasDictionary = [self.mapasArray objectAtIndex:indexPath.row];
+    self.mapasDictionary = (self.mapasArray)[indexPath.row];
     
     NSString *title = self.mapasDictionary [@"title"];
     NSString *mapaImage = self.mapasDictionary [@"parkBigImageName"];
@@ -112,7 +112,7 @@
     
     [self.navigationController pushViewController:detailMapsViewController animated:YES];
     
-    NSLog(@"Esta siendo seleccionado %@", [self.mapasArray objectAtIndex:indexPath.row]);
+    NSLog(@"Esta siendo seleccionado %@", (self.mapasArray)[indexPath.row]);
     
     
     

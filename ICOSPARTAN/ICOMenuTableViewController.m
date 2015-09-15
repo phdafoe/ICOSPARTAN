@@ -13,6 +13,14 @@
 #import "ICOCalendarioTableViewController.h"
 #import "ICOConsejosViewController.h"
 #import "ICOSobreNosotrosViewController.h"
+#import "WelcomeVC.h"
+#import "ChatsVC.h"
+#import "ICOTabBarViewController.h"
+
+
+
+
+
 
 
 
@@ -155,6 +163,12 @@
         
         ICOSobreNosotrosViewController *SobreNosotrosViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"septimoController"];
         navigationController.viewControllers = @[SobreNosotrosViewController];
+        
+    }else if (indexPath.section == 0 && indexPath.row == 6) {
+        
+        WelcomeVC *ChatsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"WelcomeVC"];
+        navigationController.viewControllers = @[ChatsViewController];
+        
     }
     
     //octavoController  // WelcomeVC
@@ -178,7 +192,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-    return 6;
+    return 7;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -192,7 +206,7 @@
     }
     
     if (indexPath.section == 0) {
-        NSArray *titles = @[@"Home", @"Entrenamientos",@"Music Player", @"Calendario", @"Consejos", @"Nosotros"];
+        NSArray *titles = @[@"Home", @"Entrenamientos",@"Music Player", @"Calendario", @"Consejos", @"Nosotros",@"iCoChat"];
         cell.textLabel.text = titles[indexPath.row];
     }
     

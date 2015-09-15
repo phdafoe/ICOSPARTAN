@@ -82,7 +82,7 @@ static SVStatusHUD *sharedView = nil;
 
 #pragma mark - Instance Methods
 
-- (id)initWithFrame:(CGRect)frame {
+- (instancetype)initWithFrame:(CGRect)frame {
     
     if ((self = [super initWithFrame:frame])) {
         [self.overlayWindow addSubview:self];

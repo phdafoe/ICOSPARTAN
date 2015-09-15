@@ -28,6 +28,6 @@
 /*!
  @abstract Validates the receiver to ensure that it is configured properly.
  */
-- (NSError *)validate;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSError *validate;
 
 @end

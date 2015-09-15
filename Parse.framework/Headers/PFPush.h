@@ -238,7 +238,7 @@
  @abstract *Asynchronously* send this push message.
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)sendPushInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *sendPushInBackground;
 
 /*!
  @abstract *Asynchronously* send this push message and executes the given callback block.

@@ -45,7 +45,7 @@
     return 6;
 }
 
-//#warning esto es un fallo pero no hay problema es una cuestion de converision de int a integer etc...;))
+#warning esto es un fallo pero no hay problema es una cuestion de converision de int a integer etc...;))
 - (UIImage*) bgImageforPage:(NSInteger)index
 {  
     NSString* imageName =[NSString stringWithFormat:@"intro_%d@2x.jpg", index+1]; // OK va tirando

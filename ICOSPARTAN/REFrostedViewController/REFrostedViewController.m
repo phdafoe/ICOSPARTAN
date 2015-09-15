@@ -45,7 +45,7 @@
 
 @implementation REFrostedViewController
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     if (self) {
@@ -54,7 +54,7 @@
     return self;
 }
 
-- (id)initWithCoder:(NSCoder *)decoder
+- (instancetype)initWithCoder:(NSCoder *)decoder
 {
     self = [super initWithCoder:decoder];
     if (self) {
@@ -83,7 +83,7 @@
     _automaticSize = YES;
 }
 
-- (id)initWithContentViewController:(UIViewController *)contentViewController menuViewController:(UIViewController *)menuViewController
+- (instancetype)initWithContentViewController:(UIViewController *)contentViewController menuViewController:(UIViewController *)menuViewController
 {
     self = [self init];
     if (self) {

@@ -69,7 +69,7 @@
 
  @returns Returns whether the user is authenticated.
  */
-- (BOOL)isAuthenticated;
+@property (NS_NONATOMIC_IOSONLY, getter=isAuthenticated, readonly) BOOL authenticated;
 
 ///--------------------------------------
 /// @name Creating a New User
@@ -121,7 +121,7 @@
 
  @returns Returns `YES` if the sign up was successful, otherwise `NO`.
  */
-- (BOOL)signUp;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL signUp;
 
 /*!
  @abstract Signs up the user *synchronously*.
@@ -145,7 +145,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)signUpInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *signUpInBackground;
 
 /*!
  @abstract Signs up the user *asynchronously*.

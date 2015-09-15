@@ -58,7 +58,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)authorizeInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *authorizeInBackground;
 
 /*!
  @abstract Displays an auth dialog and populates the authToken, authTokenSecret, userId, and screenName properties

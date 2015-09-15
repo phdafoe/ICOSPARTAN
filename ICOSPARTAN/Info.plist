@@ -67,9 +67,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main-4</string>
 	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
+	<array/>
 	<key>UIStatusBarHidden</key>
 	<false/>
 	<key>UIStatusBarStyle</key>

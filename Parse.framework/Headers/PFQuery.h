@@ -541,7 +541,7 @@
 
  @returns Returns an array of <PFObject> objects that were found.
  */
-- (NSArray *)findObjects;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSArray *findObjects;
 
 /*!
  @abstract Finds objects *synchronously* based on the constructed query and sets an error if there was one.
@@ -557,7 +557,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)findObjectsInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *findObjectsInBackground;
 
 /*!
  @abstract Finds objects *asynchronously* and calls the given block with the results.
@@ -588,7 +588,7 @@
 
  @returns Returns a <PFObject>, or `nil` if none was found.
  */
-- (PFObject *)getFirstObject;
+@property (NS_NONATOMIC_IOSONLY, getter=getFirstObject, readonly, strong) PFObject *firstObject;
 
 /*!
  @abstract Gets an object *synchronously* based on the constructed query and sets an error if any occurred.
@@ -608,7 +608,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)getFirstObjectInBackground;
+@property (NS_NONATOMIC_IOSONLY, getter=getFirstObjectInBackground, readonly, strong) BFTask *firstObjectInBackground;
 
 /*!
  @abstract Gets an object *asynchronously* and calls the given block with the result.
@@ -644,7 +644,7 @@
 
  @returns Returns the number of <PFObject> objects that match the query, or `-1` if there is an error.
  */
-- (NSInteger)countObjects;
+@property (NS_NONATOMIC_IOSONLY, readonly) NSInteger countObjects;
 
 /*!
  @abstract Counts objects *synchronously* based on the constructed query and sets an error if there was one.
@@ -660,7 +660,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)countObjectsInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *countObjectsInBackground;
 
 /*!
  @abstract Counts objects *asynchronously* and calls the given block with the counts.
@@ -730,7 +730,7 @@
 
  @result `YES` if there is a cached result for this query, otherwise `NO`.
  */
-- (BOOL)hasCachedResult;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL hasCachedResult;
 
 /*!
  @abstract Clears the cached result for this query. If there is no cached result, this is a noop.
@@ -753,7 +753,7 @@
 
  @see cachePolicy
  */
-- (PFQuery *)fromLocalDatastore;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) PFQuery *fromLocalDatastore;
 
 /*!
  @abstract Change the source of this query to the default group of pinned objects.
@@ -763,7 +763,7 @@
  @see PFObjectDefaultPin
  @see cachePolicy
  */
-- (PFQuery *)fromPin;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) PFQuery *fromPin;
 
 /*!
  @abstract Change the source of this query to a specific group of pinned objects.

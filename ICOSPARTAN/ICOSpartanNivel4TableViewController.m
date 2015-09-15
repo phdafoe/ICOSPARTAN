@@ -61,7 +61,7 @@
     
     CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    self.spartanDictionary = [self.spartanArray objectAtIndex:indexPath.row];
+    self.spartanDictionary = (self.spartanArray)[indexPath.row];
     
     // Configure the cell...
     
@@ -91,7 +91,7 @@
     ICODetailSpartanNivel4ViewController *detailSpartanNivel1 = [self.storyboard instantiateViewControllerWithIdentifier:@"DetalleSpartanNivel4"];
     
     
-    self.spartanDictionary = [self.spartanArray objectAtIndex:indexPath.row];
+    self.spartanDictionary = (self.spartanArray)[indexPath.row];
     
     NSString *title = self.spartanDictionary [@"title"];
     NSString *description = self.spartanDictionary [@"description"];
@@ -108,7 +108,7 @@
     
     [self.navigationController pushViewController:detailSpartanNivel1 animated:YES];
     
-    NSLog(@"Esta siendo seleccionado %@", [self.spartanArray objectAtIndex:indexPath.row]);
+    NSLog(@"Esta siendo seleccionado %@", (self.spartanArray)[indexPath.row]);
     
     
     

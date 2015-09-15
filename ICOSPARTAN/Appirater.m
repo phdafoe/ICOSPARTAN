@@ -76,14 +76,14 @@ static BOOL _alwaysUseMainBundle = NO;
 @property (nonatomic, copy) NSString *alertCancelTitle;
 @property (nonatomic, copy) NSString *alertRateTitle;
 @property (nonatomic, copy) NSString *alertRateLaterTitle;
-- (BOOL)connectedToNetwork;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL connectedToNetwork;
 + (Appirater*)sharedInstance;
 - (void)showPromptWithChecks:(BOOL)withChecks
       displayRateLaterButton:(BOOL)displayRateLaterButton;
 - (void)showRatingAlert:(BOOL)displayRateLaterButton;
 - (void)showRatingAlert;
-- (BOOL)ratingAlertIsAppropriate;
-- (BOOL)ratingConditionsHaveBeenMet;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL ratingAlertIsAppropriate;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL ratingConditionsHaveBeenMet;
 - (void)incrementUseCount;
 - (void)hideRatingAlert;
 @end
@@ -208,7 +208,7 @@ static BOOL _alwaysUseMainBundle = NO;
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-- (id)init {
+- (instancetype)init {
     self = [super init];
     if (self) {
         if ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0) {
@@ -363,7 +363,7 @@ static BOOL _alwaysUseMainBundle = NO;
 
 - (void)incrementUseCount {
 	// get the app's version
-	NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleVersionKey];
+	NSString *version = [[NSBundle mainBundle] infoDictionary][(NSString*)kCFBundleVersionKey];
 	
 	// get the version number that we've been tracking
 	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
@@ -411,7 +411,7 @@ static BOOL _alwaysUseMainBundle = NO;
 
 - (void)incrementSignificantEventCount {
 	// get the app's version
-	NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleVersionKey];
+	NSString *version = [[NSBundle mainBundle] infoDictionary][(NSString*)kCFBundleVersionKey];
 	
 	// get the version number that we've been tracking
 	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
@@ -612,7 +612,7 @@ static BOOL _alwaysUseMainBundle = NO;
 	if (![Appirater sharedInstance].openInAppStore && NSStringFromClass([SKStoreProductViewController class]) != nil) {
 		
 		SKStoreProductViewController *storeViewController = [[SKStoreProductViewController alloc] init];
-		NSNumber *appId = [NSNumber numberWithInteger:_appId.integerValue];
+		NSNumber *appId = @(_appId.integerValue);
 		[storeViewController loadProductWithParameters:@{SKStoreProductParameterITunesItemIdentifier:appId} completionBlock:nil];
 		storeViewController.delegate = self.sharedInstance;
         

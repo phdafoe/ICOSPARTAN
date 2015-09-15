@@ -75,7 +75,7 @@
         
         [mailComposer setSubject:@"iCoSpartan"];
         
-        NSArray *toRecipient = [NSArray arrayWithObjects:@"info@icospartan.com", nil];
+        NSArray *toRecipient = @[@"info@icospartan.com"];
         [mailComposer setToRecipients:toRecipient];
         
         UIImage *myImage = [UIImage imageNamed:@"iconApp80x80.png"];

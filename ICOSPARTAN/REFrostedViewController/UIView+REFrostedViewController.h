@@ -28,6 +28,6 @@
 
 @interface UIView (REFrostedViewController)
 
-- (UIImage *)re_screenshot;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) UIImage *re_screenshot;
 
 @end

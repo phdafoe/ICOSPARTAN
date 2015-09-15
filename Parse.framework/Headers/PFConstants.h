@@ -30,14 +30,14 @@ extern NSString *const kPFDeviceType;
 extern NSString *const kPFParseServer;
 
 // Cache policies
-typedef enum {
+typedef NS_ENUM(unsigned int, PFCachePolicy) {
     kPFCachePolicyIgnoreCache = 0,
     kPFCachePolicyCacheOnly,
     kPFCachePolicyNetworkOnly,
     kPFCachePolicyCacheElseNetwork,
     kPFCachePolicyNetworkElseCache,
     kPFCachePolicyCacheThenNetwork
-} PFCachePolicy;
+};
 
 // Errors
 

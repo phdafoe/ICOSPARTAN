@@ -10,7 +10,7 @@
 
 @implementation RoundImageView
 
--(id) initWithCoder:(NSCoder *)aDecoder{
+-(instancetype) initWithCoder:(NSCoder *)aDecoder{
     
     self = [super initWithCoder:aDecoder];
     
@@ -20,7 +20,7 @@
     return self;
 }
 
--(id)initWithFrame:(CGRect)frame{
+-(instancetype)initWithFrame:(CGRect)frame{
     
     self = [super initWithFrame:frame];
     if (self) {

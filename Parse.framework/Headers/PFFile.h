@@ -109,7 +109,7 @@
 
  @returns Returns whether the save succeeded.
  */
-- (BOOL)save;
+@property (NS_NONATOMIC_IOSONLY, readonly) BOOL save;
 
 /*!
  @abstract Saves the file *synchronously* and sets an error if it occurs.
@@ -125,7 +125,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)saveInBackground;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) BFTask *saveInBackground;
 
 /*!
  @abstract Saves the file *asynchronously* and executes the given block.
@@ -171,7 +171,7 @@
 
  @returns The `NSData` object containing file data. Returns `nil` if there was an error in fetching.
  */
-- (NSData *)getData;
+@property (NS_NONATOMIC_IOSONLY, getter=getData, readonly, copy) NSData *data;
 
 /*!
  @abstract This method is like <getData> but avoids ever holding the entire `PFFile` contents in memory at once.
@@ -180,7 +180,7 @@
 
  @returns A stream containing the data. Returns `nil` if there was an error in fetching.
  */
-- (NSInputStream *)getDataStream;
+@property (NS_NONATOMIC_IOSONLY, getter=getDataStream, readonly, strong) NSInputStream *dataStream;
 
 /*!
  @abstract *Synchronously* gets the data from cache if available or fetches its contents from the network.
@@ -211,7 +211,7 @@
 
  @returns A stream containing the data. Returns `nil` if there was an error in fetching.
  */
-- (BFTask *)getDataInBackground;
+@property (NS_NONATOMIC_IOSONLY, getter=getDataInBackground, readonly, strong) BFTask *dataInBackground;
 
 /*!
  @abstract This method is like <getDataInBackground> but avoids
@@ -221,7 +221,7 @@
 
  @returns The task, that encapsulates the work being done.
  */
-- (BFTask *)getDataStreamInBackground;
+@property (NS_NONATOMIC_IOSONLY, getter=getDataStreamInBackground, readonly, strong) BFTask *dataStreamInBackground;
 
 /*!
  @abstract *Asynchronously* gets the data from cache if available or fetches its contents from the network.

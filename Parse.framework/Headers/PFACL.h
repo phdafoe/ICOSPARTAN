@@ -44,28 +44,26 @@
 
  @param allowed Whether the public can read this object.
  */
-- (void)setPublicReadAccess:(BOOL)allowed;
 
 /*!
  @abstract Gets whether the public is allowed to read this object.
 
  @returns `YES` if the public read access is enabled, otherwise `NO`.
  */
-- (BOOL)getPublicReadAccess;
+@property (NS_NONATOMIC_IOSONLY, getter=getPublicReadAccess) BOOL publicReadAccess;
 
 /*!
  @abstract Set whether the public is allowed to write this object.
 
  @param allowed Whether the public can write this object.
  */
-- (void)setPublicWriteAccess:(BOOL)allowed;
 
 /*!
  @abstract Gets whether the public is allowed to write this object.
 
  @returns `YES` if the public write access is enabled, otherwise `NO`.
  */
-- (BOOL)getPublicWriteAccess;
+@property (NS_NONATOMIC_IOSONLY, getter=getPublicWriteAccess) BOOL publicWriteAccess;
 
 ///--------------------------------------
 /// @name Controlling Access Per-User

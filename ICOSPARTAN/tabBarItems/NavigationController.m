@@ -11,6 +11,11 @@
 #import "Configs.h"
 #import "NavigationController.h"
 
+int reloadCount;
+NSTimer *reloadTimer;
+
+BOOL chatGroupVisible;
+
 @implementation NavigationController
 
 -(void)viewWillAppear:(BOOL)animated {

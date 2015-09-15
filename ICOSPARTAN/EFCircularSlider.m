@@ -40,7 +40,7 @@
 }
 
 
--(id)initWithFrame:(CGRect)frame{
+-(instancetype)initWithFrame:(CGRect)frame{
     
     
     self = [super initWithFrame:frame];
@@ -52,7 +52,7 @@
     return self;
 }
 
--(id)initWithCoder:(NSCoder *)aDecoder{
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
     
     
     if (self = [super initWithCoder:aDecoder]) {
@@ -180,7 +180,7 @@
         
         for (int i=0; i<[labelsEvenSpacing count]; i++)
         {
-            NSString *label = [labelsEvenSpacing objectAtIndex:[labelsEvenSpacing count] - i - 1];
+            NSString *label = labelsEvenSpacing[[labelsEvenSpacing count] - i - 1];
             
             CGFloat percentageAlongCircle = i/(float)[labelsEvenSpacing count];
             
@@ -320,12 +320,12 @@ static inline float AngleFromNorth(CGPoint p1, CGPoint p2, BOOL flipped) {
 }
 
 - (CGFloat) widthOfString:(NSString *)string withFont:(UIFont*)font {
-    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+    NSDictionary *attributes = @{NSFontAttributeName: font};
     return [[[NSAttributedString alloc] initWithString:string attributes:attributes] size].width;
 }
 
 - (CGFloat) heightOfString:(NSString *)string withFont:(UIFont*)font {
-    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+    NSDictionary *attributes = @{NSFontAttributeName: font};
     return [[[NSAttributedString alloc] initWithString:string attributes:attributes] size].height;
 }
 
