@@ -132,7 +132,7 @@ SLComposeViewController *Socialcontroller;
                 
             // Open an ActionSheet for sharing options
             case 1: {
-                UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Tell a Friend"
+                UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Dile a un amigo"
                 delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil
                 otherButtonTitles:@"Mail",
                                   @"Message",
@@ -185,11 +185,11 @@ SLComposeViewController *Socialcontroller;
         case 0: {
             MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
             mc.mailComposeDelegate = self;
-            [mc setSubject:@"WazzUp" ];
+            [mc setSubject:@"iCoSpartan" ];
             [mc setMessageBody:INVITE_FRIENDS_MESSAGE isHTML:true];
             // Prepare the Logo image to be shared by Email
             NSData *imageData = UIImagePNGRepresentation([UIImage imageNamed:@"logo"]);
-            [mc addAttachmentData:imageData  mimeType:@"image/png" fileName:@"WazzUp.png"];
+            [mc addAttachmentData:imageData  mimeType:@"image/jpg" fileName:@"avatar@2x.jpg"];
             // Present Email View Controller
             [self presentViewController:mc animated:true completion:nil];
 

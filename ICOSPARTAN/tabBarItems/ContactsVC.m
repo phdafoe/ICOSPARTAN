@@ -353,7 +353,7 @@ UILabel *pullToRefreshLabel;
 		[self sendSMS:user];
         
     } else {
-        [ProgressHUD showError:@"Este contacto no tiene suficiente información para ser invitado ."];
+        [ProgressHUD showError:@"Este contacto no tiene suficiente información para ser invitado."];
     }
 }
 
