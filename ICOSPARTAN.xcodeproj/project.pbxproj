@@ -1621,7 +1621,7 @@
 		63EDAF631B207426007355D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = iCologic;
 				TargetAttributes = {
 					63EDAF6A1B207427007355D6 = {
@@ -2049,6 +2049,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.iCoSpartan;
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -2077,6 +2078,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2158,6 +2160,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.iCoSpartan;
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -2180,6 +2183,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icologic.iCoSpartan;
 				PRODUCT_NAME = iCoSpartan;
 				PROVISIONING_PROFILE = "64c78284-4565-4f73-b23f-11abd583ebf1";
 				VALID_ARCHS = "armv7 armv7s arm64";

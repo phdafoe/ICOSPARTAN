@@ -30,6 +30,17 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hola!"
+                                                    message:@"Si estás dado de alta pincha en el boton 'IR A CHAT' de lo contrario debes introducir un Usuario y una Contraseña"
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK!"
+                                          otherButtonTitles:nil];
+    
+    
+    [alert show];
+    
+    
 
     // Set controller's title
     self.title = @"iCoChat";
