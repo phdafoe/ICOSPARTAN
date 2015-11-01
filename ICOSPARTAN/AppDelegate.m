@@ -55,9 +55,12 @@
     UIStoryboard *storyboard;
     
     //Condicion de que tipo de tamaño escogemos
-    if (IS_IPHONE_5) {
+    if (IS_IPHONE_4_OR_LESS) {
+        storyboard = [UIStoryboard storyboardWithName:@"Main-3.5" bundle:nil];
+        NSLog(@"Dispositivo a sido un 4 inch de pantalla iPhone 4S");
+    }else if (IS_IPHONE_5){
         storyboard = [UIStoryboard storyboardWithName:@"Main-4" bundle:nil];
-        NSLog(@"Dispositivo a sido un 4 inch de pantalla iPhone 5");
+        NSLog(@"Dispositivo a sido un 3.5 inch de pantalla iPhone 5");
     }else{
         storyboard = [UIStoryboard storyboardWithName:@"Main-4.7" bundle:nil];
         NSLog(@"Dispositivo a sido un 4.7 inch de pantalla iPhone 6");

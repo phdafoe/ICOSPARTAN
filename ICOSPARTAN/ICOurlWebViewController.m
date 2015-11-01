@@ -26,10 +26,6 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:completeURl];
     [self.showUrlWebView loadRequest:request];
     
-    
-    
-    
-    
     //[self.urlWeb loadRequest:[NSURLRequest requestWithURL:completeURl]];
 
     

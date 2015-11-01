@@ -98,7 +98,7 @@
     detailCalendar.data = title;
     detailCalendar.urlWeb = urlWeb;
     
-    NSLog(@"Esta siendo seleccioando %@", (self.calendarArray)[indexPath.row]);
+    NSLog(@"Esta siendo seleccionado %@", (self.calendarArray)[indexPath.row]);
     
 }
 
