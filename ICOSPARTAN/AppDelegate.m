@@ -22,9 +22,9 @@
 #import "ChatVC.h"
 #import "ProfileVC.h"
 
+/*#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>*/
 
 
 
@@ -122,7 +122,7 @@
                   clientKey:PARSE_CLIENT_KEY];
     
     // Init FB utilities from Parse
-    [PFFacebookUtils initializeFacebook];
+    //[PFFacebookUtils initializeFacebook];
     
     // Register for Push Notifications (within the device)
     if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
@@ -212,11 +212,11 @@ didReceiveLocalNotification:(UILocalNotification *)notification{
 
 
 
-#pragma mark - FACEBOOK RESPOSNSES =====================
+/*#pragma mark - FACEBOOK RESPOSNSES =====================
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     
     return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication withSession:[PFFacebookUtils session]];
-}
+}*/
 
 
 

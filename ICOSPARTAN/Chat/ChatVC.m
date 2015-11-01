@@ -55,6 +55,7 @@
 @implementation ChatVC
 
 - (instancetype)initWith:(NSString *)roomId_ {
+    
 	self = [super init];
     
 	roomId = roomId_;

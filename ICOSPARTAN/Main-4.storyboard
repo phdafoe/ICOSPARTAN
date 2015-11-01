@@ -241,7 +241,7 @@
                         <sections>
                             <tableViewSection id="SNP-Ej-ZXM">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="dIU-dS-I5x">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="127" id="dIU-dS-I5x">
                                         <rect key="frame" x="0.0" y="64" width="320" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dIU-dS-I5x" id="hDH-dv-Vic">
@@ -274,7 +274,7 @@
                                             <segue destination="MJm-wd-rPC" kind="push" id="z28-TP-5hV"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="LOh-pi-aXw">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="127" id="LOh-pi-aXw">
                                         <rect key="frame" x="0.0" y="191" width="320" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LOh-pi-aXw" id="cuV-zW-PgE">
@@ -307,7 +307,7 @@
                                             <segue destination="9eU-rR-k5P" kind="push" id="a4g-bu-Wt0"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="lIU-IB-J3V">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="127" id="lIU-IB-J3V">
                                         <rect key="frame" x="0.0" y="318" width="320" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lIU-IB-J3V" id="7DO-4O-lul">
@@ -340,7 +340,7 @@
                                             <segue destination="mxL-sM-WTX" kind="push" id="IYo-e6-PzR"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="yge-1k-HDd">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="127" id="yge-1k-HDd">
                                         <rect key="frame" x="0.0" y="445" width="320" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yge-1k-HDd" id="bWK-ox-2SD">
